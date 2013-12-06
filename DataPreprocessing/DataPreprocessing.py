@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import csv
+import operator
 '''
 Usage:
     1. Provide new data into RawData.csv (see format requirements below).
@@ -49,13 +50,19 @@ So one row is:
     8 -> correct
     9 -> id_task
     10 -> score
+
+Inner data structure:
+    years[2010][62] = ["TEAM NAME", states]
+    states[0] = [NUM_LOGIC, NUM_PROG, NUM_IDEA, POINTS_LOGIC, POINTS_PROG, POINTS_IDEA, BONUS, PENALIZATION]
+    
+Output data structure:
+    TEAM_ID;TEAM_NAME;{MINUTE;NUM_LOGIC, NUM_PROG, NUM_IDEA, POINTS_LOGIC, POINTS_PROG, POINTS_IDEA, BONUS, PENALIZATION}-n-times
+    
+!!! Output data structure is sorted by total score within one year.
+    
 '''
 
-'''
-Data structure:
-years[2010][62] = ["TEAM NAME", states]
-states[0] = [NUM_LOGIC, NUM_PROG, NUM_IDEA, POINTS_LOGIC, POINTS_PROG, POINTS_IDEA, BONUS, PENALIZATION]
-'''
+
 
 years = {}
 
@@ -67,6 +74,15 @@ def maintainPrevious(year, team, minutes):
                 states[minute] = [0 for _ in range(8)]
             else:
                 states[minute] = list(states[minute-1])
+
+def alignData():
+    for year in years:
+        for team in years[year]:
+            states = years[year][team][1]
+            for minute in range(302):
+                if not minute in states:
+                    states[minute] = states[minute-1][:]
+            
     
                 
 def appendTask(state, year, taskType, correct, score):
@@ -115,6 +131,18 @@ def processRow(row):
             states[minutes] = list(states[minutes-1])
     appendTask(states[minutes], year, taskType, correct, score)
     
+def countTotalScore(rows):
+    if len(rows) == 0:
+        print "No states, cannot count maximum.";
+    maxKey = None
+    for key in rows:
+        if maxKey == None or maxKey < int(key):
+            maxKey = int(key)
+    
+    row = rows[maxKey]
+    # [NUM_LOGIC, NUM_PROG, NUM_IDEA, POINTS_LOGIC, POINTS_PROG, POINTS_IDEA, BONUS, PENALIZATION]
+    return sum(row[3:7]) - row[7]
+    
 
 # Main program
 
@@ -127,21 +155,27 @@ with open('../Data/RawData.csv', 'r') as rawDataFile:
             isFirst = False
             continue
         processRow(row)
-
-for year in years:    
+alignData()
+        
+# Write output data
+for year in years:
     with open('../Data/ProcessedDataYear' + str(year) + '.csv', 'w') as processedDataFile:
-        writer = csv.writer(processedDataFile, delimiter=';')
-        for team in years[year]:
+        writer = csv.writer(processedDataFile, delimiter='$')
+        # Sort data by total score
+        sortedTeamsByScore = sorted(years[year].iteritems(), key=lambda value: countTotalScore(value[1][1]), reverse=True)
+        
+        for team in sortedTeamsByScore:
             output = []
-            temp = years[year][team]
-            output.append(team)
+            temp = team[1]
+            output.append(team[0])
             output.append(temp[0])
             for minute in temp[1]:
                 output.append(minute)
                 output.extend(temp[1][minute])
             writer.writerow(output)
 
-"""        
+   
+"""     
 debug = years["2013"]["516"]
 print debug[0]
 for key in debug[1]:
