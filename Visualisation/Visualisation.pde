@@ -1,9 +1,5 @@
 // Imports
 
-
-// Shared data and constants
-ArrayList<Year> years;
-
 void loadAllData() {
   DataLoader dl = new DataLoader();
   dl.load("2009","../Data/ProcessedDataYear2009.csv");
@@ -21,9 +17,43 @@ void setup() {
   for(int i = 0; i < 302; i++) {
     println(tempTeam.states[i].getTotalScore());
   }
-  size(640, 360);
+  controller = new Controller();
 }
 
-void draw() {  
+void draw() {
+  // if animating, change settings
+  if (animate) {
+    // ...
+    redrawData = true;
+  }
+  
+  // redraw data, if needed
+  if (redrawData) {
+    years.get(selectedYear).drawDataBackground();
+    years.get(selectedYear).drawData();
+    years.get(selectedYear).drawDataAxes();
+    redrawData = false;
+  }
 }
 
+void mousePressed() {
+  if (mouseY > screenHeight-controlPanelHeight) {
+    controller.changeSettingsViaClick(mouseX, mouseY);
+  }
+}
+
+void keyPressed() {
+  controller.changeSettingsViaKey();
+}
+
+/*
+void mouseDragged() {
+  if (dragging) {
+    controller.changeSettingsViaClick(mouseX-dragXOffset, mouseY-dragYOffset);
+  }
+}
+
+void mouseReleased() {
+  dragging = false;
+}
+*/
