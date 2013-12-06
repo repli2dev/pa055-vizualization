@@ -11,15 +11,28 @@ Use this query for obtain it form MySQL table:
     SELECT
         id_year,
         year.name, 
-        id_team, 
+        answer.id_team, 
         team.name,
         task.type,
         ((date_format(answer.inserted, '%H')-15)*60 + date_format(answer.inserted, '%i')) AS minutes,
         answer.id_answer,
         answer.inserted,
         IF(answer.code = task.code, "TRUE", "FALSE") AS correct,
-        answer.id_task
-    FROM answer INNER JOIN task USING(id_task)
+        answer.id_task,
+        IF(answer.code != task.code,
+            0,
+            1000-(
+                SELECT
+                    COUNT(help.id_answer)
+                FROM answer AS help
+                WHERE
+                    help.code = task.code AND 
+                    help.inserted < answer.inserted AND 
+                    help.id_task = answer.id_task
+            )
+        ) AS score
+    FROM answer
+    INNER JOIN task USING(id_task)
     INNER JOIN team USING (id_team)
     INNER JOIN year USING (id_year)
     ORDER BY id_year, minutes, id_answer
@@ -35,6 +48,7 @@ So one row is:
     7 -> inserted
     8 -> correct
     9 -> id_task
+    10 -> score
 '''
 
 '''
@@ -44,7 +58,6 @@ states[0] = [NUM_LOGIC, NUM_PROG, NUM_IDEA, POINTS_LOGIC, POINTS_PROG, POINTS_ID
 '''
 
 years = {}
-tasksPoints = {}
 
 def maintainPrevious(year, team, minutes):
     states = years[year][team][1]
@@ -54,17 +67,9 @@ def maintainPrevious(year, team, minutes):
                 states[minute] = [0 for _ in range(8)]
             else:
                 states[minute] = list(states[minute-1])
-                
-def getTaskPoints(taskId):
-    if taskId in tasksPoints:
-        tasksPoints[taskId] -= 1
-        return tasksPoints[taskId]
-    else:
-        tasksPoints[taskId] = 1000
-        return 1000
     
                 
-def appendTask(state, year, taskType, taskId, correct):
+def appendTask(state, year, taskType, correct, score):
     if correct == "FALSE":
         if int(year) >= 2013:
             state[7] += 30
@@ -80,7 +85,7 @@ def appendTask(state, year, taskType, taskId, correct):
         pos = 1
    
     state[pos] += 1
-    state[pos + 3] += getTaskPoints(taskId)
+    state[pos + 3] += int(score)
     
     common = min(state[0:3])
     state[6] = common * 500
@@ -99,7 +104,7 @@ def processRow(row):
     # Check if previous minutes are filled
     maintainPrevious(year, team, minutes)
     # Add new data to previous data
-    taskId = row[9]
+    score = row[10]
     taskType = row[4]
     correct = row[8]
     states = years[year][team][1]
@@ -108,7 +113,7 @@ def processRow(row):
             states[minutes] = [0 for _ in range(8)]
         else:
             states[minutes] = list(states[minutes-1])
-    appendTask(states[minutes], year, taskType, taskId, correct)
+    appendTask(states[minutes], year, taskType, correct, score)
     
 
 # Main program
@@ -142,5 +147,3 @@ print debug[0]
 for key in debug[1]:
     print str(key) + ": " + str(debug[1][key])
 """
-
-# FIXME: Problem with points (team Koleno has one less than it should have)
