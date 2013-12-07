@@ -31,12 +31,14 @@ class Year {
   void drawData() {
     int dataWidth = teams.size()*(teamColumnWidth+teamColumnMargin)+teamColumnMargin;
     int dataShift = (int) map(dataSliderPosition, 0, 1, 0, dataWidth-screenWidth);
+    int renderedTeams = 0;
     for (int teamNum = 0; teamNum < teams.size(); teamNum++) {
-      // if (!selectedCategories[teams.get(teamNum).category]) continue;
-      int x = teamNum*(teamColumnWidth+teamColumnMargin) + teamColumnMargin + dataLeftMargin - dataShift;
+      if (!selectedCategories[teams.get(teamNum).category]) continue;
+      int x = renderedTeams*(teamColumnWidth+teamColumnMargin) + teamColumnMargin + dataLeftMargin - dataShift;
       teams.get(teamNum).draw(x, screenHeight-controlPanelHeight-dataBottomMargin, 
       numAxes()*axesPointsInterval, 
       screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin);
+      renderedTeams += 1;
     }
   }
 

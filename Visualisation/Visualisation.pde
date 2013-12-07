@@ -16,10 +16,10 @@ void loadAllData() {
 // Main program
 void setup() {
   loadAllData();
-  Team tempTeam = years.get(4).teams.get(1); // Last year -> second team
+  /*Team tempTeam = years.get(4).teams.get(1); // Last year -> second team
   for(int i = 0; i < 302; i++) {
     println(tempTeam.states[i].getTotalScore());
-  }
+  }*/
   controller = new Controller();
 }
 

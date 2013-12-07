@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import csv
-import operator
+
 '''
 Usage:
     1. Provide new data into RawData.csv (see format requirements below).
@@ -31,7 +31,8 @@ Use this query for obtain it form MySQL table:
                     help.inserted < answer.inserted AND 
                     help.id_task = answer.id_task
             )
-        ) AS score
+        ) AS score,
+        team.category
     FROM answer
     INNER JOIN task USING(id_task)
     INNER JOIN team USING (id_team)
@@ -50,6 +51,7 @@ So one row is:
     8 -> correct
     9 -> id_task
     10 -> score
+    11 -> category
 
 Inner data structure:
     years[2010][62] = ["TEAM NAME", states]
@@ -67,7 +69,7 @@ Output data structure:
 years = {}
 
 def maintainPrevious(year, team, minutes):
-    states = years[year][team][1]
+    states = years[year][team][2]
     for minute in range(0, minutes):
         if not minute in states:
             if minute == 0:
@@ -78,7 +80,7 @@ def maintainPrevious(year, team, minutes):
 def alignData():
     for year in years:
         for team in years[year]:
-            states = years[year][team][1]
+            states = years[year][team][2]
             for minute in range(302):
                 if not minute in states:
                     states[minute] = states[minute-1][:]
@@ -110,20 +112,21 @@ def processRow(row):
     year = row[1]
     team = row[2]
     teamName = row[3]
+    teamCategory = row[11]
     minutes = int(row[5])
     # Check year
     if not year in years:
         years[year] = {}
     # Check team
     if not team in years[year]:
-        years[year][team] = [teamName, {}]
+        years[year][team] = [teamName, teamCategory, {}]
     # Check if previous minutes are filled
     maintainPrevious(year, team, minutes)
     # Add new data to previous data
     score = row[10]
     taskType = row[4]
     correct = row[8]
-    states = years[year][team][1]
+    states = years[year][team][2]
     if not (minutes in states):
         if minutes == 0:
             states[minutes] = [0 for _ in range(8)]
@@ -162,16 +165,17 @@ for year in years:
     with open('../Data/ProcessedDataYear' + str(year) + '.csv', 'w') as processedDataFile:
         writer = csv.writer(processedDataFile, delimiter='$')
         # Sort data by total score
-        sortedTeamsByScore = sorted(years[year].iteritems(), key=lambda value: countTotalScore(value[1][1]), reverse=True)
+        sortedTeamsByScore = sorted(years[year].iteritems(), key=lambda value: countTotalScore(value[1][2]), reverse=True)
         
         for team in sortedTeamsByScore:
             output = []
             temp = team[1]
             output.append(team[0])
             output.append(temp[0])
-            for minute in temp[1]:
+            output.append(temp[1])
+            for minute in temp[2]:
                 output.append(minute)
-                output.extend(temp[1][minute])
+                output.extend(temp[2][minute])
             writer.writerow(output)
 
    

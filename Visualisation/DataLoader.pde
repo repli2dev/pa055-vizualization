@@ -14,7 +14,8 @@ class DataLoader {
         tempTeam = new Team();
         tempTeam.id = Integer.parseInt(temp[0]);
         tempTeam.name = temp[1];
-        int OFFSET = 2;
+        tempTeam.parseAndSetCategory(temp[2]);
+        int OFFSET = 3;
         State tempState;
         for(int i = 0; i < 302; i++) {
           tempState = new State();
