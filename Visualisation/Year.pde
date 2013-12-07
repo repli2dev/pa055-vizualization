@@ -34,12 +34,11 @@ class Year {
    */
   void drawDataBackground() {
     // place background
-    PImage back = loadImage(bgImagePath);
-    int numImagesWidth = ceil((float)screenWidth/back.width);
-    int numImagesHeight = ceil((float)(screenHeight-controlPanelHeight)/back.height);
+    int numImagesWidth = ceil((float)screenWidth/bgImage.width);
+    int numImagesHeight = ceil((float)(screenHeight-controlPanelHeight)/bgImage.height);
     for (int j = 0; j < numImagesHeight; j++) {
       for (int i = 0; i < numImagesWidth; i++) {
-        image(back, i*back.width, screenHeight-controlPanelHeight-(j+1)*back.height);
+        image(bgImage, i*bgImage.width, screenHeight-controlPanelHeight-(j+1)*bgImage.height);
       }
     }
 
@@ -75,10 +74,9 @@ class Year {
 
   void drawDataAxes() {
     // place background to overdraw data parts
-    PImage back = loadImage(bgImagePath);
-    int numImagesHeight = ceil((float)(screenHeight-controlPanelHeight)/back.height);
+    int numImagesHeight = ceil((float)(screenHeight-controlPanelHeight)/bgImage.height);
     for (int j = 0; j < numImagesHeight; j++) {
-      image(back, dataLeftMargin-back.width, screenHeight-controlPanelHeight-(j+1)*back.height);
+      image(bgImage, dataLeftMargin-bgImage.width, screenHeight-controlPanelHeight-(j+1)*bgImage.height);
     }
     stroke(red(brownLight), green(brownLight), blue(brownLight), 64);
     strokeWeight(axesStroke);

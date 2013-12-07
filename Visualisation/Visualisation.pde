@@ -46,7 +46,6 @@ void keyPressed() {
   controller.changeSettingsViaKey();
 }
 
-/*
 void mouseDragged() {
   if (dragging) {
     controller.changeSettingsViaClick(mouseX-dragXOffset, mouseY-dragYOffset);
@@ -56,4 +55,3 @@ void mouseDragged() {
 void mouseReleased() {
   dragging = false;
 }
-*/

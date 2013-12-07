@@ -18,10 +18,9 @@ float globalAnimationSpeed = 0.5;
 // Display variables
 float sliderPosition = 0;
 boolean redrawData = true;
-/*boolean dragging = false;
+boolean dragging = false;
 int dragXOffset = 0;
 int dragYOffset = 0;
-*/
 
 // Shared data and constants
 ArrayList<Year> years;
@@ -35,3 +34,4 @@ int teamColumnMargin = 20;
 color brownDark = color(45,22,15);
 color brownLight = color(216,181,94);
 String bgImagePath = "images/background.png";
+PImage bgImage;

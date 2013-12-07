@@ -22,6 +22,7 @@ class Controller {
     frameRate(25);
     smooth();
     noStroke();
+    bgImage = loadImage(bgImagePath);
     drawControlPanel();
     redrawData = true;
   }
@@ -86,7 +87,6 @@ class Controller {
    * assumtion: slider bar was clicked
    */
   void changeSliderPosition(int x, int y) {
-    /*
     int currentSliderPosition = (int)map(sliderPosition, 0, 1, sliderWidth/2, screenWidth-sliderWidth/2);
     if (!dragging && x > currentSliderPosition-sliderWidth/2 && x < currentSliderPosition+sliderWidth/2 ) {
       dragging = true;
@@ -94,7 +94,6 @@ class Controller {
       dragYOffset = y - (screenHeight-controlPanelHeight+sliderHeight/2);
       return;
     }
-    */
     x = max(x, sliderWidth/2);
     x = min(x, screenWidth-sliderWidth/2);
     sliderPosition = map(x, sliderWidth/2, screenWidth-sliderWidth/2, 0, 1);
@@ -123,10 +122,9 @@ class Controller {
 
   void drawControlPanel() {
     // draw background
-    PImage back = loadImage(bgImagePath);
-    int numImagesWidth = ceil((float)screenWidth/back.width);
+    int numImagesWidth = ceil((float)screenWidth/bgImage.width);
     for (int i = 0; i < numImagesWidth; i++) {
-      image(back, i*back.width, screenHeight-controlPanelHeight);
+      image(bgImage, i*bgImage.width, screenHeight-controlPanelHeight);
     }
 
     // draw slider
