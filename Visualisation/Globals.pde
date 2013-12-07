@@ -3,35 +3,58 @@
  * @brief global settings, constants and pointers
  */
 
-// Screen settings
+// SCREEN CONSTANTS
+// Screen resolution, change at will (don't make it too small)
 int screenHeight = 800;
 int screenWidth = 1000;
+// Height of the panel, this should not be changed 
 int controlPanelHeight = 200;
 
-// Current display settings
+// CURRENT SETTINGS
+// selected year id (used as index to years array)
 int selectedYear = 4;
+// displayed categories [stredoskolaci, vysokoskolaci, ostatni]
 boolean[] selectedCategories = {true, true, true};
+// time point in [0,301] including (used as index to states array in team)
 int currentTimePoint = 301;
+// is the animation going?
 boolean animate = false;
+// animation speed in [0,1] including
 float globalAnimationSpeed = 0.5;
 
-// Display variables
-float sliderPosition = 0;
-boolean redrawData = true;
-boolean dragging = false;
-int dragXOffset = 0;
-int dragYOffset = 0;
-
-// Shared data and constants
+// GLOBAL OBJECTS
+// list of years data, typically indexed by selectedYear
 ArrayList<Year> years;
+// global singleton controller object 
 Controller controller;
 
-// data display settings
+// GLOBAL VARIABLES FOR DRAWING
+// position of data slider in [0,1] including
+float dataSliderPosition = 0;
+// counter for animation speed, new minute as advanced for every 100
+int animateCounter = 0;
+// should data area be redrawn?
+boolean redrawData = true;
+// is draggable item selected?
+boolean dragging = false;
+// dragging offset (how far from center are we holding the slider?)
+int dragXOffset = 0;
+
+// GLOBAL DISPLAY CONSTANTS
+// width of team column in pixels
 int teamColumnWidth = 30;
+// margin between 2 team columns in pixels
 int teamColumnMargin = 20;
 
-// Colors and design
+// COLORS AND DESIGN
 color brownDark = color(45,22,15);
 color brownLight = color(216,181,94);
+// background image
 String bgImagePath = "images/background.png";
 PImage bgImage;
+// logos: InterLoS, FI, MU
+String[] logoImagePaths = { "images/logo-los.png", "images/logo-fi.png", "images/logo-mu.png" };
+PImage[] logoImages;
+// used fonts: OpenSans-15, OpenSans-Bold-15, OpenSans-Bold-35
+String[] fontPaths = {"fonts/OpenSans-15.vlw", "fonts/OpenSans-Bold-15.vlw", "fonts/OpenSans-Bold-35.vlw"};
+PFont[] fonts;

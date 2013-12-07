@@ -1,4 +1,7 @@
-// Imports
+/** @file Visualisation.pde
+ * @author Jan Drabek, Martin Ukrop
+ * @brief main methods called on events, helper functions
+ */
 
 void loadAllData() {
   DataLoader dl = new DataLoader();
@@ -20,11 +23,20 @@ void setup() {
   controller = new Controller();
 }
 
+/** main draw method
+ * increases time point, if animating
+ * calls data redrawing, if needed
+ */ 
 void draw() {
-  // if animating, change settings
+  // if animating, increase counter (change based on speed)
   if (animate) {
-    // ...
-    redrawData = true;
+    animateCounter += globalAnimationSpeed*100;
+    if (animateCounter >= 50) {
+      currentTimePoint = (currentTimePoint+animateCounter/50) % 301;
+      animateCounter = 0;
+      controller.drawControlPanel();
+      redrawData = true;
+    }
   }
   
   // redraw data, if needed
@@ -36,22 +48,43 @@ void draw() {
   }
 }
 
+/** main mouse click processing method
+ * passes click processing to controller or year, depending on location
+ */
 void mousePressed() {
   if (mouseY > screenHeight-controlPanelHeight) {
     controller.changeSettingsViaClick(mouseX, mouseY);
+  } else {
+    years.get(selectedYear).processClick(mouseX, mouseY);
   }
 }
 
+/** main keyboard processing method
+ * passes key processing to controller
+ */ 
 void keyPressed() {
   controller.changeSettingsViaKey();
 }
 
+/** main mouse drag processing method
+ * if draggable item is selected, pass processing as click to controller
+ * adjust click position first
+ */
 void mouseDragged() {
   if (dragging) {
-    controller.changeSettingsViaClick(mouseX-dragXOffset, mouseY-dragYOffset);
+    controller.changeSettingsViaClick(mouseX-dragXOffset, mouseY);
   }
 }
 
+/** main mouse reseasing method
+ * deactivate selection of draggable items
+ */
 void mouseReleased() {
   dragging = false;
+}
+
+/** interval checking, helper method
+ */
+boolean in(float num, float min, float max) {
+  return (num >= min && num <= max);
 }
