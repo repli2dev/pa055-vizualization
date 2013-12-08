@@ -24,13 +24,28 @@ class Year {
     return ceil((float)teams.get(0).states[301].getTotalScore()/axesPointsInterval);
   }
 
+  /** total number of teams in selected categories
+   */
+  int numSelectedTeams() {
+    int numTeams = 0;
+    for (int i = 0; i < teams.size(); i++) {
+      if (selectedCategories[teams.get(i).category]) numTeams++;
+    } 
+    return numTeams;
+  }
+
   /** draw actual team data
    * to be done after background drawing and before scale drawing
    * calls individual temas's draw with correct offsets
    */
   void drawData() {
-    int dataWidth = teams.size()*(teamColumnWidth+teamColumnMargin)+teamColumnMargin;
-    int dataShift = (int) map(dataSliderPosition, 0, 1, 0, dataWidth-screenWidth);
+    int dataWidth = numSelectedTeams()*(teamColumnWidth+teamColumnMargin)+teamColumnMargin;
+    int dataShift;
+    if (dataWidth + dataLeftMargin < screenWidth) {
+      dataShift = 0;
+    } else {
+      dataShift = (int) map(dataSliderPosition, 0, 1, 0, dataWidth-screenWidth);
+    }
     int renderedTeams = 0;
     for (int teamNum = 0; teamNum < teams.size(); teamNum++) {
       if (!selectedCategories[teams.get(teamNum).category]) continue;

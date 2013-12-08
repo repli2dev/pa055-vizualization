@@ -21,20 +21,27 @@ class Team {
     int potentialScore = score + currentState.penalisation;
     float colHeight = map(score, 0, maxScore, 0, maxHeight);
     float ratio = score/colHeight;
-    fill(brownMedium);
-    rect(x, y-colHeight, teamColumnWidth, colHeight);
-    fill(red);
+    //fill(brownMedium);
+    //fill(red(brownLight), green(brownLight), blue(brownLight), 64);
+    //rect(x, y-colHeight, teamColumnWidth, colHeight);
     
+    fill(red(green), green(green), blue(green), 150);
+    rect(x, y-colHeight, teamColumnWidth, currentState.bonus/ratio);
+    
+    fill(red(red), green(red), blue(red), 150);
     float yPos = y-colHeight-currentState.penalisation/ratio;
     rect(x, yPos, teamColumnWidth, currentState.penalisation/ratio);
    
-    fill(green2);
+    //fill(green2);
+    fill(red(brownLight), green(brownLight), blue(brownLight), 100);
     rect(x, ceil(y-currentState.scoreLogical/ratio), teamColumnWidth, ceil(currentState.scoreLogical/ratio)); // Overlaps are less problems than holes between -> ceil
  
-    fill(green1);
+    //fill(green1);
+    fill(red(brownLight), green(brownLight), blue(brownLight), 170);
     rect(x, ceil(y-currentState.scoreLogical/ratio-currentState.scoreProgramming/ratio), teamColumnWidth, ceil(currentState.scoreProgramming/ratio));
     
-    fill(green2);
+    //fill(green2);
+    fill(red(brownLight), green(brownLight), blue(brownLight), 255);
     rect(x, ceil(y-currentState.scoreLogical/ratio-currentState.scoreProgramming/ratio-currentState.scoreIdea/ratio), teamColumnWidth, ceil(currentState.scoreIdea/ratio));      
   }
   
