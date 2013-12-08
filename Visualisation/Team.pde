@@ -16,10 +16,26 @@ class Team {
    * @param maxHeight  maximum allowed bar height
    */
   void draw(int x, int y, int maxScore, int maxHeight) {
-    int score = states[currentTimePoint].getTotalScore();
-    fill(brownDark);
+    State currentState = states[currentTimePoint];
+    int score = currentState.getTotalScore();
+    int potentialScore = score + currentState.penalisation;
     float colHeight = map(score, 0, maxScore, 0, maxHeight);
+    float ratio = score/colHeight;
+    fill(brownMedium);
     rect(x, y-colHeight, teamColumnWidth, colHeight);
+    fill(red);
+    
+    float yPos = y-colHeight-currentState.penalisation/ratio;
+    rect(x, yPos, teamColumnWidth, currentState.penalisation/ratio);
+   
+    fill(green2);
+    rect(x, ceil(y-currentState.scoreLogical/ratio), teamColumnWidth, ceil(currentState.scoreLogical/ratio)); // Overlaps are less problems than holes between -> ceil
+ 
+    fill(green1);
+    rect(x, ceil(y-currentState.scoreLogical/ratio-currentState.scoreProgramming/ratio), teamColumnWidth, ceil(currentState.scoreProgramming/ratio));
+    
+    fill(green2);
+    rect(x, ceil(y-currentState.scoreLogical/ratio-currentState.scoreProgramming/ratio-currentState.scoreIdea/ratio), teamColumnWidth, ceil(currentState.scoreIdea/ratio));      
   }
   
   void parseAndSetCategory(String category) {

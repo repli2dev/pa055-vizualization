@@ -86,6 +86,7 @@ class Year {
     // draw text labels on axis
     for (int i = 0; i <= numAxes(); i++) {
       String text = ""+i*axesPointsInterval;
+      fill(brownDark);
       text(text, dataLeftMargin-textWidth(text)-10, 
       map(i, 0, numAxes(), screenHeight-controlPanelHeight-dataBottomMargin, dataTopMargin)+
         textAscent()/2);

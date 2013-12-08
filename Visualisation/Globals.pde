@@ -48,7 +48,11 @@ int teamColumnMargin = 20;
 
 // COLORS AND DESIGN
 color brownDark = color(45,22,15);
+color brownMedium = color(226, 201, 143);
 color brownLight = color(216,181,94);
+color green1 = color(164,209,146);
+color green2 = color(194,224,182);
+color red = color(247,198,198);
 // background image
 String bgImagePath = "images/background.png";
 PImage bgImage;
