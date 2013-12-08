@@ -4,7 +4,7 @@
  */
 
 // SCREEN CONSTANTS
-// Screen resolution, change at will (don't make it too small)
+// Screen resolution, change at will (don't make it smaller than 800x1000)
 int screenHeight = 800;
 int screenWidth = 1000;
 // Height of the panel, this should not be changed 
