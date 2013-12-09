@@ -8,9 +8,11 @@ class Year {
   ArrayList<Team> teams = new ArrayList<Team>(); // Sorted by total score descending
 
   // DATA AREA MARGINS
-  int dataBottomMargin = 50;
+  int dataBottomMargin = 90;
   int dataTopMargin = 120;
   int dataLeftMargin = 100;
+  int legendRightMargin = 500;
+  int legendTopMargin = 20;
 
   // width of horisontal axes
   int axesStroke = 4;
@@ -50,11 +52,45 @@ class Year {
     for (int teamNum = 0; teamNum < teams.size(); teamNum++) {
       if (!selectedCategories[teams.get(teamNum).category]) continue;
       int x = renderedTeams*(teamColumnWidth+teamColumnMargin) + teamColumnMargin + dataLeftMargin - dataShift;
-      teams.get(teamNum).draw(x, screenHeight-controlPanelHeight-dataBottomMargin, 
-      numAxes()*axesPointsInterval, 
-      screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin);
+      teams.get(teamNum).draw(
+        x,
+        screenHeight-controlPanelHeight-dataBottomMargin, 
+        numAxes()*axesPointsInterval, 
+        screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin
+      );
+      if(currentTeamLeft == teamNum || currentTeamRight == teamNum) {
+        if(currentTeamLeft == teamNum) fill(green);
+        if(currentTeamRight == teamNum) fill(red);
+        ellipse(x+teamColumnWidth/2, screenHeight-controlPanelHeight-dataBottomMargin+3, 10, 10);
+      }
+      
       renderedTeams += 1;
     }
+  }
+  
+  void drawDataLegend() {
+    int baseX = screenWidth - legendRightMargin;
+    fill(red(brownLight), green(brownLight), blue(brownLight), 100);
+    rect(baseX, legendTopMargin, 20,20);
+    fill(red(brownLight), green(brownLight), blue(brownLight), 200);
+    text("Logické",baseX+30, legendTopMargin+textAscent()*1.3);
+ 
+    fill(red(brownLight), green(brownLight), blue(brownLight), 170);
+    rect(baseX,legendTopMargin+30, 20,20);
+    fill(red(brownLight), green(brownLight), blue(brownLight), 235);
+    text("Programovací",baseX+30, legendTopMargin+30+textAscent()*1.3);
+    
+    fill(red(brownLight), green(brownLight), blue(brownLight), 255);
+    rect(baseX, legendTopMargin+60, 20,20);
+    text("Šifrovací", baseX+30, legendTopMargin+60+textAscent()*1.3);
+    
+    fill(red(green), green(green), blue(green), 150);
+    rect(baseX+180, legendTopMargin, 20,20);
+    text("Bonus",baseX+210, legendTopMargin+textAscent()*1.3);
+    
+    fill(red(red), green(red), blue(red), 150);
+    rect(baseX+180, legendTopMargin+30, 20,20);
+    text("Penalisation",baseX+210, legendTopMargin+30+textAscent()*1.3);
   }
 
   /** background and horisontal axes in data area
@@ -86,6 +122,7 @@ class Year {
    * to be called after data drawing
    */
   void drawDataAxes() {
+    drawDataLegend();
     // place background to overdraw data parts on the left
     int numImagesHeight = ceil((float)(screenHeight-controlPanelHeight)/bgImage.height);
     for (int j = 0; j < numImagesHeight; j++) {
@@ -150,10 +187,56 @@ class Year {
     text(categsText, afterTitle+10, 3*dataTopMargin/5);
   }
   
+  void drawTeamInfo() {
+    if(currentTeamLeft >= 0  && currentTeamLeft < teams.size()) {
+      teams.get(currentTeamLeft).drawInfo(0, dataLeftMargin, screenHeight-controlPanelHeight-dataBottomMargin+teamDetailMargin);  
+    }
+    if(currentTeamRight >= 0  && currentTeamRight < teams.size()) {
+      teams.get(currentTeamRight).drawInfo(450, dataLeftMargin, screenHeight-controlPanelHeight-dataBottomMargin+teamDetailMargin);  
+    }
+      
+  }
+  
   /** processes click in data area
    */
   void processClick(int x, int y) {
-    
+    int baseX = dataLeftMargin;
+    int baseY = screenHeight-controlPanelHeight-dataBottomMargin+teamDetailMargin;
+    if(in(x,baseX+415, baseX+415+25) &&
+       in(y, baseY, baseY+25)) {
+       currentTeamLeft = -1;
+       redrawData = true;
+       return;
+    }
+    if(in(x,baseX+415+450, baseX+415+450+25) &&
+       in(y, baseY, baseY+25)) {
+       currentTeamRight = -1;
+       redrawData = true;
+       return;
+    }
+    int dataWidth = numSelectedTeams()*(teamColumnWidth+teamColumnMargin)+teamColumnMargin;
+    int dataShift;
+    if (dataWidth + dataLeftMargin < screenWidth) {
+      dataShift = 0;
+    } else {
+      dataShift = (int) map(dataSliderPosition, 0, 1, 0, dataWidth-screenWidth);
+    }
+    int renderedTeams = 0;
+    for (int teamNum = 0; teamNum < teams.size(); teamNum++) {
+      if (!selectedCategories[teams.get(teamNum).category]) continue;
+      int teamX = renderedTeams*(teamColumnWidth+teamColumnMargin) + teamColumnMargin + dataLeftMargin - dataShift;
+      int teamY = screenHeight-controlPanelHeight-dataBottomMargin;
+      if(in(x, teamX, teamX + teamColumnWidth) &&
+         in(y, teamY - (screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin), teamY)) {
+           if(mouseButton == LEFT) {
+             currentTeamLeft = teamNum;
+           } else if (mouseButton == RIGHT) {
+             currentTeamRight = teamNum;
+           }
+           redrawData = true;
+      }
+      renderedTeams += 1;
+    }
   }
 }
 

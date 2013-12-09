@@ -82,6 +82,8 @@ class Controller {
         in(y, topYbuttons, topYbuttons+25*years.size())) {
       clickMeaningful = true;
       selectedYear = (y-topYbuttons)/25;
+      currentTeamLeft = -1;
+      currentTeamRight = -1;
     }
     // category selector click
     if (in(x, 180, 180+140) && 
@@ -239,8 +241,9 @@ class Controller {
     fill(brownDark);
     textFont(fonts[0]);
     text = "týmy: home/end posune na začátek/konec, page up/page down na předchozí/další stránku\n";
+    text += "           levý/pravý klik zobrazí detail týmu\n";
     text += "animace: mezerník/enter přehrává/pozastaví animaci, šipka vlevo/vpravo posune na začátek/konec časové osy";
-    text(text, 350+sliderMargin, screenHeight-20-2*textAscent());
+    text(text, 350+sliderMargin, screenHeight-20-3*textAscent());
   }
   
   /** general method for slider drawing
@@ -302,6 +305,11 @@ class Controller {
     noStroke();
   }
   
+  /** general method for function circle drawing
+   * @param x      x coordinate of top left corner  
+   * @param y      y coordinate of top left corner
+   * @param type   should the circle should be "ticked"
+   */
   void drawCircle(int x, int y, boolean selected) {
     int strokeWeight = 2;
     strokeWeight(strokeWeight);

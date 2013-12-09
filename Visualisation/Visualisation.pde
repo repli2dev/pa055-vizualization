@@ -49,6 +49,7 @@ void draw() {
     years.get(selectedYear).drawDataBackground();
     years.get(selectedYear).drawData();
     years.get(selectedYear).drawDataAxes();
+    years.get(selectedYear).drawTeamInfo();
     redrawData = false;
   }
 }
@@ -86,10 +87,4 @@ void mouseDragged() {
  */
 void mouseReleased() {
   dragging = false;
-}
-
-/** interval checking, helper method
- */
-boolean in(float num, float min, float max) {
-  return (num >= min && num <= max);
 }

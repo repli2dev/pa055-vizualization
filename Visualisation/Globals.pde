@@ -5,8 +5,8 @@
 
 // SCREEN CONSTANTS
 // Screen resolution, change at will (don't make it smaller than 800x1000)
-int screenHeight = 800;
-int screenWidth = 1200;
+int screenHeight = 700;
+int screenWidth = 1000;
 // Height of the panel, this should not be changed 
 int controlPanelHeight = 200;
 
@@ -22,6 +22,9 @@ boolean animate = false;
 boolean stopAtAnimationEnd = false;
 // animation speed in [0,1] including
 float globalAnimationSpeed = 0.5;
+// currently selected team
+int currentTeamLeft = -1;
+int currentTeamRight = -1;
 
 // GLOBAL OBJECTS
 // list of years data, typically indexed by selectedYear
@@ -46,14 +49,13 @@ int dragXOffset = 0;
 int teamColumnWidth = 30;
 // margin between 2 team columns in pixels
 int teamColumnMargin = 20;
+// margin between team detail info box
+int teamDetailMargin = 10;
 
 // COLORS AND DESIGN
 color brownDark = color(45,22,15);
 color brownMedium = color(226, 201, 143);
 color brownLight = color(216,181,94);
-//color green1 = color(164,209,146);
-//color green2 = color(194,224,182);
-//color red = color(247,198,198);
 color green = color(26, 110, 0);
 color red = color(186,13,13);
 // background image
