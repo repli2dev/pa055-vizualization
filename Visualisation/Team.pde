@@ -21,6 +21,7 @@ class Team {
     int potentialScore = score + currentState.penalisation;
     float colHeight = map(score, 0, maxScore, 0, maxHeight);
     float ratio = score/colHeight;
+    // FIXME: Problem with wrong order of teams
     //fill(brownMedium);
     //fill(red(brownLight), green(brownLight), blue(brownLight), 64);
     //rect(x, y-colHeight, teamColumnWidth, colHeight);

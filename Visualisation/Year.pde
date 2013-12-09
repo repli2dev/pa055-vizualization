@@ -124,25 +124,25 @@ class Year {
     String categsText = "(";
     int numCategories = 0;
     if (selectedCategories[0] && selectedCategories[1] && selectedCategories[2]) {
-      categsText += "vsechny kategorie";
+      categsText += "všechny kategorie";
     } 
     else {
       if (selectedCategories[0]) { 
-        categsText += "stredoskolaci";
+        categsText += "středoškoláci";
         numCategories++;
       }
       if (selectedCategories[1]) {
         if (numCategories > 0) { 
           categsText += ", ";
         } 
-        categsText += "vysokoskolaci";
+        categsText += "vysokoškoláci";
         numCategories++;
       }
       if (selectedCategories[2]) { 
         if (numCategories > 0) { 
           categsText += ", ";
         } 
-        categsText += "ostatni";
+        categsText += "ostatní";
         numCategories++;
       }
     }

@@ -32,7 +32,12 @@ void draw() {
   if (animate) {
     animateCounter += globalAnimationSpeed*100;
     if (animateCounter >= 50) {
-      currentTimePoint = (currentTimePoint+animateCounter/50) % 301;
+      if((currentTimePoint+animateCounter/50) == 301 && stopAtAnimationEnd) {
+        animate = false;
+        currentTimePoint = 301;
+      } else {
+        currentTimePoint = (currentTimePoint+animateCounter/50) % 301;
+      }
       animateCounter = 0;
       controller.drawControlPanel();
       redrawData = true;

@@ -85,7 +85,7 @@ class Controller {
     }
     // category selector click
     if (in(x, 180, 180+140) && 
-        in(y, topYbuttons, topYbuttons+25*3)) {
+        in(y, topYbuttons, topYbuttons+24.9*3)) {
       clickMeaningful = true;
       selectedCategories[(y-topYbuttons)/25] = !selectedCategories[(y-topYbuttons)/25];
     }
@@ -117,7 +117,12 @@ class Controller {
         default: break;
       }
     }
-    // 
+    // stop at animation end click
+    if (in(x, buttonsXbegin + 3.5*buttonSpacing, buttonsXbegin+11*buttonSpacing) &&
+        in(y, speedSliderY, speedSliderY+buttonSpacing) ) {
+      clickMeaningful = true;
+      stopAtAnimationEnd = !stopAtAnimationEnd;
+    }
     // if we clicked something meaningfull, redraw everything
     if (clickMeaningful) {
       drawControlPanel();
@@ -128,28 +133,27 @@ class Controller {
   /** general method for keys pressed
    */
   void changeSettingsViaKey() {
-    if (key == CODED) {
-      switch (keyCode) {
-        case RIGHT:
-        dataSliderPosition = min(dataSliderPosition+keySliderShift,1); break;
-        case LEFT:
-        dataSliderPosition = max(dataSliderPosition-keySliderShift,0); break;
-        case UP:
-        currentTimePoint = min(currentTimePoint+keyTimeShift, 301); break;
-        case DOWN:
-        currentTimePoint = max(currentTimePoint-keyTimeShift, 0); break;
-        case ENTER:
-        animate = !animate; animateCounter = 0;
-        default: return; // not meaningful, do not redraw
-      }
-    } else {
-      switch (key) {
-        case '\n':
-        case ' ': animate = !animate; animateCounter = 0; break;
-        case 'h': currentTimePoint = 0; break;
-        case 'e': currentTimePoint = 301; break;
-        default: return; // not meaningful, do not redraw
-      }
+    switch (keyCode) {
+      case KeyEvent.VK_PAGE_DOWN:
+      dataSliderPosition = min(dataSliderPosition+keySliderShift,1); break;
+      case KeyEvent.VK_PAGE_UP:
+      dataSliderPosition = max(dataSliderPosition-keySliderShift,0); break;
+      case KeyEvent.VK_HOME:
+      dataSliderPosition = 0; break;
+      case KeyEvent.VK_END:
+      dataSliderPosition = 1; break;
+      case UP:
+      currentTimePoint = min(currentTimePoint+keyTimeShift, 301); break;
+      case DOWN:
+      currentTimePoint = max(currentTimePoint-keyTimeShift, 0); break;
+      case ENTER:
+      case KeyEvent.VK_SPACE:
+      animate = !animate; animateCounter = 0; break;
+      case LEFT:
+      currentTimePoint = 0; break;
+      case RIGHT:
+      currentTimePoint = 301; break;
+      default: return; // not meaningful, do not redraw
     }
     // redraw everything
     drawControlPanel();
@@ -171,11 +175,11 @@ class Controller {
     // draw year chooser (0-150 pixels from left)
     fill(brownDark);
     textFont(fonts[1]);
-    String text = "rocnik";
+    String text = "ročník";
     text(text, 85-textWidth(text)/2, screenHeight-controlPanelHeight+sliderHeight+20+textAscent()/2);
     textFont(fonts[0]);
     for (int i = 0; i < years.size(); i++) {
-      drawBox(60, screenHeight-controlPanelHeight+70+i*25, selectedYear == i);
+      drawCircle(60, screenHeight-controlPanelHeight+70+i*25, selectedYear == i);
       text = years.get(i).name;
       text(text, 80, screenHeight-controlPanelHeight+70+i*25+textAscent()/2);
     }
@@ -189,9 +193,9 @@ class Controller {
     for (int i = 0; i < 3; i++) {
       drawBox(195, screenHeight-controlPanelHeight+70+i*25, selectedCategories[i]);
       switch (i) {
-        case 0: text = "stredoskolaci"; break;
-        case 1: text = "vysokoskolaci"; break;
-        case 2: text = "ostatni"; break;
+        case 0: text = "středoškoláci"; break;
+        case 1: text = "vysokoškoláci"; break;
+        case 2: text = "ostatní"; break;
       }
       text(text, 215, screenHeight-controlPanelHeight+70+i*25+textAscent()/2);
     }
@@ -217,7 +221,7 @@ class Controller {
     // draw animation buttons
     fill(brownDark);
     textFont(fonts[1]);
-    text = "casova osa";
+    text = "časová osa";
     text(text, 350+sliderMargin, speedSliderY+textAscent());
     drawButton(buttonsXbegin, speedSliderY+boxSide/2, BUTTON_HOME);
     drawButton(buttonsXbegin + 2*buttonSpacing, speedSliderY+boxSide/2, BUTTON_END);
@@ -227,11 +231,15 @@ class Controller {
       drawButton(buttonsXbegin+buttonSpacing, speedSliderY+boxSide/2, BUTTON_PLAY);
     }
     
+    drawBox(buttonsXbegin + 4*buttonSpacing, speedSliderY+boxSide/2, stopAtAnimationEnd);
+    String stopAtAnimationEnd = "zastavit na konci";
+    text(stopAtAnimationEnd, buttonsXbegin + 5*buttonSpacing, speedSliderY+textAscent());
+    
     // write help
     fill(brownDark);
     textFont(fonts[0]);
-    text = "sipky hore/dole menia cas, sipky vpravo/vlavo posuvaju timy \n";
-    text += "space/enter to play/pause, h/e posuny na casovej ose (mozno prerob na home/end)";
+    text = "týmy: home/end posune na začátek/konec, page up/page down na předchozí/další stránku\n";
+    text += "animace: mezerník/enter přehrává/pozastaví animaci, šipka vlevo/vpravo posune na začátek/konec časové osy";
     text(text, 350+sliderMargin, screenHeight-20-2*textAscent());
   }
   
@@ -290,6 +298,21 @@ class Controller {
     if (ticked) {
       line(x-boxSide/2, y, x-boxSide/8, y+boxSide/3);
       line(x+boxSide/2, y-boxSide/2, x-boxSide/8, y+boxSide/3);
+    }
+    noStroke();
+  }
+  
+  void drawCircle(int x, int y, boolean selected) {
+    int strokeWeight = 2;
+    strokeWeight(strokeWeight);
+    stroke(brownDark);
+    noFill();
+    float radius = sqrt(pow(boxSide,2)+pow(boxSide,2))/2;
+    ellipse(x-boxSide/2+radius-strokeWeight*3/2, y-boxSide/2+radius-strokeWeight*3/2, boxSide, boxSide);
+    if (selected) {
+      strokeWeight(3);
+      fill(brownDark);
+      ellipse(x-boxSide/2+radius-strokeWeight*3/2, y-boxSide/2+radius-strokeWeight*3/2, boxSide*2/5, boxSide*2/5);
     }
     noStroke();
   }

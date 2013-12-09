@@ -6,7 +6,7 @@
 // SCREEN CONSTANTS
 // Screen resolution, change at will (don't make it smaller than 800x1000)
 int screenHeight = 800;
-int screenWidth = 1000;
+int screenWidth = 1200;
 // Height of the panel, this should not be changed 
 int controlPanelHeight = 200;
 
@@ -19,6 +19,7 @@ boolean[] selectedCategories = {true, true, true};
 int currentTimePoint = 301;
 // is the animation going?
 boolean animate = false;
+boolean stopAtAnimationEnd = false;
 // animation speed in [0,1] including
 float globalAnimationSpeed = 0.5;
 
