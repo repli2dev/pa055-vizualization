@@ -51,8 +51,8 @@ class Controller {
     // load background
     bgImage = loadImage(bgImagePath);
     // load fonts
-    fonts = new PFont[3];
-    for (int i = 0; i < 3; i++) {
+    fonts = new PFont[4];
+    for (int i = 0; i < 4; i++) {
       fonts[i] = loadFont(fontPaths[i]);
     }
     // load logos
@@ -120,7 +120,7 @@ class Controller {
       }
     }
     // stop at animation end click
-    if (in(x, buttonsXbegin + 3.5*buttonSpacing, buttonsXbegin+11*buttonSpacing) &&
+    if (in(x, buttonsXbegin + 3.5*buttonSpacing, buttonsXbegin+7*buttonSpacing) &&
         in(y, speedSliderY, speedSliderY+buttonSpacing) ) {
       clickMeaningful = true;
       stopAtAnimationEnd = !stopAtAnimationEnd;
@@ -216,7 +216,7 @@ class Controller {
     // draw speed slider ((screenWidth-300)-screenWidth pixels from left)
     fill(brownDark);
     textFont(fonts[1]);
-    text = "rychlost animace";
+    text = "rychlost";
     text(text, screenWidth-300+sliderMargin/2-textWidth(text), speedSliderY+textAscent());
     drawSlider(screenWidth-300+sliderMargin, speedSliderY, 300-2*sliderMargin, globalAnimationSpeed);
     
@@ -234,7 +234,7 @@ class Controller {
     }
     
     drawBox(buttonsXbegin + 4*buttonSpacing, speedSliderY+boxSide/2, stopAtAnimationEnd);
-    String stopAtAnimationEnd = "zastavit na konci";
+    String stopAtAnimationEnd = "skončit";
     text(stopAtAnimationEnd, buttonsXbegin + 5*buttonSpacing, speedSliderY+textAscent());
     
     // write help
@@ -242,7 +242,7 @@ class Controller {
     textFont(fonts[0]);
     text = "týmy: home/end posune na začátek/konec, page up/page down na předchozí/další stránku\n";
     text += "           levý/pravý klik zobrazí detail týmu\n";
-    text += "animace: mezerník/enter přehrává/pozastaví animaci, šipka vlevo/vpravo posune na začátek/konec časové osy";
+    text += "animace: mezerník/enter pro přehrání/pauzu, šipka vlevo/vpravo pro skok na začátek/konec";
     text(text, 350+sliderMargin, screenHeight-20-3*textAscent());
   }
   

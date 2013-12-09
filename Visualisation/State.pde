@@ -1,3 +1,8 @@
+/** @file State.pde
+ * @author Jan Drabek, Martin Ukrop
+ * @brief class for representing state of team in fixed minute from the beginning of game
+ */
+
 class State {
   int numberOfLogical;
   int numberOfProgramming;

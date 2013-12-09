@@ -1,3 +1,7 @@
+/** @file DataLoader.pde
+ * @author Jan Drabek, Martin Ukrop
+ * @brief load and parse data from csv file which is preprocessed by script, see DataPreprocessing.py
+ */
 class DataLoader {
   private ArrayList<Year> years = new ArrayList<Year>();
   

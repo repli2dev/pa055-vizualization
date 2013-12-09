@@ -4,9 +4,9 @@
  */
 
 // SCREEN CONSTANTS
-// Screen resolution, change at will (don't make it smaller than 800x1000)
+// Screen resolution, change at will (don't make it smaller than 700x1024)
 int screenHeight = 700;
-int screenWidth = 1000;
+int screenWidth = 1024;
 // Height of the panel, this should not be changed 
 int controlPanelHeight = 200;
 
@@ -21,7 +21,7 @@ int currentTimePoint = 301;
 boolean animate = false;
 boolean stopAtAnimationEnd = false;
 // animation speed in [0,1] including
-float globalAnimationSpeed = 0.5;
+float globalAnimationSpeed = 0.35;
 // currently selected team
 int currentTeamLeft = -1;
 int currentTeamRight = -1;
@@ -65,5 +65,5 @@ PImage bgImage;
 String[] logoImagePaths = { "images/logo-los.png", "images/logo-fi.png", "images/logo-mu.png" };
 PImage[] logoImages;
 // used fonts: OpenSans-15, OpenSans-Bold-15, OpenSans-Bold-35
-String[] fontPaths = {"fonts/OpenSans-15.vlw", "fonts/OpenSans-Bold-15.vlw", "fonts/OpenSans-Bold-35.vlw"};
+String[] fontPaths = {"fonts/OpenSans-15.vlw", "fonts/OpenSans-Bold-15.vlw", "fonts/OpenSans-Bold-35.vlw", "fonts/OpenSans-13.vlw"};
 PFont[] fonts;

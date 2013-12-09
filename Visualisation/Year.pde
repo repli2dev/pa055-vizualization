@@ -72,12 +72,12 @@ class Year {
     int baseX = screenWidth - legendRightMargin;
     fill(red(brownLight), green(brownLight), blue(brownLight), 100);
     rect(baseX, legendTopMargin, 20,20);
-    fill(red(brownLight), green(brownLight), blue(brownLight), 200);
+        fill(red(brownLight), green(brownLight), blue(brownLight), 255);
     text("Logické",baseX+30, legendTopMargin+textAscent()*1.3);
  
     fill(red(brownLight), green(brownLight), blue(brownLight), 170);
     rect(baseX,legendTopMargin+30, 20,20);
-    fill(red(brownLight), green(brownLight), blue(brownLight), 235);
+    fill(red(brownLight), green(brownLight), blue(brownLight), 255);
     text("Programovací",baseX+30, legendTopMargin+30+textAscent()*1.3);
     
     fill(red(brownLight), green(brownLight), blue(brownLight), 255);
@@ -90,7 +90,7 @@ class Year {
     
     fill(red(red), green(red), blue(red), 150);
     rect(baseX+180, legendTopMargin+30, 20,20);
-    text("Penalisation",baseX+210, legendTopMargin+30+textAscent()*1.3);
+    text("Penalizace",baseX+210, legendTopMargin+30+textAscent()*1.3);
   }
 
   /** background and horisontal axes in data area

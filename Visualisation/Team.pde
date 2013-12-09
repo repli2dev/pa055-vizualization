@@ -1,3 +1,9 @@
+/** @file Team.pde
+ * @author Jan Drabek, Martin Ukrop
+ * @brief Class which holds informations about team and all states during the game.
+ *        Manages data area drawing.
+ */
+ 
 class Team {
   String name;
   int id;
@@ -36,7 +42,55 @@ class Team {
 
     fill(red(red), green(red), blue(red), 150);
     float yPos = ceil(y-currentState.scoreLogical/ratio - currentState.scoreProgramming/ratio - currentState.scoreIdea/ratio - currentState.bonus/ratio);
-    rect(x, yPos, teamColumnWidth, currentState.penalisation/ratio);    
+    rect(x, yPos, teamColumnWidth, currentState.penalisation/ratio);
+
+    // Render notification about changes above the team bar
+    if(currentTimePoint == 301) {  // Ignore when on the end of animation
+      return;
+    }
+    int[] changes = getChanges();
+    int notificationRendered = 0;
+    textFont(fonts[3]);
+    textAlign(CENTER);
+    for(int i = 0; i < changes.length; i++) {
+      if(changes[i] != 0) {
+        if(changes[i] < 0) {
+          fill(red(red), green(red), blue(red), map(i, changes.length, 0, 40, 255));
+        } else {
+          fill(red(green), green(green), blue(green), map(i, changes.length, 0, 40, 255));
+        }
+        text(changes[i], x+teamColumnWidth/2, yPos-5-15*notificationRendered);
+        notificationRendered++;
+      }
+    }
+    textAlign(LEFT);
+    textFont(fonts[0]);
+  }
+  
+  int computeHistoryLength() {
+    return floor(map(globalAnimationSpeed*10, 0, 10, 1, 25));
+  }
+  
+  int[] getChanges() {
+    int historyLength = computeHistoryLength();
+    int[] changes = new int[historyLength];
+    int last = 0;
+    for(int i = currentTimePoint; i > 0 && currentTimePoint - i < historyLength; i--) {
+      changes[last++] = (getChangeBetweenStates(i, i-1));
+    } 
+    return changes;
+  }
+  
+  int getChangeBetweenStates(int currentID, int previousID) {
+    State current = states[currentID];
+    State previous = states[previousID];
+    int diff = 0;
+    diff += current.scoreProgramming - previous.scoreProgramming;
+    diff += current.scoreLogical - previous.scoreLogical;
+    diff += current.scoreIdea - previous.scoreIdea;
+    diff += current.bonus - previous.bonus;
+    diff -= current.penalisation - previous.penalisation;
+    return diff;
   }
   
   void drawInfo(int XOffset, int x, int y) {
