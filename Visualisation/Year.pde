@@ -67,7 +67,10 @@ class Year {
       renderedTeams += 1;
     }
   }
-  
+
+  /** 
+   * Draw data legend left from logos
+   */  
   void drawDataLegend() {
     int baseX = screenWidth - legendRightMargin;
     fill(red(brownLight), green(brownLight), blue(brownLight), 100);
@@ -186,7 +189,10 @@ class Year {
     categsText += ")";
     text(categsText, afterTitle+10, 3*dataTopMargin/5);
   }
-  
+
+  /**
+   * Draw team details boxes for currently selected teams.
+   */  
   void drawTeamInfo() {
     if(currentTeamLeft >= 0  && currentTeamLeft < teams.size()) {
       teams.get(currentTeamLeft).drawInfo(0, dataLeftMargin, screenHeight-controlPanelHeight-dataBottomMargin+teamDetailMargin);  
@@ -202,6 +208,7 @@ class Year {
   void processClick(int x, int y) {
     int baseX = dataLeftMargin;
     int baseY = screenHeight-controlPanelHeight-dataBottomMargin+teamDetailMargin;
+    // Check closing click on team detail boxes cross
     if(in(x,baseX+415, baseX+415+25) &&
        in(y, baseY, baseY+25)) {
        currentTeamLeft = -1;
@@ -214,6 +221,7 @@ class Year {
        redrawData = true;
        return;
     }
+    // Check click on team bar -> select this team
     int dataWidth = numSelectedTeams()*(teamColumnWidth+teamColumnMargin)+teamColumnMargin;
     int dataShift;
     if (dataWidth + dataLeftMargin < screenWidth) {
@@ -228,7 +236,7 @@ class Year {
       int teamY = screenHeight-controlPanelHeight-dataBottomMargin;
       if(in(x, teamX, teamX + teamColumnWidth) &&
          in(y, teamY - (screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin), teamY)) {
-           if(mouseButton == LEFT) {
+           if(mouseButton == LEFT) { // LEFT/RIGHT - for selecting two teams into two different areas
              currentTeamLeft = teamNum;
            } else if (mouseButton == RIGHT) {
              currentTeamRight = teamNum;

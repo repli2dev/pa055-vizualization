@@ -64,6 +64,6 @@ PImage bgImage;
 // logos: InterLoS, FI, MU
 String[] logoImagePaths = { "images/logo-los.png", "images/logo-fi.png", "images/logo-mu.png" };
 PImage[] logoImages;
-// used fonts: OpenSans-15, OpenSans-Bold-15, OpenSans-Bold-35
+// used fonts: OpenSans-15, OpenSans-Bold-15, OpenSans-Bold-35, , OpenSans-13
 String[] fontPaths = {"fonts/OpenSans-15.vlw", "fonts/OpenSans-Bold-15.vlw", "fonts/OpenSans-Bold-35.vlw", "fonts/OpenSans-13.vlw"};
 PFont[] fonts;

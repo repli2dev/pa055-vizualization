@@ -3,6 +3,9 @@
  * @brief main methods called on events, helper functions
  */
 
+/**
+ * method for loading and populating all years data
+ */
 void loadAllData() {
   DataLoader dl = new DataLoader();
   dl.load("2009","../Data/ProcessedDataYear2009.csv");

@@ -13,6 +13,7 @@ class DataLoader {
     String[] temp;
     Team tempTeam;
     try {
+      // Read by lines
       while((line = reader.readLine()) != null) {
         temp = split(line,"$");
         tempTeam = new Team();
@@ -21,6 +22,7 @@ class DataLoader {
         tempTeam.parseAndSetCategory(temp[2]);
         int OFFSET = 3;
         State tempState;
+        // Load all states into array
         for(int i = 0; i < 302; i++) {
           tempState = new State();
           tempState.numberOfLogical = Integer.parseInt(temp[OFFSET + 1 + i*9]);

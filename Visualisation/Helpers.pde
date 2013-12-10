@@ -4,6 +4,9 @@
  */
 
 /** interval checking, helper method
+ * @param num  value to check
+ * @param min  lower bound of interval to check
+ * @param max  upper bound of interval to check
  */
 boolean in(float num, float min, float max) {
   return (num >= min && num <= max);

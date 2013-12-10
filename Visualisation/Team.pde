@@ -44,7 +44,7 @@ class Team {
     float yPos = ceil(y-currentState.scoreLogical/ratio - currentState.scoreProgramming/ratio - currentState.scoreIdea/ratio - currentState.bonus/ratio);
     rect(x, yPos, teamColumnWidth, currentState.penalisation/ratio);
 
-    // Render notification about changes above the team bar
+    // Render notification about score changes above the team bar
     if(currentTimePoint == 301) {  // Ignore when on the end of animation
       return;
     }
@@ -67,10 +67,18 @@ class Team {
     textFont(fonts[0]);
   }
   
+  /**
+   * Resolves history length on basis of globalAnimationSpeed (faster means longer history).
+   * @return  history length to be used in current settings
+   */
   int computeHistoryLength() {
     return floor(map(globalAnimationSpeed*10, 0, 10, 1, 25));
   }
   
+  /**
+   * Get changes between minutes.
+   * @return  Array with changes between minutes going for computeHistoryLength() to the history
+   */
   int[] getChanges() {
     int historyLength = computeHistoryLength();
     int[] changes = new int[historyLength];
@@ -81,6 +89,10 @@ class Team {
     return changes;
   }
   
+  /**
+   * Retrieve score change between two given (and existing) states
+   * @return  Score difference
+   */
   int getChangeBetweenStates(int currentID, int previousID) {
     State current = states[currentID];
     State previous = states[previousID];
@@ -93,6 +105,12 @@ class Team {
     return diff;
   }
   
+  /**
+   * Draw box with team info in current timepoint.
+   * @param XOffset  where to start box
+   * @param x        X coordinate of space for detail team boxes info
+   * @param y        Y coordinate of space for detail team boxes info
+   */
   void drawInfo(int XOffset, int x, int y) {
     int boxLeft = x + XOffset;
     int boxTop = y;
@@ -136,18 +154,28 @@ class Team {
     textFont(fonts[0]);
     textAlign(LEFT);
     
+    // Closing cross
     drawCross(boxLeft+415, boxTop+8, 25);
   }
   
+  /**
+   * Parse category from text value to its int representation and set it into field.
+   * @param category    String category (college, high_school, other)
+   */
   void parseAndSetCategory(String category) {
     if(category.equals("college")) {
-      this.category = 1;
+      this.category = COLLEGE;
     } else if(category.equals("high_school")) {
-      this.category = 0;
+      this.category = HIGH_SCHOOL;
     } else {
-      this.category = 2;
+      this.category = OTHER;
     }
   }
+  
+  /**
+   * Returns name of category from internal int representation.
+   * @return category name
+   */
   String getCategoryName() {
     if(category == 0) {
       return "středoškoláci";
