@@ -7,18 +7,6 @@ class Year {
   String name;
   ArrayList<Team> teams = new ArrayList<Team>(); // Sorted by total score descending
 
-  // DATA AREA MARGINS
-  int dataBottomMargin = 90;
-  int dataTopMargin = 120;
-  int dataLeftMargin = 100;
-  int legendRightMargin = 500;
-  int legendTopMargin = 20;
-
-  // width of horisontal axes
-  int axesStroke = 4;
-  // number of point between 2 horisontal axes
-  int axesPointsInterval = 5000;
-
   /** number of horisontl axws behind bars
    * determined from total score of the best team at the end
    */
@@ -59,9 +47,23 @@ class Year {
         screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin
       );
       if(currentTeamLeft == teamNum || currentTeamRight == teamNum) {
-        if(currentTeamLeft == teamNum) fill(green);
-        if(currentTeamRight == teamNum) fill(red);
+        if(currentTeamLeft == teamNum) {
+          fill(green);
+          stroke(green,155);
+        }
+        if(currentTeamRight == teamNum) {
+          fill(red);
+          stroke(red,155);
+        }
         ellipse(x+teamColumnWidth/2, screenHeight-controlPanelHeight-dataBottomMargin+3, 10, 10);
+        strokeWeight(2);
+        float y = teams.get(teamNum).getLevel(
+          screenHeight-controlPanelHeight-dataBottomMargin, 
+          numAxes()*axesPointsInterval, 
+          screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin
+        ); 
+        if (y != 0) line(dataLeftMargin, y, screenWidth, y);
+        noStroke();
       }
       
       renderedTeams += 1;

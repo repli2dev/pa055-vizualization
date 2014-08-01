@@ -37,6 +37,8 @@ class Controller {
   static final int BUTTON_PAUSE = 1;
   static final int BUTTON_HOME = 2;
   static final int BUTTON_END = 3;
+  static final int BUTTON_NEXT = 4;
+  static final int BUTTON_PREV = 5;
 
   /** Controller constructor
    * adjusts screen settings
@@ -64,6 +66,13 @@ class Controller {
     drawControlPanel();
     redrawData = true;
   }
+  
+  /** method for switching years */
+  void handleYearChange(boolean toNextYear) {
+    currentTeamLeft = -1;
+    currentTeamRight = -1;
+    selectedYear = (toNextYear) ? years.getNext(selectedYear) : years.getPrev(selectedYear);
+  }
 
   /** general method for mouse clicking the control panel
    * calls appropriate subrutine
@@ -77,14 +86,13 @@ class Controller {
       clickMeaningful = true;
       dataSliderPosition = changeSliderPosition(x, screenWidth, dataSliderPosition);
     }
-    // year selector click
-    if (in(x, 45, 45+80) && 
-        in(y, topYbuttons, topYbuttons+25*years.size())) {
-      clickMeaningful = true;
-      selectedYear = (y-topYbuttons)/25;
-      currentTeamLeft = -1;
-      currentTeamRight = -1;
-    }
+    // year buttons click
+    int yearTopBox = (int) (screenHeight-controlPanelHeight+70);
+    if ((in(x, 20, 40) && in(y, topYbuttons, topYbuttons+16)) ||
+        (in(x, 130, 150) && in(y, topYbuttons, topYbuttons+16))) {
+       clickMeaningful = true;
+       handleYearChange((in(x, 130, 150) && in(y, topYbuttons, topYbuttons+16)));
+     }
     // category selector click
     if (in(x, 180, 180+140) && 
         in(y, topYbuttons, topYbuttons+24.9*3)) {
@@ -125,6 +133,12 @@ class Controller {
       clickMeaningful = true;
       stopAtAnimationEnd = !stopAtAnimationEnd;
     }
+    // help button click
+    if (in(x, screenWidth-210, screenWidth-210+180) &&
+        in(y, screenHeight-60, screenHeight-60+30)) {
+          clickMeaningful = true;
+      helpDisplayed = !helpDisplayed;
+    }
     // if we clicked something meaningfull, redraw everything
     if (clickMeaningful) {
       drawControlPanel();
@@ -135,6 +149,15 @@ class Controller {
   /** general method for keys pressed
    */
   void changeSettingsViaKey() {
+    if (helpDisplayed) {
+      if (keyCode == KeyEvent.VK_H) {
+        helpDisplayed = false;
+        // redraw everything
+        drawControlPanel();
+        redrawData = true;
+      }
+      return;
+    }
     switch (keyCode) {
       case KeyEvent.VK_PAGE_DOWN:
       dataSliderPosition = min(dataSliderPosition+keySliderShift,1); break;
@@ -155,6 +178,33 @@ class Controller {
       currentTimePoint = 0; break;
       case RIGHT:
       currentTimePoint = 301; break;
+      case KeyEvent.VK_N:
+      handleYearChange(true);
+      break;
+      case KeyEvent.VK_P:
+      handleYearChange(false);
+      break;
+      case KeyEvent.VK_S:
+      globalAnimationSpeed = max(0, globalAnimationSpeed - 0.02);
+      break;
+      case KeyEvent.VK_F:
+      globalAnimationSpeed = min(1, globalAnimationSpeed + 0.02);
+      break;
+      case KeyEvent.VK_E:
+      stopAtAnimationEnd = !stopAtAnimationEnd;
+      break;
+      case KeyEvent.VK_H:
+      helpDisplayed = !helpDisplayed;
+      break;
+      case KeyEvent.VK_1:
+      selectedCategories[0] = !selectedCategories[0]; 
+      break;
+      case KeyEvent.VK_2:
+      selectedCategories[1] = !selectedCategories[1]; 
+      break;
+      case KeyEvent.VK_3:
+      selectedCategories[2] = !selectedCategories[2]; 
+      break;
       default: return; // not meaningful, do not redraw
     }
     // redraw everything
@@ -180,11 +230,11 @@ class Controller {
     String text = "ročník";
     text(text, 85-textWidth(text)/2, screenHeight-controlPanelHeight+sliderHeight+20+textAscent()/2);
     textFont(fonts[0]);
-    for (int i = 0; i < years.size(); i++) {
-      drawCircle(60, screenHeight-controlPanelHeight+70+i*25, selectedYear == i);
-      text = years.get(i).name;
-      text(text, 80, screenHeight-controlPanelHeight+70+i*25+textAscent()/2);
-    }
+    text = years.get(selectedYear).name;
+    int yearTopBox = (int) (screenHeight-controlPanelHeight+70);
+    text(text, 65, yearTopBox);
+    drawButton(30, yearTopBox - 5, BUTTON_PREV);
+    drawButton(140, yearTopBox - 5, BUTTON_NEXT);
     
     // draw categories chooser (150-350 pixels from left)
     fill(brownDark);
@@ -237,13 +287,9 @@ class Controller {
     String stopAtAnimationEnd = "skončit";
     text(stopAtAnimationEnd, buttonsXbegin + 5*buttonSpacing, speedSliderY+textAscent());
     
-    // write help
-    fill(brownDark);
-    textFont(fonts[0]);
-    text = "týmy: home/end posune na začátek/konec, page up/page down na předchozí/další stránku\n";
-    text += "           levý/pravý klik zobrazí detail týmu\n";
-    text += "animace: mezerník/enter pro přehrání/pauzu, šipka vlevo/vpravo pro skok na začátek/konec";
-    text(text, 350+sliderMargin, screenHeight-20-3*textAscent());
+    stroke(brownMedium);
+    rect(screenWidth-210, screenHeight-60, 180, 30);
+    text("nápověda & zásluhy", screenWidth-195, screenHeight-52+textAscent());
   }
   
   /** general method for slider drawing
@@ -254,6 +300,7 @@ class Controller {
    */
   void drawSlider(int x, int y, int barWidth, float position) {
     // draw bar
+    noStroke();
     fill(red(brownLight), green(brownLight), blue(brownLight), 64);
     rect(x, y, barWidth, sliderHeight);
     // compute relative x slider position
@@ -351,6 +398,12 @@ class Controller {
       case BUTTON_END:
       triangle(x-2*boxSide/6,y-2*boxSide/6, x-2*boxSide/6,y+2*boxSide/6, x+boxSide/6,y);
       rect(x+boxSide/6, y-2*boxSide/6, boxSide/6, 2*boxSide/3);
+      break;
+      case BUTTON_NEXT:
+      triangle(x-2*boxSide/6,y-2*boxSide/6, x-2*boxSide/6,y+2*boxSide/6, x+2*boxSide/6,y);
+      break;
+      case BUTTON_PREV:
+      triangle(x+2*boxSide/6,y-2*boxSide/6, x+2*boxSide/6,y+2*boxSide/6, x-2*boxSide/6,y);
       break;
       default: break;
     }

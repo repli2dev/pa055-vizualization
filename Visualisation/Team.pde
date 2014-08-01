@@ -15,6 +15,22 @@ class Team {
   
   State[] states = new State[302];  // Key = minute from beginning of game
   
+  /** returns level (y coordinate) of this team to render comparison line */
+  float getLevel(int y, int maxScore, int maxHeight) {
+      State currentState = states[currentTimePoint];
+      float ratio = getRatio(maxScore, maxHeight);
+      return ceil(y-currentState.scoreLogical/ratio - currentState.scoreProgramming/ratio - currentState.scoreIdea/ratio - currentState.bonus/ratio);
+  }
+  
+  /** returns ratio according to */
+  private float getRatio(int maxScore, int maxHeight) {
+    State currentState = states[currentTimePoint];
+    int score = currentState.getTotalScore();
+    int potentialScore = score + currentState.penalisation;
+    float colHeight = map(score, 0, maxScore, 0, maxHeight);
+    return score/colHeight;
+  }
+  
   /** draw team column
    * @param x          x of lower left corner of bar
    * @param y          y of lower left corner of bar
@@ -23,10 +39,10 @@ class Team {
    */
   void draw(int x, int y, int maxScore, int maxHeight) {
     State currentState = states[currentTimePoint];
-    int score = currentState.getTotalScore();
-    int potentialScore = score + currentState.penalisation;
-    float colHeight = map(score, 0, maxScore, 0, maxHeight);
-    float ratio = score/colHeight;
+    //int score = currentState.getTotalScore();
+    //int potentialScore = score + currentState.penalisation;
+    //float colHeight = map(score, 0, maxScore, 0, maxHeight);
+    float ratio = getRatio(maxScore, maxHeight);
     
     fill(red(brownLight), green(brownLight), blue(brownLight), 100);
     rect(x, ceil(y-currentState.scoreLogical/ratio), teamColumnWidth, ceil(currentState.scoreLogical/ratio)); // Overlaps are less problems than holes between -> ceil

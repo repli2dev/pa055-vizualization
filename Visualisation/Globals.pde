@@ -11,15 +11,17 @@ int screenWidth = 1024;
 int controlPanelHeight = 200;
 
 // CURRENT SETTINGS
-// selected year id (used as index to years array)
-int selectedYear = 4;
+// selected year as a string (see DataLoader and prepareData())
+String selectedYear = null;
 // displayed categories [stredoskolaci, vysokoskolaci, ostatni]
 boolean[] selectedCategories = {true, true, true};
 // time point in [0,301] including (used as index to states array in team)
 int currentTimePoint = 301;
 // is the animation going?
 boolean animate = false;
-boolean stopAtAnimationEnd = false;
+boolean stopAtAnimationEnd = true;
+// should be help displayed?
+boolean helpDisplayed = false;
 // animation speed in [0,1] including
 float globalAnimationSpeed = 0.35;
 // currently selected team
@@ -27,10 +29,12 @@ int currentTeamLeft = -1;
 int currentTeamRight = -1;
 
 // GLOBAL OBJECTS
-// list of years data, typically indexed by selectedYear
-ArrayList<Year> years;
+// storage for all available and already loaded years
+DataLoader years;
 // global singleton controller object 
 Controller controller;
+// global object with help
+Help help = new Help();
 
 // GLOBAL VARIABLES FOR DRAWING
 // position of data slider in [0,1] including
@@ -51,6 +55,17 @@ int teamColumnWidth = 30;
 int teamColumnMargin = 20;
 // margin between team detail info box
 int teamDetailMargin = 10;
+
+// DATA AREA CONSTANTS
+  int dataBottomMargin = 90;
+  int dataTopMargin = 120;
+  int dataLeftMargin = 100;
+  int legendRightMargin = 500;
+  int legendTopMargin = 20;
+  // width of horisontal axes
+  int axesStroke = 4;
+  // number of point between 2 horisontal axes
+  int axesPointsInterval = 5000;
 
 // COLORS AND DESIGN
 color brownDark = color(45,22,15);

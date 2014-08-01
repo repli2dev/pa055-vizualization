@@ -4,21 +4,23 @@
  */
 
 /**
- * method for loading and populating all years data
+ * method for initializing data loading
+ * NOTE: order of addition specifies order of years in app
  */
-void loadAllData() {
-  DataLoader dl = new DataLoader();
-  dl.load("2009","../Data/ProcessedDataYear2009.csv");
-  dl.load("2010","../Data/ProcessedDataYear2010.csv");
-  dl.load("2011","../Data/ProcessedDataYear2011.csv");
-  dl.load("2012","../Data/ProcessedDataYear2012.csv");
-  dl.load("2013","../Data/ProcessedDataYear2013.csv");
-  years = dl.getAll();
+void prepareData() {
+  years = new DataLoader();
+  years.addAvailableYear("2009","../Data/ProcessedDataYear2009.csv");
+  years.addAvailableYear("2010","../Data/ProcessedDataYear2010.csv");
+  years.addAvailableYear("2011","../Data/ProcessedDataYear2011.csv");
+  years.addAvailableYear("2012","../Data/ProcessedDataYear2012.csv");
+  years.addAvailableYear("2013","../Data/ProcessedDataYear2013.csv");
+  
+  selectedYear = years.getLastYear();
 }
 
 // Main program
 void setup() {
-  loadAllData();
+  prepareData();
   controller = new Controller();
 }
 
@@ -27,6 +29,10 @@ void setup() {
  * calls data redrawing, if needed
  */ 
 void draw() {
+  if (helpDisplayed) {
+    help.draw();
+    return;
+  }
   // if animating, increase counter (change based on speed)
   if (animate) {
     animateCounter += globalAnimationSpeed*100;

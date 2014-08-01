@@ -2,10 +2,52 @@
  * @author Jan Drabek, Martin Ukrop
  * @brief load and parse data from csv file which is preprocessed by script, see DataPreprocessing.py
  */
-class DataLoader {
-  private ArrayList<Year> years = new ArrayList<Year>();
+class DataLoader {  
+  private HashMap<String, String> availableYears = new HashMap<String, String>();
+  private HashMap<String, Year> years = new HashMap<String,Year>();
+  private ArrayList<String> yearsOrder = new ArrayList<String>();
   
-  void load(String year, String filePath) {
+  void addAvailableYear(String year, String filePath) {
+    availableYears.put(year, filePath);
+    yearsOrder.add(year);
+  }
+  
+  Year get(String year) {
+   if (!availableYears.containsKey(year)) {
+      return null; 
+    }
+    if (!years.containsKey(year)) {
+      load(year, availableYears.get(year));
+    }
+    return years.get(year);
+  }
+  
+  String getLastYear() {
+    if (yearsOrder.isEmpty()) {
+      return null;
+    }
+    return yearsOrder.get(yearsOrder.size()-1);
+  }
+  
+  String getNext(String current) {
+    for (int i = 0; i < yearsOrder.size(); i++) {
+      if (yearsOrder.get(i).equals(current)) {
+        return yearsOrder.get((i + 1) % yearsOrder.size());
+      }
+    }
+    return current;
+  }
+  
+  String getPrev(String current) {
+    for (int i = 0; i < yearsOrder.size(); i++) {
+      if (yearsOrder.get(i).equals(current)) {
+        return yearsOrder.get(((i + yearsOrder.size()) - 1) % yearsOrder.size());
+      }
+    }
+    return current;
+  }
+  
+  private void load(String year, String filePath) {
     Year tempYear = new Year();
     tempYear.name = year;
     BufferedReader reader = createReader(filePath);
@@ -47,10 +89,6 @@ class DataLoader {
       e.printStackTrace();
       exit();
     }
-    years.add(tempYear);
-  }
-  
-  ArrayList<Year> getAll() {
-    return years;
+    years.put(year, tempYear);
   }
 }
