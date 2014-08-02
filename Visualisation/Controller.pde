@@ -81,6 +81,15 @@ class Controller {
    */
   void changeSettingsViaClick(int x, int y) {
     boolean clickMeaningful = false;
+    // help button click
+    if (isIn(x, screenWidth-210, screenWidth-210+180) &&
+        isIn(y, screenHeight-60, screenHeight-60+30)) {
+          clickMeaningful = true;
+      helpDisplayed = !helpDisplayed;
+    }
+    if (helpDisplayed) {
+      return;
+    }
     // data slider click
     if (y < screenHeight-controlPanelHeight+sliderHeight) {
       clickMeaningful = true;
@@ -88,36 +97,36 @@ class Controller {
     }
     // year buttons click
     int yearTopBox = (int) (screenHeight-controlPanelHeight+70);
-    if ((in(x, 20, 40) && in(y, topYbuttons, topYbuttons+16)) ||
-        (in(x, 130, 150) && in(y, topYbuttons, topYbuttons+16))) {
+    if ((isIn(x, 20, 40) && isIn(y, topYbuttons, topYbuttons+16)) ||
+        (isIn(x, 130, 150) && isIn(y, topYbuttons, topYbuttons+16))) {
        clickMeaningful = true;
-       handleYearChange((in(x, 130, 150) && in(y, topYbuttons, topYbuttons+16)));
+       handleYearChange((isIn(x, 130, 150) && isIn(y, topYbuttons, topYbuttons+16)));
      }
     // category selector click
-    if (in(x, 180, 180+140) && 
-        in(y, topYbuttons, topYbuttons+24.9*3)) {
+    if (isIn(x, 180, 180+140) && 
+        isIn(y, topYbuttons, topYbuttons+24.9*3)) {
       clickMeaningful = true;
       selectedCategories[(y-topYbuttons)/25] = !selectedCategories[(y-topYbuttons)/25];
     }
     // time slider click
     int sliderTopPos = screenHeight-controlPanelHeight+sliderHeight+sliderMargin/2;
-    if (in(x, 350+sliderMargin, screenWidth-sliderMargin) && 
-        in(y, sliderTopPos, sliderTopPos+sliderHeight)) {
+    if (isIn(x, 350+sliderMargin, screenWidth-sliderMargin) && 
+        isIn(y, sliderTopPos, sliderTopPos+sliderHeight)) {
       clickMeaningful = true;
       int relativeX = x-(350+sliderMargin);
       int barWidth = screenWidth-350-2*sliderMargin;
       currentTimePoint = (int)(301*changeSliderPosition(relativeX, barWidth, (float)currentTimePoint/301));
     }
     // speed slider click
-    if (in(x, screenWidth-300+sliderMargin, screenWidth-sliderMargin) && 
-        in(y, speedSliderY, speedSliderY+sliderHeight)) {
+    if (isIn(x, screenWidth-300+sliderMargin, screenWidth-sliderMargin) && 
+        isIn(y, speedSliderY, speedSliderY+sliderHeight)) {
       clickMeaningful = true;
       int relativeX = x-(screenWidth-300+sliderMargin);
       globalAnimationSpeed = changeSliderPosition(relativeX, 300-2*sliderMargin, globalAnimationSpeed);
     }
     // animation start/stop/home/end click
-    if (in(x, buttonsXbegin-buttonSpacing/2, buttonsXbegin+5*buttonSpacing/2) &&
-        in(y, speedSliderY, speedSliderY+buttonSpacing) ) {
+    if (isIn(x, buttonsXbegin-buttonSpacing/2, buttonsXbegin+5*buttonSpacing/2) &&
+        isIn(y, speedSliderY, speedSliderY+buttonSpacing) ) {
       clickMeaningful = true;
       switch ((int)((x-buttonsXbegin+buttonSpacing/2)/buttonSpacing)) {
         case 0: currentTimePoint = 0; break;
@@ -128,16 +137,10 @@ class Controller {
       }
     }
     // stop at animation end click
-    if (in(x, buttonsXbegin + 3.5*buttonSpacing, buttonsXbegin+7*buttonSpacing) &&
-        in(y, speedSliderY, speedSliderY+buttonSpacing) ) {
+    if (isIn(x, buttonsXbegin + 3.5*buttonSpacing, buttonsXbegin+7*buttonSpacing) &&
+        isIn(y, speedSliderY, speedSliderY+buttonSpacing) ) {
       clickMeaningful = true;
       stopAtAnimationEnd = !stopAtAnimationEnd;
-    }
-    // help button click
-    if (in(x, screenWidth-210, screenWidth-210+180) &&
-        in(y, screenHeight-60, screenHeight-60+30)) {
-          clickMeaningful = true;
-      helpDisplayed = !helpDisplayed;
     }
     // if we clicked something meaningfull, redraw everything
     if (clickMeaningful) {

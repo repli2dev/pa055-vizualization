@@ -211,14 +211,14 @@ class Year {
     int baseX = dataLeftMargin;
     int baseY = screenHeight-controlPanelHeight-dataBottomMargin+teamDetailMargin;
     // Check closing click on team detail boxes cross
-    if(in(x,baseX+415, baseX+415+25) &&
-       in(y, baseY, baseY+25)) {
+    if(isIn(x,baseX+415, baseX+415+25) &&
+       isIn(y, baseY, baseY+25)) {
        currentTeamLeft = -1;
        redrawData = true;
        return;
     }
-    if(in(x,baseX+415+450, baseX+415+450+25) &&
-       in(y, baseY, baseY+25)) {
+    if(isIn(x,baseX+415+450, baseX+415+450+25) &&
+       isIn(y, baseY, baseY+25)) {
        currentTeamRight = -1;
        redrawData = true;
        return;
@@ -236,8 +236,8 @@ class Year {
       if (!selectedCategories[teams.get(teamNum).category]) continue;
       int teamX = renderedTeams*(teamColumnWidth+teamColumnMargin) + teamColumnMargin + dataLeftMargin - dataShift;
       int teamY = screenHeight-controlPanelHeight-dataBottomMargin;
-      if(in(x, teamX, teamX + teamColumnWidth) &&
-         in(y, teamY - (screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin), teamY)) {
+      if(isIn(x, teamX, teamX + teamColumnWidth) &&
+         isIn(y, teamY - (screenHeight-controlPanelHeight-dataBottomMargin-dataTopMargin), teamY)) {
            if(mouseButton == LEFT) { // LEFT/RIGHT - for selecting two teams into two different areas
              currentTeamLeft = teamNum;
            } else if (mouseButton == RIGHT) {
