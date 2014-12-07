@@ -3,12 +3,63 @@ import csv
 
 '''
 Usage:
-    1. Provide new data into RawData.csv (see format requirements below).
+    1. Provide new dump of all data into RawData.csv (see format requirements below).
     2. Run this script.
     3. Work with processed data.
 
-Raw data should be CSV file with answers sorted by time
-Use this query for obtain it form MySQL table:
+Warning: in 2014 the scoring SQL query was changed.
+         (Since then there is IF in the query below)
+
+Raw data should be CSV file (; delimiter) with answers sorted by time. There are two queries
+for obtaining it from MySQL table:
+
+Query to obtain dump of all data:
+    SELECT
+        id_year,
+        year.name, 
+        answer.id_team, 
+        team.name,
+        task.type,
+        ((date_format(answer.inserted, '%H')-15)*60 + date_format(answer.inserted, '%i')) AS minutes,
+        answer.id_answer,
+        answer.inserted,
+        IF(answer.code = task.code, "TRUE", "FALSE") AS correct,
+        answer.id_task,
+        IF(answer.code != task.code,
+            0,
+            1000-(
+                IF(
+                    year.name > 2013,
+                    (
+                        SELECT
+                            COUNT(help.id_answer)
+                        FROM answer AS help
+                        WHERE
+                            help.code = task.code AND 
+                            help.inserted <= answer.inserted AND
+                            help.id_answer < answer.id_answer AND
+                            help.id_task = answer.id_task
+                    ),
+                    (
+                        SELECT
+                            COUNT(help.id_answer)
+                        FROM answer AS help
+                        WHERE
+                            help.code = task.code AND 
+                            help.inserted < answer.inserted AND 
+                            help.id_task = answer.id_task
+                    )
+                )
+            )
+        ) AS score,
+        team.category
+    FROM answer
+    INNER JOIN task USING(id_task)
+    INNER JOIN team USING (id_team)
+    INNER JOIN year USING (id_year)
+    ORDER BY id_year, minutes, id_answer
+
+Old query (< 2014):
     SELECT
         id_year,
         year.name, 

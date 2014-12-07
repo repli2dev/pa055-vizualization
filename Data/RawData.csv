@@ -9913,3 +9913,1891 @@
 6;2013;438;Kapela pamětníků;programming;300;9970;2013-11-30 20:00:32;FALSE;126;0;other
 6;2013;459;Jemen!;logical;300;9971;2013-11-30 20:00:32;FALSE;112;0;other
 6;2013;454;Carpe Testudo;programming;300;9972;2013-11-30 20:00:55;FALSE;124;0;college
+7;2014;660;Segmentation fault;programming;4;9973;2014-12-06 15:04:19;FALSE;138;0;other
+7;2014;660;Segmentation fault;idea;4;9974;2014-12-06 15:04:59;TRUE;156;1000;other
+7;2014;619;Tykadla;idea;5;9975;2014-12-06 15:05:31;TRUE;156;999;other
+7;2014;634;DuJour a spol.;idea;6;9976;2014-12-06 15:06:26;TRUE;156;998;other
+7;2014;558;Přizdisráči;idea;6;9977;2014-12-06 15:06:31;TRUE;156;997;other
+7;2014;625;paranoidontoza;idea;6;9978;2014-12-06 15:06:51;TRUE;156;996;college
+7;2014;581;Ešte sa dohodneme;idea;7;9979;2014-12-06 15:07:59;TRUE;158;1000;college
+7;2014;570;Dršťkový Havran Masového Kašpárka;idea;8;9980;2014-12-06 15:08:30;TRUE;156;995;other
+7;2014;715;Na ISTotu;idea;8;9981;2014-12-06 15:08:34;TRUE;156;994;other
+7;2014;717;prase.old;idea;9;9982;2014-12-06 15:09:24;TRUE;156;993;college
+7;2014;587;Betonoví;idea;9;9983;2014-12-06 15:09:28;TRUE;156;992;other
+7;2014;582;Spící Volové;idea;9;9984;2014-12-06 15:09:42;TRUE;156;991;other
+7;2014;653;Chróúst?!;idea;10;9985;2014-12-06 15:10:00;FALSE;156;0;college
+7;2014;674;Cykličtí mamuti;idea;10;9986;2014-12-06 15:10:07;TRUE;158;999;college
+7;2014;649;Brouk v hlavě;idea;10;9987;2014-12-06 15:10:14;TRUE;156;990;other
+7;2014;566;Vepři ve při;idea;10;9988;2014-12-06 15:10:25;TRUE;156;989;other
+7;2014;642;Kundegenatka;idea;10;9989;2014-12-06 15:10:48;TRUE;156;988;other
+7;2014;590;Maséři jako hovado;idea;10;9990;2014-12-06 15:10:56;TRUE;156;987;college
+7;2014;607;Laserová Prasátka;idea;11;9991;2014-12-06 15:11:24;TRUE;156;986;high_school
+7;2014;558;Přizdisráči;idea;11;9992;2014-12-06 15:11:27;TRUE;158;998;other
+7;2014;644;Carpe Testudo;programming;12;9993;2014-12-06 15:12:09;TRUE;140;1000;college
+7;2014;669;NaPALM;idea;12;9994;2014-12-06 15:12:17;TRUE;156;985;other
+7;2014;713;Artificial Instinct;idea;12;9995;2014-12-06 15:12:51;TRUE;156;984;other
+7;2014;602;voy-a-ger;idea;12;9996;2014-12-06 15:12:58;TRUE;156;983;college
+7;2014;643;Absolutno;idea;13;9997;2014-12-06 15:13:03;TRUE;156;982;other
+7;2014;581;Ešte sa dohodneme;idea;13;9998;2014-12-06 15:13:11;TRUE;156;981;college
+7;2014;567;Kapela pamětníků;idea;13;9999;2014-12-06 15:13:47;TRUE;156;980;college
+7;2014;608;dostal;idea;13;10000;2014-12-06 15:13:53;TRUE;156;979;other
+7;2014;591;Pomocná škola;programming;13;10001;2014-12-06 15:13:54;TRUE;140;999;other
+7;2014;579;Akomodace hrachu;idea;14;10002;2014-12-06 15:14:29;TRUE;156;978;other
+7;2014;653;Chróúst?!;idea;15;10003;2014-12-06 15:15:00;TRUE;156;977;college
+7;2014;636;HALUZna ORGanizacia;programming;15;10004;2014-12-06 15:15:23;TRUE;140;998;other
+7;2014;585;2B|~2B;idea;15;10005;2014-12-06 15:15:25;TRUE;156;976;other
+7;2014;644;Carpe Testudo;idea;16;10006;2014-12-06 15:16:00;TRUE;158;997;college
+7;2014;681;GJAR;idea;16;10007;2014-12-06 15:16:02;FALSE;157;0;high_school
+7;2014;674;Cykličtí mamuti;idea;16;10008;2014-12-06 15:16:36;TRUE;156;975;college
+7;2014;703;Shashlick;idea;16;10009;2014-12-06 15:16:40;TRUE;158;996;other
+7;2014;674;Cykličtí mamuti;programming;17;10010;2014-12-06 15:17:14;TRUE;140;997;college
+7;2014;655;Jahodaaa;idea;17;10011;2014-12-06 15:17:54;TRUE;157;1000;college
+7;2014;585;2B|~2B;idea;19;10012;2014-12-06 15:19:47;TRUE;158;995;other
+7;2014;664;Škrkny;idea;19;10013;2014-12-06 15:19:51;TRUE;157;999;high_school
+7;2014;618;Sráči;idea;20;10014;2014-12-06 15:20:10;TRUE;156;974;other
+7;2014;650;Piliny všude okolo;idea;20;10015;2014-12-06 15:20:13;TRUE;156;973;other
+7;2014;625;paranoidontoza;programming;20;10016;2014-12-06 15:20:16;TRUE;140;996;college
+7;2014;583;müssüssüppü;idea;20;10017;2014-12-06 15:20:37;TRUE;156;972;other
+7;2014;636;HALUZna ORGanizacia;idea;20;10018;2014-12-06 15:20:48;TRUE;158;994;other
+7;2014;591;Pomocná škola;idea;20;10019;2014-12-06 15:20:49;TRUE;156;971;other
+7;2014;602;voy-a-ger;idea;21;10020;2014-12-06 15:21:15;TRUE;158;993;college
+7;2014;636;HALUZna ORGanizacia;idea;21;10021;2014-12-06 15:21:17;TRUE;156;970;other
+7;2014;598;Teoretická pantomima;idea;21;10022;2014-12-06 15:21:40;TRUE;156;969;other
+7;2014;694;Psycho;idea;21;10023;2014-12-06 15:21:42;TRUE;156;968;college
+7;2014;625;paranoidontoza;idea;21;10024;2014-12-06 15:21:42;TRUE;158;992;college
+7;2014;573;kancl;idea;22;10025;2014-12-06 15:22:05;TRUE;156;967;other
+7;2014;557;Bifurkační tým;idea;22;10026;2014-12-06 15:22:16;TRUE;158;991;other
+7;2014;558;Přizdisráči;idea;22;10027;2014-12-06 15:22:26;TRUE;157;998;other
+7;2014;653;Chróúst?!;idea;23;10028;2014-12-06 15:23:02;TRUE;158;990;college
+7;2014;579;Akomodace hrachu;idea;23;10029;2014-12-06 15:23:30;TRUE;157;997;other
+7;2014;663;nechci-uvést;programming;23;10030;2014-12-06 15:23:40;TRUE;138;1000;other
+7;2014;699;mop;logical;24;10031;2014-12-06 15:24:01;TRUE;149;1000;other
+7;2014;697;n či π?;idea;24;10032;2014-12-06 15:24:15;FALSE;158;0;other
+7;2014;622;Horší už to nebude;idea;24;10033;2014-12-06 15:24:27;TRUE;156;966;other
+7;2014;610;dušou blondínky;idea;25;10034;2014-12-06 15:25:01;TRUE;156;965;other
+7;2014;634;DuJour a spol.;logical;25;10035;2014-12-06 15:25:15;TRUE;149;999;other
+7;2014;618;Sráči;idea;25;10036;2014-12-06 15:25:22;TRUE;158;989;other
+7;2014;579;Akomodace hrachu;programming;25;10037;2014-12-06 15:25:40;FALSE;139;0;other
+7;2014;559;Night Wolves;idea;26;10038;2014-12-06 15:26:31;TRUE;158;988;other
+7;2014;585;2B|~2B;programming;26;10039;2014-12-06 15:26:52;TRUE;140;995;other
+7;2014;643;Absolutno;idea;27;10040;2014-12-06 15:27:25;TRUE;157;996;other
+7;2014;619;Tykadla;idea;27;10041;2014-12-06 15:27:38;TRUE;157;995;other
+7;2014;639;Pod PSA;programming;27;10042;2014-12-06 15:27:48;TRUE;139;1000;other
+7;2014;619;Tykadla;logical;27;10043;2014-12-06 15:27:52;TRUE;147;1000;other
+7;2014;588;Tweety neni kura!;logical;28;10044;2014-12-06 15:28:02;TRUE;149;998;other
+7;2014;655;Jahodaaa;programming;28;10045;2014-12-06 15:28:19;TRUE;140;994;college
+7;2014;669;NaPALM;idea;28;10046;2014-12-06 15:28:32;TRUE;158;987;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;idea;29;10047;2014-12-06 15:29:24;TRUE;157;994;other
+7;2014;664;Škrkny;idea;29;10048;2014-12-06 15:29:28;TRUE;156;964;high_school
+7;2014;596;Lišky ve vaně;idea;29;10049;2014-12-06 15:29:43;TRUE;156;963;college
+7;2014;579;Akomodace hrachu;logical;29;10050;2014-12-06 15:29:46;TRUE;149;997;other
+7;2014;572;Alea;programming;30;10051;2014-12-06 15:30:05;FALSE;138;0;college
+7;2014;566;Vepři ve při;logical;30;10052;2014-12-06 15:30:45;TRUE;147;999;other
+7;2014;707;Polomacane rastlinky;programming;31;10053;2014-12-06 15:31:07;TRUE;140;993;other
+7;2014;575;Jeníčci;logical;31;10054;2014-12-06 15:31:13;FALSE;147;0;other
+7;2014;688;ideme;idea;31;10055;2014-12-06 15:31:14;TRUE;156;962;college
+7;2014;662;Dlhani a dlhaci;programming;31;10056;2014-12-06 15:31:15;TRUE;140;992;other
+7;2014;600;Akce grupy;logical;31;10057;2014-12-06 15:31:30;TRUE;149;996;other
+7;2014;614;Vexator Exoticus;idea;31;10058;2014-12-06 15:31:45;TRUE;158;986;college
+7;2014;602;voy-a-ger;logical;31;10059;2014-12-06 15:31:50;TRUE;149;995;college
+7;2014;572;Alea;programming;32;10060;2014-12-06 15:32:09;FALSE;138;0;college
+7;2014;577;žufouni;idea;32;10061;2014-12-06 15:32:30;TRUE;156;961;other
+7;2014;581;Ešte sa dohodneme;logical;32;10062;2014-12-06 15:32:35;TRUE;147;998;college
+7;2014;660;Segmentation fault;programming;32;10063;2014-12-06 15:32:48;FALSE;140;0;other
+7;2014;584;Stěrači;idea;32;10064;2014-12-06 15:32:50;TRUE;158;985;college
+7;2014;642;Kundegenatka;idea;33;10065;2014-12-06 15:33:28;TRUE;158;984;other
+7;2014;666;Oxymoroni;idea;33;10066;2014-12-06 15:33:31;TRUE;157;993;high_school
+7;2014;616;7MD squad;idea;34;10067;2014-12-06 15:34:11;TRUE;156;960;other
+7;2014;557;Bifurkační tým;logical;34;10068;2014-12-06 15:34:11;TRUE;149;994;other
+7;2014;656;Ý;idea;34;10069;2014-12-06 15:34:38;TRUE;158;983;other
+7;2014;695;Kajšmentke;idea;35;10070;2014-12-06 15:35:07;FALSE;157;0;high_school
+7;2014;696;Dumbledore's army;idea;35;10071;2014-12-06 15:35:08;FALSE;158;0;high_school
+7;2014;697;n či π?;programming;35;10072;2014-12-06 15:35:09;TRUE;138;999;other
+7;2014;600;Akce grupy;idea;35;10073;2014-12-06 15:35:27;TRUE;156;959;other
+7;2014;660;Segmentation fault;programming;35;10074;2014-12-06 15:35:42;FALSE;140;0;other
+7;2014;558;Přizdisráči;programming;35;10075;2014-12-06 15:35:47;FALSE;138;0;other
+7;2014;575;Jeníčci;programming;36;10076;2014-12-06 15:36:02;TRUE;138;998;other
+7;2014;636;HALUZna ORGanizacia;logical;36;10077;2014-12-06 15:36:21;FALSE;149;0;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;36;10078;2014-12-06 15:36:27;TRUE;139;999;other
+7;2014;581;Ešte sa dohodneme;programming;36;10079;2014-12-06 15:36:28;TRUE;138;997;college
+7;2014;708;Baklažán;programming;37;10080;2014-12-06 15:37:17;FALSE;139;0;high_school
+7;2014;566;Vepři ve při;logical;37;10081;2014-12-06 15:37:36;TRUE;149;993;other
+7;2014;660;Segmentation fault;programming;37;10082;2014-12-06 15:37:51;TRUE;140;991;other
+7;2014;662;Dlhani a dlhaci;logical;37;10083;2014-12-06 15:37:57;TRUE;149;992;other
+7;2014;663;nechci-uvést;idea;38;10084;2014-12-06 15:38:03;TRUE;156;958;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;logical;38;10085;2014-12-06 15:38:06;TRUE;149;991;college
+7;2014;634;DuJour a spol.;programming;38;10086;2014-12-06 15:38:13;FALSE;138;0;other
+7;2014;636;HALUZna ORGanizacia;logical;38;10087;2014-12-06 15:38:17;TRUE;149;990;other
+7;2014;561;supermuf;programming;38;10088;2014-12-06 15:38:18;TRUE;138;996;other
+7;2014;670;Geek Squad;logical;38;10089;2014-12-06 15:38:31;TRUE;149;989;other
+7;2014;614;Vexator Exoticus;idea;38;10090;2014-12-06 15:38:31;TRUE;156;957;college
+7;2014;602;voy-a-ger;idea;38;10091;2014-12-06 15:38:55;TRUE;157;992;college
+7;2014;558;Přizdisráči;programming;38;10092;2014-12-06 15:38:59;TRUE;138;995;other
+7;2014;582;Spící Volové;logical;39;10093;2014-12-06 15:39:00;TRUE;149;988;other
+7;2014;591;Pomocná škola;programming;39;10094;2014-12-06 15:39:20;TRUE;138;994;other
+7;2014;643;Absolutno;logical;39;10095;2014-12-06 15:39:20;TRUE;149;987;other
+7;2014;696;Dumbledore's army;idea;39;10096;2014-12-06 15:39:22;FALSE;158;0;high_school
+7;2014;625;paranoidontoza;logical;39;10097;2014-12-06 15:39:22;TRUE;149;986;college
+7;2014;669;NaPALM;logical;39;10098;2014-12-06 15:39:33;FALSE;149;0;other
+7;2014;562;BSOD;logical;40;10099;2014-12-06 15:40:03;TRUE;149;985;high_school
+7;2014;638;Ajťáci-VASS;idea;40;10100;2014-12-06 15:40:15;TRUE;156;956;high_school
+7;2014;619;Tykadla;programming;40;10101;2014-12-06 15:40:39;TRUE;138;993;other
+7;2014;696;Dumbledore's army;idea;40;10102;2014-12-06 15:40:51;FALSE;158;0;high_school
+7;2014;624;Zebra řez;idea;40;10103;2014-12-06 15:40:52;TRUE;156;955;other
+7;2014;584;Stěrači;idea;40;10104;2014-12-06 15:40:59;FALSE;157;0;college
+7;2014;594;Aplikovaní Hrošíci;logical;41;10105;2014-12-06 15:41:06;TRUE;148;1000;other
+7;2014;715;Na ISTotu;idea;41;10106;2014-12-06 15:41:17;TRUE;157;991;other
+7;2014;623;Error 37;logical;41;10107;2014-12-06 15:41:29;FALSE;149;0;other
+7;2014;644;Carpe Testudo;logical;41;10108;2014-12-06 15:41:35;TRUE;149;984;college
+7;2014;560;Floccinaucinihilipilification;idea;41;10109;2014-12-06 15:41:35;TRUE;158;982;high_school
+7;2014;696;Dumbledore's army;idea;41;10110;2014-12-06 15:41:36;FALSE;158;0;high_school
+7;2014;602;voy-a-ger;programming;41;10111;2014-12-06 15:41:39;TRUE;140;990;college
+7;2014;653;Chróúst?!;logical;41;10112;2014-12-06 15:41:44;TRUE;149;983;college
+7;2014;663;nechci-uvést;programming;41;10113;2014-12-06 15:41:47;TRUE;140;989;other
+7;2014;573;kancl;programming;41;10114;2014-12-06 15:41:51;TRUE;140;988;other
+7;2014;579;Akomodace hrachu;idea;41;10115;2014-12-06 15:41:59;TRUE;158;981;other
+7;2014;708;Baklažán;programming;42;10116;2014-12-06 15:42:11;FALSE;139;0;high_school
+7;2014;584;Stěrači;idea;42;10117;2014-12-06 15:42:18;TRUE;156;954;college
+7;2014;623;Error 37;logical;42;10118;2014-12-06 15:42:58;TRUE;149;982;other
+7;2014;575;Jeníčci;idea;43;10119;2014-12-06 15:43:08;TRUE;156;953;other
+7;2014;605;Jak se nám líbí!;idea;43;10120;2014-12-06 15:43:19;TRUE;156;952;other
+7;2014;696;Dumbledore's army;idea;43;10121;2014-12-06 15:43:24;FALSE;158;0;high_school
+7;2014;603;Nejnekvazidiagonalizovávatelnější;idea;43;10122;2014-12-06 15:43:29;TRUE;156;951;college
+7;2014;696;Dumbledore's army;idea;44;10123;2014-12-06 15:44:04;FALSE;158;0;high_school
+7;2014;619;Tykadla;programming;44;10124;2014-12-06 15:44:16;FALSE;140;0;other
+7;2014;674;Cykličtí mamuti;idea;44;10125;2014-12-06 15:44:32;TRUE;157;990;college
+7;2014;634;DuJour a spol.;programming;44;10126;2014-12-06 15:44:50;TRUE;138;992;other
+7;2014;566;Vepři ve při;idea;45;10127;2014-12-06 15:45:04;TRUE;157;989;other
+7;2014;624;Zebra řez;logical;45;10128;2014-12-06 15:45:10;TRUE;149;981;other
+7;2014;569;Vojtíci;programming;45;10129;2014-12-06 15:45:12;TRUE;138;991;other
+7;2014;696;Dumbledore's army;idea;45;10130;2014-12-06 15:45:21;FALSE;158;0;high_school
+7;2014;669;NaPALM;logical;45;10131;2014-12-06 15:45:42;TRUE;149;980;other
+7;2014;635;Lososi na sněhu;idea;45;10132;2014-12-06 15:45:49;TRUE;156;950;other
+7;2014;710;InterLost;programming;45;10133;2014-12-06 15:45:54;TRUE;140;987;high_school
+7;2014;641;Palachinky;idea;46;10135;2014-12-06 15:46:13;FALSE;158;0;high_school
+7;2014;701;J&T;logical;46;10136;2014-12-06 15:46:14;FALSE;149;0;college
+7;2014;560;Floccinaucinihilipilification;logical;46;10137;2014-12-06 15:46:23;TRUE;149;979;high_school
+7;2014;671;Gothics;programming;46;10138;2014-12-06 15:46:29;FALSE;138;0;high_school
+7;2014;619;Tykadla;programming;46;10139;2014-12-06 15:46:29;TRUE;140;986;other
+7;2014;582;Spící Volové;idea;46;10140;2014-12-06 15:46:36;TRUE;158;980;other
+7;2014;682;Křenka3D;programming;46;10141;2014-12-06 15:46:38;FALSE;139;0;high_school
+7;2014;701;J&T;logical;46;10142;2014-12-06 15:46:44;FALSE;149;0;college
+7;2014;666;Oxymoroni;programming;47;10143;2014-12-06 15:47:00;TRUE;140;985;high_school
+7;2014;663;nechci-uvést;idea;47;10144;2014-12-06 15:47:16;TRUE;157;988;other
+7;2014;588;Tweety neni kura!;idea;47;10145;2014-12-06 15:47:35;TRUE;156;949;other
+7;2014;696;Dumbledore's army;logical;47;10146;2014-12-06 15:47:37;TRUE;149;978;high_school
+7;2014;666;Oxymoroni;idea;47;10147;2014-12-06 15:47:45;TRUE;156;948;high_school
+7;2014;671;Gothics;programming;47;10148;2014-12-06 15:47:46;FALSE;138;0;high_school
+7;2014;698;KOHYHB;logical;47;10149;2014-12-06 15:47:51;TRUE;148;999;other
+7;2014;631;Honzovi andilci;programming;48;10150;2014-12-06 15:48:27;FALSE;140;0;college
+7;2014;596;Lišky ve vaně;idea;48;10151;2014-12-06 15:48:37;FALSE;158;0;college
+7;2014;696;Dumbledore's army;idea;48;10152;2014-12-06 15:48:49;FALSE;158;0;high_school
+7;2014;658;absolutně černé ovce;programming;49;10153;2014-12-06 15:49:10;FALSE;139;0;college
+7;2014;696;Dumbledore's army;idea;49;10154;2014-12-06 15:49:19;FALSE;158;0;high_school
+7;2014;596;Lišky ve vaně;idea;49;10155;2014-12-06 15:49:34;TRUE;158;979;college
+7;2014;585;2B|~2B;programming;49;10156;2014-12-06 15:49:35;TRUE;138;990;other
+7;2014;597;Stoosum;logical;49;10157;2014-12-06 15:49:45;TRUE;148;998;other
+7;2014;588;Tweety neni kura!;idea;49;10158;2014-12-06 15:49:50;FALSE;158;0;other
+7;2014;572;Alea;logical;49;10159;2014-12-06 15:49:53;TRUE;149;977;college
+7;2014;717;prase.old;logical;49;10160;2014-12-06 15:49:58;TRUE;147;997;college
+7;2014;715;Na ISTotu;idea;50;10161;2014-12-06 15:50:00;TRUE;158;978;other
+7;2014;699;mop;idea;50;10162;2014-12-06 15:50:40;TRUE;156;947;other
+7;2014;558;Přizdisráči;programming;51;10163;2014-12-06 15:51:29;TRUE;140;984;other
+7;2014;693;Haluškin tým;logical;51;10164;2014-12-06 15:51:54;FALSE;149;0;college
+7;2014;661;Samozvaný Bagr;logical;52;10165;2014-12-06 15:52:09;TRUE;149;976;college
+7;2014;623;Error 37;idea;52;10166;2014-12-06 15:52:58;FALSE;158;0;other
+7;2014;716;Páni zla;programming;53;10167;2014-12-06 15:53:22;TRUE;138;989;other
+7;2014;557;Bifurkační tým;idea;53;10168;2014-12-06 15:53:36;TRUE;156;946;other
+7;2014;579;Akomodace hrachu;programming;53;10169;2014-12-06 15:53:58;TRUE;139;998;other
+7;2014;624;Zebra řez;programming;54;10170;2014-12-06 15:54:30;TRUE;138;988;other
+7;2014;562;BSOD;idea;54;10171;2014-12-06 15:54:32;TRUE;158;977;high_school
+7;2014;686;Gabenův snack bar;logical;54;10172;2014-12-06 15:54:41;FALSE;147;0;college
+7;2014;635;Lososi na sněhu;idea;55;10173;2014-12-06 15:55:19;TRUE;158;976;other
+7;2014;627;Bazembos;idea;55;10174;2014-12-06 15:55:19;TRUE;156;945;other
+7;2014;602;voy-a-ger;logical;55;10175;2014-12-06 15:55:32;TRUE;148;997;college
+7;2014;717;prase.old;idea;55;10176;2014-12-06 15:55:36;TRUE;158;975;college
+7;2014;609;Dont Panic;idea;55;10177;2014-12-06 15:55:36;TRUE;156;944;other
+7;2014;686;Gabenův snack bar;programming;56;10178;2014-12-06 15:56:09;FALSE;140;0;college
+7;2014;577;žufouni;programming;56;10179;2014-12-06 15:56:10;TRUE;140;983;other
+7;2014;634;DuJour a spol.;logical;56;10180;2014-12-06 15:56:30;TRUE;148;996;other
+7;2014;660;Segmentation fault;idea;56;10181;2014-12-06 15:56:38;FALSE;158;0;other
+7;2014;594;Aplikovaní Hrošíci;programming;57;10182;2014-12-06 15:57:11;FALSE;140;0;other
+7;2014;660;Segmentation fault;idea;57;10183;2014-12-06 15:57:12;TRUE;158;974;other
+7;2014;655;Jahodaaa;idea;57;10184;2014-12-06 15:57:23;TRUE;156;943;college
+7;2014;633;Kerberos;programming;57;10185;2014-12-06 15:57:39;TRUE;140;982;other
+7;2014;669;NaPALM;programming;57;10186;2014-12-06 15:57:58;TRUE;140;981;other
+7;2014;623;Error 37;idea;58;10187;2014-12-06 15:58:07;FALSE;158;0;other
+7;2014;607;Laserová Prasátka;logical;58;10188;2014-12-06 15:58:10;TRUE;149;975;high_school
+7;2014;621;GJAK UB;idea;58;10189;2014-12-06 15:58:24;TRUE;156;942;high_school
+7;2014;658;absolutně černé ovce;programming;58;10190;2014-12-06 15:58:52;FALSE;139;0;college
+7;2014;658;absolutně černé ovce;idea;59;10191;2014-12-06 15:59:26;TRUE;156;941;college
+7;2014;608;dostal;logical;60;10192;2014-12-06 16:00:05;TRUE;149;974;other
+7;2014;581;Ešte sa dohodneme;logical;60;10193;2014-12-06 16:00:24;FALSE;149;0;college
+7;2014;581;Ešte sa dohodneme;logical;61;10194;2014-12-06 16:01:09;TRUE;149;973;college
+7;2014;566;Vepři ve při;programming;61;10195;2014-12-06 16:01:25;FALSE;140;0;other
+7;2014;558;Přizdisráči;logical;61;10196;2014-12-06 16:01:46;TRUE;147;996;other
+7;2014;631;Honzovi andilci;logical;61;10197;2014-12-06 16:01:51;TRUE;148;995;college
+7;2014;636;HALUZna ORGanizacia;programming;62;10198;2014-12-06 16:02:05;TRUE;138;987;other
+7;2014;717;prase.old;idea;62;10199;2014-12-06 16:02:08;TRUE;157;987;college
+7;2014;644;Carpe Testudo;logical;62;10200;2014-12-06 16:02:14;TRUE;148;994;college
+7;2014;597;Stoosum;logical;62;10201;2014-12-06 16:02:18;TRUE;149;972;other
+7;2014;662;Dlhani a dlhaci;idea;62;10202;2014-12-06 16:02:40;TRUE;158;973;other
+7;2014;625;paranoidontoza;idea;62;10203;2014-12-06 16:02:46;TRUE;157;986;college
+7;2014;709;Alzheimer;idea;62;10204;2014-12-06 16:02:51;FALSE;156;0;high_school
+7;2014;597;Stoosum;idea;63;10205;2014-12-06 16:03:13;TRUE;156;940;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;programming;63;10206;2014-12-06 16:03:17;FALSE;140;0;college
+7;2014;633;Kerberos;idea;63;10207;2014-12-06 16:03:28;TRUE;156;939;other
+7;2014;635;Lososi na sněhu;logical;63;10208;2014-12-06 16:03:29;TRUE;148;993;other
+7;2014;581;Ešte sa dohodneme;programming;63;10209;2014-12-06 16:03:35;TRUE;140;980;college
+7;2014;560;Floccinaucinihilipilification;idea;63;10210;2014-12-06 16:03:39;TRUE;157;985;high_school
+7;2014;566;Vepři ve při;programming;64;10211;2014-12-06 16:04:01;FALSE;140;0;other
+7;2014;660;Segmentation fault;logical;64;10212;2014-12-06 16:04:17;TRUE;149;971;other
+7;2014;577;žufouni;idea;64;10213;2014-12-06 16:04:31;TRUE;158;972;other
+7;2014;674;Cykličtí mamuti;logical;64;10214;2014-12-06 16:04:47;TRUE;147;995;college
+7;2014;643;Absolutno;programming;64;10215;2014-12-06 16:04:54;TRUE;140;979;other
+7;2014;707;Polomacane rastlinky;idea;65;10216;2014-12-06 16:05:28;TRUE;156;938;other
+7;2014;607;Laserová Prasátka;idea;65;10217;2014-12-06 16:05:38;TRUE;157;984;high_school
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;programming;65;10218;2014-12-06 16:05:40;FALSE;140;0;college
+7;2014;558;Přizdisráči;logical;65;10219;2014-12-06 16:05:54;TRUE;148;992;other
+7;2014;618;Sráči;idea;66;10220;2014-12-06 16:06:13;TRUE;157;983;other
+7;2014;663;nechci-uvést;logical;66;10221;2014-12-06 16:06:44;TRUE;149;970;other
+7;2014;627;Bazembos;idea;66;10222;2014-12-06 16:06:57;TRUE;158;971;other
+7;2014;566;Vepři ve při;programming;66;10223;2014-12-06 16:06:58;FALSE;140;0;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;idea;67;10224;2014-12-06 16:07:13;FALSE;158;0;college
+7;2014;673;Slečna a páni vod direkce;idea;67;10225;2014-12-06 16:07:15;TRUE;156;937;other
+7;2014;629;In Aenigmibus;programming;67;10226;2014-12-06 16:07:23;FALSE;140;0;high_school
+7;2014;674;Cykličtí mamuti;programming;67;10227;2014-12-06 16:07:34;TRUE;138;986;college
+7;2014;642;Kundegenatka;idea;67;10228;2014-12-06 16:07:37;TRUE;157;982;other
+7;2014;668;Bageti;programming;67;10229;2014-12-06 16:07:44;TRUE;140;978;college
+7;2014;685;Fantastická ∜256;idea;67;10230;2014-12-06 16:07:53;FALSE;156;0;college
+7;2014;662;Dlhani a dlhaci;idea;68;10231;2014-12-06 16:08:09;TRUE;156;936;other
+7;2014;717;prase.old;logical;68;10232;2014-12-06 16:08:10;TRUE;149;969;college
+7;2014;594;Aplikovaní Hrošíci;idea;68;10233;2014-12-06 16:08:16;TRUE;156;935;other
+7;2014;581;Ešte sa dohodneme;programming;68;10234;2014-12-06 16:08:19;TRUE;139;997;college
+7;2014;708;Baklažán;programming;68;10235;2014-12-06 16:08:35;FALSE;139;0;high_school
+7;2014;701;J&T;logical;68;10236;2014-12-06 16:08:39;FALSE;149;0;college
+7;2014;602;voy-a-ger;programming;69;10237;2014-12-06 16:09:03;TRUE;138;985;college
+7;2014;701;J&T;logical;69;10238;2014-12-06 16:09:09;FALSE;149;0;college
+7;2014;569;Vojtíci;logical;69;10239;2014-12-06 16:09:13;TRUE;149;968;other
+7;2014;659;ROFLCOPTER!;logical;69;10240;2014-12-06 16:09:19;TRUE;147;994;other
+7;2014;583;müssüssüppü;programming;69;10241;2014-12-06 16:09:39;TRUE;140;977;other
+7;2014;666;Oxymoroni;logical;70;10242;2014-12-06 16:10:02;TRUE;149;967;high_school
+7;2014;584;Stěrači;logical;70;10243;2014-12-06 16:10:04;FALSE;149;0;college
+7;2014;579;Akomodace hrachu;programming;70;10244;2014-12-06 16:10:21;TRUE;140;976;other
+7;2014;584;Stěrači;logical;70;10245;2014-12-06 16:10:41;TRUE;149;966;college
+7;2014;710;InterLost;idea;70;10246;2014-12-06 16:10:46;TRUE;156;934;high_school
+7;2014;610;dušou blondínky;idea;70;10247;2014-12-06 16:10:51;TRUE;158;970;other
+7;2014;708;Baklažán;programming;70;10248;2014-12-06 16:10:53;FALSE;139;0;high_school
+7;2014;594;Aplikovaní Hrošíci;logical;71;10249;2014-12-06 16:11:02;TRUE;147;993;other
+7;2014;656;Ý;idea;71;10250;2014-12-06 16:11:09;TRUE;156;933;other
+7;2014;660;Segmentation fault;logical;71;10251;2014-12-06 16:11:11;TRUE;148;991;other
+7;2014;562;BSOD;programming;71;10252;2014-12-06 16:11:25;TRUE;138;984;high_school
+7;2014;608;dostal;programming;71;10253;2014-12-06 16:11:55;FALSE;140;0;other
+7;2014;716;Páni zla;programming;72;10254;2014-12-06 16:12:34;TRUE;140;975;other
+7;2014;589;Zrychlený TEP;logical;72;10255;2014-12-06 16:12:40;TRUE;149;965;other
+7;2014;583;müssüssüppü;logical;72;10256;2014-12-06 16:12:47;TRUE;149;964;other
+7;2014;698;KOHYHB;idea;72;10257;2014-12-06 16:12:52;FALSE;158;0;other
+7;2014;717;prase.old;programming;73;10258;2014-12-06 16:13:22;TRUE;140;974;college
+7;2014;698;KOHYHB;idea;73;10259;2014-12-06 16:13:26;TRUE;156;932;other
+7;2014;579;Akomodace hrachu;programming;73;10260;2014-12-06 16:13:27;TRUE;138;983;other
+7;2014;661;Samozvaný Bagr;idea;73;10261;2014-12-06 16:13:45;TRUE;156;931;college
+7;2014;575;Jeníčci;logical;73;10262;2014-12-06 16:13:59;TRUE;149;963;other
+7;2014;594;Aplikovaní Hrošíci;idea;74;10263;2014-12-06 16:14:13;TRUE;158;969;other
+7;2014;669;NaPALM;idea;74;10264;2014-12-06 16:14:49;TRUE;157;981;other
+7;2014;649;Brouk v hlavě;logical;75;10265;2014-12-06 16:15:36;TRUE;148;990;other
+7;2014;629;In Aenigmibus;programming;75;10266;2014-12-06 16:15:37;FALSE;140;0;high_school
+7;2014;698;KOHYHB;idea;75;10267;2014-12-06 16:15:38;TRUE;158;968;other
+7;2014;573;kancl;programming;75;10268;2014-12-06 16:15:54;TRUE;138;982;other
+7;2014;600;Akce grupy;logical;76;10269;2014-12-06 16:16:15;TRUE;148;989;other
+7;2014;639;Pod PSA;programming;76;10270;2014-12-06 16:16:17;TRUE;140;973;other
+7;2014;566;Vepři ve při;logical;76;10271;2014-12-06 16:16:19;TRUE;148;988;other
+7;2014;717;prase.old;programming;76;10272;2014-12-06 16:16:32;FALSE;139;0;college
+7;2014;635;Lososi na sněhu;logical;76;10273;2014-12-06 16:16:39;TRUE;149;962;other
+7;2014;711;Junioři z Junioru;idea;76;10274;2014-12-06 16:16:54;FALSE;156;0;college
+7;2014;705;Tentokrát bez Dády a Dády;programming;77;10275;2014-12-06 16:17:03;FALSE;138;0;college
+7;2014;655;Jahodaaa;programming;77;10276;2014-12-06 16:17:29;TRUE;138;981;college
+7;2014;644;Carpe Testudo;idea;77;10277;2014-12-06 16:17:43;TRUE;156;930;college
+7;2014;619;Tykadla;logical;77;10278;2014-12-06 16:17:52;TRUE;149;961;other
+7;2014;705;Tentokrát bez Dády a Dády;programming;78;10279;2014-12-06 16:18:08;TRUE;138;980;college
+7;2014;596;Lišky ve vaně;programming;78;10280;2014-12-06 16:18:11;TRUE;140;972;college
+7;2014;696;Dumbledore's army;idea;78;10281;2014-12-06 16:18:11;FALSE;156;0;high_school
+7;2014;558;Přizdisráči;logical;78;10282;2014-12-06 16:18:51;FALSE;149;0;other
+7;2014;669;NaPALM;logical;79;10283;2014-12-06 16:19:19;FALSE;147;0;other
+7;2014;569;Vojtíci;idea;79;10284;2014-12-06 16:19:20;TRUE;156;929;other
+7;2014;558;Přizdisráči;logical;79;10285;2014-12-06 16:19:21;TRUE;149;960;other
+7;2014;696;Dumbledore's army;idea;79;10286;2014-12-06 16:19:39;FALSE;156;0;high_school
+7;2014;694;Psycho;logical;80;10287;2014-12-06 16:20:00;TRUE;148;987;college
+7;2014;594;Aplikovaní Hrošíci;logical;80;10288;2014-12-06 16:20:11;TRUE;149;959;other
+7;2014;696;Dumbledore's army;idea;80;10289;2014-12-06 16:20:18;TRUE;156;928;high_school
+7;2014;652;Bladerunners;logical;80;10290;2014-12-06 16:20:19;TRUE;149;958;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;programming;80;10291;2014-12-06 16:20:30;TRUE;140;971;college
+7;2014;573;kancl;logical;80;10292;2014-12-06 16:20:37;TRUE;148;986;other
+7;2014;703;Shashlick;logical;80;10293;2014-12-06 16:20:38;FALSE;149;0;other
+7;2014;602;voy-a-ger;logical;81;10294;2014-12-06 16:21:00;TRUE;147;992;college
+7;2014;627;Bazembos;programming;81;10295;2014-12-06 16:21:14;TRUE;139;996;other
+7;2014;653;Chróúst?!;logical;81;10296;2014-12-06 16:21:20;TRUE;148;985;college
+7;2014;622;Horší už to nebude;logical;81;10297;2014-12-06 16:21:20;TRUE;148;984;other
+7;2014;576;Neřádi;idea;81;10298;2014-12-06 16:21:28;TRUE;156;927;other
+7;2014;659;ROFLCOPTER!;idea;81;10299;2014-12-06 16:21:59;TRUE;157;980;other
+7;2014;698;KOHYHB;idea;82;10300;2014-12-06 16:22:08;TRUE;157;979;other
+7;2014;668;Bageti;logical;83;10301;2014-12-06 16:23:05;TRUE;149;957;college
+7;2014;699;mop;idea;83;10302;2014-12-06 16:23:17;TRUE;158;967;other
+7;2014;718;Mazani;idea;83;10303;2014-12-06 16:23:19;TRUE;156;926;other
+7;2014;575;Jeníčci;programming;83;10304;2014-12-06 16:23:40;TRUE;140;970;other
+7;2014;697;n či π?;programming;84;10305;2014-12-06 16:24:00;TRUE;139;995;other
+7;2014;669;NaPALM;logical;84;10306;2014-12-06 16:24:35;TRUE;147;991;other
+7;2014;567;Kapela pamětníků;programming;84;10307;2014-12-06 16:24:36;TRUE;140;969;college
+7;2014;584;Stěrači;programming;84;10308;2014-12-06 16:24:36;TRUE;140;968;college
+7;2014;655;Jahodaaa;logical;84;10309;2014-12-06 16:24:37;TRUE;149;956;college
+7;2014;609;Dont Panic;idea;84;10310;2014-12-06 16:24:46;TRUE;158;966;other
+7;2014;674;Cykličtí mamuti;logical;84;10311;2014-12-06 16:24:52;TRUE;149;955;college
+7;2014;622;Horší už to nebude;logical;85;10312;2014-12-06 16:25:11;TRUE;149;954;other
+7;2014;703;Shashlick;idea;85;10313;2014-12-06 16:25:27;TRUE;156;925;other
+7;2014;590;Maséři jako hovado;logical;85;10314;2014-12-06 16:25:31;TRUE;148;983;college
+7;2014;623;Error 37;idea;85;10315;2014-12-06 16:25:34;TRUE;156;924;other
+7;2014;688;ideme;programming;85;10316;2014-12-06 16:25:51;TRUE;140;967;college
+7;2014;634;DuJour a spol.;idea;85;10317;2014-12-06 16:25:58;TRUE;158;965;other
+7;2014;561;supermuf;programming;86;10318;2014-12-06 16:26:07;TRUE;140;966;other
+7;2014;625;paranoidontoza;programming;86;10319;2014-12-06 16:26:15;TRUE;138;979;college
+7;2014;624;Zebra řez;programming;86;10320;2014-12-06 16:26:23;FALSE;140;0;other
+7;2014;584;Stěrači;idea;86;10321;2014-12-06 16:26:27;TRUE;157;978;college
+7;2014;686;Gabenův snack bar;programming;86;10322;2014-12-06 16:26:54;TRUE;140;965;college
+7;2014;618;Sráči;logical;87;10323;2014-12-06 16:27:20;TRUE;149;953;other
+7;2014;566;Vepři ve při;programming;87;10324;2014-12-06 16:27:51;FALSE;140;0;other
+7;2014;604;V.I.Peace;programming;88;10325;2014-12-06 16:28:03;TRUE;140;964;high_school
+7;2014;617;Lam(bd)y;logical;88;10326;2014-12-06 16:28:05;TRUE;147;990;college
+7;2014;659;ROFLCOPTER!;idea;88;10327;2014-12-06 16:28:13;TRUE;156;923;other
+7;2014;660;Segmentation fault;idea;88;10328;2014-12-06 16:28:13;TRUE;157;977;other
+7;2014;625;paranoidontoza;logical;88;10329;2014-12-06 16:28:22;TRUE;147;989;college
+7;2014;596;Lišky ve vaně;logical;89;10330;2014-12-06 16:29:02;TRUE;149;952;college
+7;2014;715;Na ISTotu;logical;89;10331;2014-12-06 16:29:11;FALSE;148;0;other
+7;2014;566;Vepři ve při;programming;89;10332;2014-12-06 16:29:13;TRUE;140;963;other
+7;2014;713;Artificial Instinct;logical;90;10333;2014-12-06 16:30:02;TRUE;148;982;other
+7;2014;696;Dumbledore's army;idea;90;10334;2014-12-06 16:30:20;FALSE;158;0;high_school
+7;2014;617;Lam(bd)y;logical;90;10335;2014-12-06 16:30:31;TRUE;149;951;college
+7;2014;608;dostal;programming;90;10336;2014-12-06 16:30:33;TRUE;140;962;other
+7;2014;600;Akce grupy;programming;90;10337;2014-12-06 16:30:39;TRUE;140;961;other
+7;2014;557;Bifurkační tým;programming;90;10338;2014-12-06 16:30:40;TRUE;140;960;other
+7;2014;615;Sarajevští řezníci;idea;91;10339;2014-12-06 16:31:17;FALSE;156;0;high_school
+7;2014;614;Vexator Exoticus;logical;91;10340;2014-12-06 16:31:18;TRUE;148;981;college
+7;2014;697;n či π?;idea;91;10341;2014-12-06 16:31:27;TRUE;156;922;other
+7;2014;615;Sarajevští řezníci;idea;92;10342;2014-12-06 16:32:03;FALSE;156;0;high_school
+7;2014;664;Škrkny;programming;92;10343;2014-12-06 16:32:05;FALSE;139;0;high_school
+7;2014;562;BSOD;idea;92;10344;2014-12-06 16:32:10;TRUE;156;921;high_school
+7;2014;686;Gabenův snack bar;idea;92;10345;2014-12-06 16:32:16;FALSE;158;0;college
+7;2014;715;Na ISTotu;logical;92;10346;2014-12-06 16:32:22;FALSE;148;0;other
+7;2014;692;braintrust;programming;92;10347;2014-12-06 16:32:32;TRUE;138;978;other
+7;2014;589;Zrychlený TEP;idea;92;10348;2014-12-06 16:32:43;TRUE;156;920;other
+7;2014;615;Sarajevští řezníci;idea;92;10349;2014-12-06 16:32:56;FALSE;156;0;high_school
+7;2014;631;Honzovi andilci;idea;93;10350;2014-12-06 16:33:18;TRUE;156;919;college
+7;2014;615;Sarajevští řezníci;idea;93;10351;2014-12-06 16:33:40;TRUE;156;918;high_school
+7;2014;701;J&T;logical;94;10352;2014-12-06 16:34:11;FALSE;149;0;college
+7;2014;649;Brouk v hlavě;logical;94;10353;2014-12-06 16:34:16;TRUE;149;950;other
+7;2014;627;Bazembos;idea;94;10354;2014-12-06 16:34:21;TRUE;161;1000;other
+7;2014;635;Lososi na sněhu;programming;94;10355;2014-12-06 16:34:28;TRUE;140;959;other
+7;2014;615;Sarajevští řezníci;logical;94;10356;2014-12-06 16:34:29;TRUE;148;980;high_school
+7;2014;581;Ešte sa dohodneme;idea;94;10357;2014-12-06 16:34:36;TRUE;161;999;college
+7;2014;716;Páni zla;logical;94;10358;2014-12-06 16:34:57;FALSE;149;0;other
+7;2014;591;Pomocná škola;logical;95;10359;2014-12-06 16:35:28;TRUE;147;988;other
+7;2014;600;Akce grupy;idea;95;10360;2014-12-06 16:35:29;TRUE;157;976;other
+7;2014;716;Páni zla;logical;95;10361;2014-12-06 16:35:31;TRUE;149;949;other
+7;2014;590;Maséři jako hovado;logical;95;10362;2014-12-06 16:35:41;TRUE;147;987;college
+7;2014;579;Akomodace hrachu;logical;95;10363;2014-12-06 16:35:59;TRUE;148;979;other
+7;2014;585;2B|~2B;programming;96;10364;2014-12-06 16:36:05;TRUE;141;1000;other
+7;2014;617;Lam(bd)y;idea;96;10365;2014-12-06 16:36:07;TRUE;156;917;college
+7;2014;619;Tykadla;logical;96;10366;2014-12-06 16:36:14;TRUE;150;1000;other
+7;2014;697;n či π?;idea;96;10367;2014-12-06 16:36:19;TRUE;157;975;other
+7;2014;661;Samozvaný Bagr;programming;96;10368;2014-12-06 16:36:29;TRUE;140;958;college
+7;2014;674;Cykličtí mamuti;programming;96;10369;2014-12-06 16:36:31;FALSE;139;0;college
+7;2014;558;Přizdisráči;idea;96;10370;2014-12-06 16:36:46;TRUE;161;998;other
+7;2014;639;Pod PSA;idea;96;10371;2014-12-06 16:36:56;TRUE;157;974;other
+7;2014;559;Night Wolves;logical;97;10372;2014-12-06 16:37:01;TRUE;147;986;other
+7;2014;583;müssüssüppü;idea;97;10373;2014-12-06 16:37:13;FALSE;158;0;other
+7;2014;693;Haluškin tým;logical;97;10374;2014-12-06 16:37:56;FALSE;149;0;college
+7;2014;655;Jahodaaa;idea;98;10375;2014-12-06 16:38:15;TRUE;161;997;college
+7;2014;693;Haluškin tým;logical;98;10376;2014-12-06 16:38:28;TRUE;149;948;college
+7;2014;660;Segmentation fault;programming;98;10377;2014-12-06 16:38:31;TRUE;141;999;other
+7;2014;662;Dlhani a dlhaci;idea;98;10378;2014-12-06 16:38:45;TRUE;157;973;other
+7;2014;602;voy-a-ger;idea;99;10379;2014-12-06 16:39:23;TRUE;161;996;college
+7;2014;566;Vepři ve při;programming;99;10380;2014-12-06 16:39:36;TRUE;141;998;other
+7;2014;594;Aplikovaní Hrošíci;idea;99;10381;2014-12-06 16:39:37;TRUE;161;995;other
+7;2014;710;InterLost;programming;100;10382;2014-12-06 16:40:03;TRUE;141;997;high_school
+7;2014;715;Na ISTotu;programming;100;10383;2014-12-06 16:40:21;TRUE;140;957;other
+7;2014;655;Jahodaaa;programming;100;10384;2014-12-06 16:40:22;TRUE;141;996;college
+7;2014;609;Dont Panic;idea;100;10385;2014-12-06 16:40:22;TRUE;161;994;other
+7;2014;664;Škrkny;logical;100;10386;2014-12-06 16:40:22;TRUE;147;985;high_school
+7;2014;608;dostal;idea;100;10387;2014-12-06 16:40:23;TRUE;161;993;other
+7;2014;659;ROFLCOPTER!;logical;100;10388;2014-12-06 16:40:32;TRUE;150;999;other
+7;2014;669;NaPALM;logical;100;10389;2014-12-06 16:40:42;TRUE;148;978;other
+7;2014;636;HALUZna ORGanizacia;logical;100;10390;2014-12-06 16:40:43;TRUE;152;1000;other
+7;2014;618;Sráči;logical;101;10391;2014-12-06 16:41:26;TRUE;147;984;other
+7;2014;653;Chróúst?!;idea;101;10392;2014-12-06 16:41:29;TRUE;159;1000;college
+7;2014;591;Pomocná škola;logical;101;10393;2014-12-06 16:41:33;TRUE;148;977;other
+7;2014;709;Alzheimer;programming;101;10394;2014-12-06 16:41:33;FALSE;140;0;high_school
+7;2014;653;Chróúst?!;idea;101;10395;2014-12-06 16:41:38;TRUE;161;992;college
+7;2014;639;Pod PSA;idea;101;10396;2014-12-06 16:41:39;TRUE;156;916;other
+7;2014;624;Zebra řez;programming;101;10397;2014-12-06 16:41:40;TRUE;140;956;other
+7;2014;635;Lososi na sněhu;programming;101;10398;2014-12-06 16:41:42;TRUE;141;995;other
+7;2014;669;NaPALM;idea;101;10399;2014-12-06 16:41:58;TRUE;161;991;other
+7;2014;636;HALUZna ORGanizacia;logical;102;10400;2014-12-06 16:42:01;TRUE;151;1000;other
+7;2014;573;kancl;programming;102;10401;2014-12-06 16:42:01;TRUE;141;994;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;idea;102;10402;2014-12-06 16:42:16;TRUE;161;990;other
+7;2014;627;Bazembos;programming;102;10403;2014-12-06 16:42:20;TRUE;141;993;other
+7;2014;625;paranoidontoza;idea;102;10404;2014-12-06 16:42:28;TRUE;161;989;college
+7;2014;579;Akomodace hrachu;programming;102;10405;2014-12-06 16:42:34;TRUE;141;992;other
+7;2014;583;müssüssüppü;idea;102;10406;2014-12-06 16:42:52;TRUE;161;988;other
+7;2014;661;Samozvaný Bagr;programming;102;10407;2014-12-06 16:42:52;TRUE;141;991;college
+7;2014;661;Samozvaný Bagr;idea;102;10408;2014-12-06 16:42:54;TRUE;161;987;college
+7;2014;590;Maséři jako hovado;logical;102;10409;2014-12-06 16:42:59;TRUE;149;947;college
+7;2014;634;DuJour a spol.;idea;102;10410;2014-12-06 16:42:59;TRUE;161;986;other
+7;2014;605;Jak se nám líbí!;idea;103;10411;2014-12-06 16:43:10;TRUE;161;985;other
+7;2014;663;nechci-uvést;programming;103;10412;2014-12-06 16:43:17;TRUE;141;990;other
+7;2014;679;Sherloci;programming;103;10413;2014-12-06 16:43:20;TRUE;141;989;high_school
+7;2014;572;Alea;logical;103;10414;2014-12-06 16:43:23;TRUE;148;976;college
+7;2014;643;Absolutno;programming;103;10415;2014-12-06 16:43:30;TRUE;141;988;other
+7;2014;617;Lam(bd)y;idea;103;10416;2014-12-06 16:43:45;TRUE;158;964;college
+7;2014;579;Akomodace hrachu;idea;103;10417;2014-12-06 16:43:51;TRUE;161;984;other
+7;2014;714;Carabinieri;programming;104;10418;2014-12-06 16:44:29;FALSE;138;0;college
+7;2014;699;mop;programming;104;10419;2014-12-06 16:44:35;TRUE;140;955;other
+7;2014;584;Stěrači;programming;104;10420;2014-12-06 16:44:46;TRUE;141;987;college
+7;2014;575;Jeníčci;idea;104;10421;2014-12-06 16:44:54;TRUE;161;983;other
+7;2014;617;Lam(bd)y;programming;105;10422;2014-12-06 16:45:12;TRUE;138;977;college
+7;2014;598;Teoretická pantomima;logical;105;10423;2014-12-06 16:45:18;TRUE;149;946;other
+7;2014;566;Vepři ve při;idea;105;10424;2014-12-06 16:45:22;TRUE;159;999;other
+7;2014;642;Kundegenatka;logical;105;10425;2014-12-06 16:45:35;TRUE;152;999;other
+7;2014;644;Carpe Testudo;programming;105;10426;2014-12-06 16:45:39;TRUE;138;976;college
+7;2014;666;Oxymoroni;logical;105;10427;2014-12-06 16:45:47;TRUE;150;998;high_school
+7;2014;703;Shashlick;logical;105;10428;2014-12-06 16:45:49;TRUE;150;997;other
+7;2014;714;Carabinieri;programming;105;10429;2014-12-06 16:45:59;FALSE;138;0;college
+7;2014;715;Na ISTotu;idea;106;10430;2014-12-06 16:46:14;TRUE;161;982;other
+7;2014;585;2B|~2B;idea;106;10431;2014-12-06 16:46:22;TRUE;161;981;other
+7;2014;583;müssüssüppü;programming;106;10432;2014-12-06 16:46:24;TRUE;141;986;other
+7;2014;558;Přizdisráči;programming;106;10433;2014-12-06 16:46:28;TRUE;141;985;other
+7;2014;714;Carabinieri;programming;106;10434;2014-12-06 16:46:32;TRUE;138;975;college
+7;2014;591;Pomocná škola;idea;106;10435;2014-12-06 16:46:45;TRUE;161;980;other
+7;2014;666;Oxymoroni;logical;106;10436;2014-12-06 16:46:46;TRUE;148;975;high_school
+7;2014;569;Vojtíci;programming;107;10437;2014-12-06 16:47:02;TRUE;141;984;other
+7;2014;709;Alzheimer;idea;107;10438;2014-12-06 16:47:02;FALSE;161;0;high_school
+7;2014;569;Vojtíci;logical;107;10439;2014-12-06 16:47:14;TRUE;150;996;other
+7;2014;667;No Chance;programming;107;10440;2014-12-06 16:47:17;TRUE;141;983;college
+7;2014;644;Carpe Testudo;programming;107;10441;2014-12-06 16:47:31;TRUE;141;982;college
+7;2014;594;Aplikovaní Hrošíci;programming;107;10442;2014-12-06 16:47:41;TRUE;140;954;other
+7;2014;658;absolutně černé ovce;programming;107;10443;2014-12-06 16:47:47;TRUE;141;981;college
+7;2014;602;voy-a-ger;programming;107;10444;2014-12-06 16:47:48;TRUE;141;980;college
+7;2014;675;Rapeles;logical;108;10445;2014-12-06 16:48:02;FALSE;148;0;college
+7;2014;652;Bladerunners;programming;108;10446;2014-12-06 16:48:13;FALSE;140;0;other
+7;2014;628;Sloniky;programming;108;10447;2014-12-06 16:48:26;FALSE;139;0;other
+7;2014;566;Vepři ve při;idea;108;10448;2014-12-06 16:48:32;TRUE;161;979;other
+7;2014;650;Piliny všude okolo;idea;108;10449;2014-12-06 16:48:33;TRUE;161;978;other
+7;2014;588;Tweety neni kura!;logical;108;10450;2014-12-06 16:48:34;TRUE;147;983;other
+7;2014;658;absolutně černé ovce;programming;108;10451;2014-12-06 16:48:40;FALSE;139;0;college
+7;2014;619;Tykadla;idea;108;10452;2014-12-06 16:48:56;TRUE;161;977;other
+7;2014;618;Sráči;idea;108;10453;2014-12-06 16:48:56;TRUE;161;976;other
+7;2014;630;Error404;logical;109;10454;2014-12-06 16:49:00;TRUE;150;995;high_school
+7;2014;636;HALUZna ORGanizacia;programming;109;10455;2014-12-06 16:49:23;TRUE;139;994;other
+7;2014;635;Lososi na sněhu;logical;109;10456;2014-12-06 16:49:30;TRUE;150;994;other
+7;2014;588;Tweety neni kura!;logical;109;10457;2014-12-06 16:49:34;TRUE;148;974;other
+7;2014;660;Segmentation fault;programming;109;10458;2014-12-06 16:49:40;FALSE;139;0;other
+7;2014;642;Kundegenatka;idea;109;10459;2014-12-06 16:49:40;TRUE;161;975;other
+7;2014;659;ROFLCOPTER!;idea;110;10460;2014-12-06 16:50:13;TRUE;161;974;other
+7;2014;646;BonsaiBuddies;programming;110;10461;2014-12-06 16:50:16;FALSE;141;0;college
+7;2014;717;prase.old;programming;110;10462;2014-12-06 16:50:21;TRUE;141;979;college
+7;2014;708;Baklažán;programming;110;10463;2014-12-06 16:50:23;TRUE;140;953;high_school
+7;2014;645;HaMouni;programming;110;10464;2014-12-06 16:50:31;TRUE;140;952;high_school
+7;2014;582;Spící Volové;idea;110;10465;2014-12-06 16:50:43;TRUE;161;973;other
+7;2014;693;Haluškin tým;idea;110;10466;2014-12-06 16:50:53;TRUE;161;972;college
+7;2014;569;Vojtíci;idea;110;10467;2014-12-06 16:50:54;TRUE;161;971;other
+7;2014;646;BonsaiBuddies;programming;111;10468;2014-12-06 16:51:06;TRUE;141;978;college
+7;2014;688;ideme;programming;111;10469;2014-12-06 16:51:20;TRUE;141;977;college
+7;2014;655;Jahodaaa;logical;111;10470;2014-12-06 16:51:23;TRUE;150;993;college
+7;2014;717;prase.old;programming;111;10471;2014-12-06 16:51:41;TRUE;138;974;college
+7;2014;633;Kerberos;logical;111;10472;2014-12-06 16:51:42;FALSE;149;0;other
+7;2014;581;Ešte sa dohodneme;programming;112;10473;2014-12-06 16:52:08;TRUE;141;976;college
+7;2014;559;Night Wolves;programming;112;10474;2014-12-06 16:52:08;FALSE;140;0;other
+7;2014;624;Zebra řez;programming;112;10475;2014-12-06 16:52:33;TRUE;141;975;other
+7;2014;577;žufouni;idea;112;10476;2014-12-06 16:52:35;TRUE;161;970;other
+7;2014;610;dušou blondínky;programming;112;10477;2014-12-06 16:52:37;TRUE;141;974;other
+7;2014;600;Akce grupy;logical;112;10478;2014-12-06 16:52:39;TRUE;147;982;other
+7;2014;633;Kerberos;logical;112;10479;2014-12-06 16:52:45;TRUE;149;945;other
+7;2014;575;Jeníčci;programming;112;10480;2014-12-06 16:52:47;TRUE;141;973;other
+7;2014;621;GJAK UB;idea;112;10481;2014-12-06 16:52:52;TRUE;161;969;high_school
+7;2014;643;Absolutno;programming;112;10482;2014-12-06 16:52:54;TRUE;138;973;other
+7;2014;566;Vepři ve při;logical;112;10483;2014-12-06 16:52:55;TRUE;150;992;other
+7;2014;597;Stoosum;programming;113;10484;2014-12-06 16:53:04;TRUE;141;972;other
+7;2014;716;Páni zla;logical;113;10485;2014-12-06 16:53:06;TRUE;147;981;other
+7;2014;674;Cykličtí mamuti;programming;113;10486;2014-12-06 16:53:24;FALSE;139;0;college
+7;2014;628;Sloniky;programming;113;10487;2014-12-06 16:53:37;FALSE;139;0;other
+7;2014;584;Stěrači;idea;113;10488;2014-12-06 16:53:37;TRUE;161;968;college
+7;2014;603;Nejnekvazidiagonalizovávatelnější;programming;113;10489;2014-12-06 16:53:46;TRUE;140;951;college
+7;2014;635;Lososi na sněhu;idea;113;10490;2014-12-06 16:53:54;TRUE;161;967;other
+7;2014;668;Bageti;programming;113;10491;2014-12-06 16:53:59;TRUE;141;971;college
+7;2014;587;Betonoví;programming;114;10492;2014-12-06 16:54:06;TRUE;138;972;other
+7;2014;598;Teoretická pantomima;programming;114;10493;2014-12-06 16:54:09;FALSE;140;0;other
+7;2014;631;Honzovi andilci;programming;114;10494;2014-12-06 16:54:16;TRUE;141;970;college
+7;2014;559;Night Wolves;programming;114;10495;2014-12-06 16:54:26;FALSE;140;0;other
+7;2014;695;Kajšmentke;logical;114;10496;2014-12-06 16:54:31;TRUE;148;973;high_school
+7;2014;697;n či π?;logical;114;10497;2014-12-06 16:54:37;TRUE;147;980;other
+7;2014;658;absolutně černé ovce;programming;114;10498;2014-12-06 16:54:52;TRUE;139;993;college
+7;2014;660;Segmentation fault;idea;114;10499;2014-12-06 16:54:53;TRUE;161;966;other
+7;2014;562;BSOD;programming;114;10500;2014-12-06 16:54:54;FALSE;140;0;high_school
+7;2014;674;Cykličtí mamuti;logical;115;10501;2014-12-06 16:55:01;TRUE;148;972;college
+7;2014;664;Škrkny;logical;115;10502;2014-12-06 16:55:17;TRUE;150;991;high_school
+7;2014;596;Lišky ve vaně;logical;115;10503;2014-12-06 16:55:25;TRUE;152;998;college
+7;2014;600;Akce grupy;programming;115;10504;2014-12-06 16:55:27;TRUE;141;969;other
+7;2014;644;Carpe Testudo;idea;115;10505;2014-12-06 16:55:28;TRUE;161;965;college
+7;2014;711;Junioři z Junioru;programming;115;10506;2014-12-06 16:55:48;FALSE;139;0;college
+7;2014;604;V.I.Peace;programming;115;10507;2014-12-06 16:55:49;FALSE;138;0;high_school
+7;2014;617;Lam(bd)y;idea;115;10508;2014-12-06 16:55:53;TRUE;161;964;college
+7;2014;558;Přizdisráči;logical;115;10509;2014-12-06 16:55:55;TRUE;152;997;other
+7;2014;590;Maséři jako hovado;idea;115;10510;2014-12-06 16:55:59;TRUE;161;963;college
+7;2014;579;Akomodace hrachu;logical;116;10511;2014-12-06 16:56:06;TRUE;150;990;other
+7;2014;649;Brouk v hlavě;logical;116;10512;2014-12-06 16:56:08;TRUE;150;989;other
+7;2014;621;GJAK UB;programming;116;10513;2014-12-06 16:56:12;TRUE;141;968;high_school
+7;2014;608;dostal;logical;116;10514;2014-12-06 16:56:13;TRUE;150;988;other
+7;2014;590;Maséři jako hovado;logical;116;10515;2014-12-06 16:56:16;TRUE;150;987;college
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;logical;116;10516;2014-12-06 16:56:23;TRUE;150;986;college
+7;2014;628;Sloniky;logical;116;10517;2014-12-06 16:56:24;FALSE;148;0;other
+7;2014;698;KOHYHB;logical;116;10518;2014-12-06 16:56:33;TRUE;150;985;other
+7;2014;709;Alzheimer;logical;116;10519;2014-12-06 16:56:39;TRUE;147;979;high_school
+7;2014;639;Pod PSA;programming;116;10520;2014-12-06 16:56:49;TRUE;141;967;other
+7;2014;701;J&T;logical;116;10521;2014-12-06 16:56:51;TRUE;150;984;college
+7;2014;642;Kundegenatka;logical;116;10522;2014-12-06 16:56:53;TRUE;150;983;other
+7;2014;666;Oxymoroni;programming;116;10523;2014-12-06 16:56:53;TRUE;141;966;high_school
+7;2014;625;paranoidontoza;idea;117;10524;2014-12-06 16:57:04;TRUE;159;998;college
+7;2014;628;Sloniky;logical;117;10525;2014-12-06 16:57:10;TRUE;149;944;other
+7;2014;666;Oxymoroni;programming;117;10526;2014-12-06 16:57:13;TRUE;138;971;high_school
+7;2014;629;In Aenigmibus;logical;117;10527;2014-12-06 16:57:14;TRUE;150;982;high_school
+7;2014;633;Kerberos;idea;117;10528;2014-12-06 16:57:28;TRUE;161;962;other
+7;2014;636;HALUZna ORGanizacia;programming;117;10529;2014-12-06 16:57:29;TRUE;141;965;other
+7;2014;610;dušou blondínky;logical;117;10530;2014-12-06 16:57:44;TRUE;150;981;other
+7;2014;629;In Aenigmibus;programming;117;10531;2014-12-06 16:57:58;FALSE;140;0;high_school
+7;2014;594;Aplikovaní Hrošíci;logical;118;10532;2014-12-06 16:58:04;TRUE;150;980;other
+7;2014;607;Laserová Prasátka;logical;118;10533;2014-12-06 16:58:07;TRUE;148;971;high_school
+7;2014;716;Páni zla;programming;118;10534;2014-12-06 16:58:08;TRUE;141;964;other
+7;2014;644;Carpe Testudo;logical;118;10535;2014-12-06 16:58:12;TRUE;150;979;college
+7;2014;652;Bladerunners;logical;118;10536;2014-12-06 16:58:19;FALSE;150;0;other
+7;2014;694;Psycho;logical;118;10537;2014-12-06 16:58:20;TRUE;150;978;college
+7;2014;669;NaPALM;programming;118;10538;2014-12-06 16:58:22;TRUE;141;963;other
+7;2014;674;Cykličtí mamuti;programming;118;10539;2014-12-06 16:58:30;FALSE;139;0;college
+7;2014;626;prvocisla;programming;118;10540;2014-12-06 16:58:34;FALSE;140;0;college
+7;2014;600;Akce grupy;logical;118;10541;2014-12-06 16:58:45;TRUE;150;977;other
+7;2014;636;HALUZna ORGanizacia;logical;118;10542;2014-12-06 16:58:57;TRUE;150;976;other
+7;2014;716;Páni zla;idea;118;10543;2014-12-06 16:58:59;FALSE;157;0;other
+7;2014;649;Brouk v hlavě;idea;119;10544;2014-12-06 16:59:00;TRUE;161;961;other
+7;2014;631;Honzovi andilci;programming;119;10545;2014-12-06 16:59:00;FALSE;138;0;college
+7;2014;714;Carabinieri;logical;119;10546;2014-12-06 16:59:05;TRUE;147;978;college
+7;2014;560;Floccinaucinihilipilification;idea;119;10547;2014-12-06 16:59:09;TRUE;161;960;high_school
+7;2014;579;Akomodace hrachu;idea;119;10548;2014-12-06 16:59:16;TRUE;160;1000;other
+7;2014;559;Night Wolves;logical;119;10549;2014-12-06 16:59:33;TRUE;148;970;other
+7;2014;664;Škrkny;programming;119;10550;2014-12-06 16:59:34;FALSE;138;0;high_school
+7;2014;636;HALUZna ORGanizacia;idea;120;10551;2014-12-06 17:00:11;TRUE;161;959;other
+7;2014;709;Alzheimer;idea;120;10552;2014-12-06 17:00:22;TRUE;161;958;high_school
+7;2014;566;Vepři ve při;programming;120;10553;2014-12-06 17:00:26;FALSE;139;0;other
+7;2014;621;GJAK UB;logical;120;10554;2014-12-06 17:00:38;FALSE;152;0;high_school
+7;2014;614;Vexator Exoticus;logical;120;10555;2014-12-06 17:00:42;TRUE;150;975;college
+7;2014;708;Baklažán;programming;121;10556;2014-12-06 17:01:02;TRUE;141;962;high_school
+7;2014;623;Error 37;logical;121;10557;2014-12-06 17:01:20;TRUE;150;974;other
+7;2014;598;Teoretická pantomima;programming;121;10558;2014-12-06 17:01:23;TRUE;140;950;other
+7;2014;669;NaPALM;logical;121;10559;2014-12-06 17:01:35;TRUE;150;973;other
+7;2014;627;Bazembos;programming;121;10560;2014-12-06 17:01:53;TRUE;138;970;other
+7;2014;701;J&T;idea;121;10561;2014-12-06 17:01:55;TRUE;161;957;college
+7;2014;631;Honzovi andilci;logical;122;10562;2014-12-06 17:02:05;TRUE;147;977;college
+7;2014;717;prase.old;idea;122;10563;2014-12-06 17:02:07;TRUE;161;956;college
+7;2014;566;Vepři ve při;programming;122;10564;2014-12-06 17:02:14;TRUE;138;969;other
+7;2014;585;2B|~2B;logical;122;10565;2014-12-06 17:02:45;TRUE;152;996;other
+7;2014;694;Psycho;idea;122;10566;2014-12-06 17:02:46;TRUE;161;955;college
+7;2014;609;Dont Panic;logical;122;10567;2014-12-06 17:02:46;TRUE;152;995;other
+7;2014;686;Gabenův snack bar;programming;122;10568;2014-12-06 17:02:47;TRUE;141;961;college
+7;2014;582;Spící Volové;logical;122;10569;2014-12-06 17:02:50;TRUE;150;972;other
+7;2014;717;prase.old;logical;122;10570;2014-12-06 17:02:58;TRUE;148;969;college
+7;2014;664;Škrkny;programming;123;10571;2014-12-06 17:03:10;FALSE;139;0;high_school
+7;2014;643;Absolutno;programming;123;10572;2014-12-06 17:03:11;FALSE;139;0;other
+7;2014;624;Zebra řez;idea;123;10573;2014-12-06 17:03:17;TRUE;161;954;other
+7;2014;674;Cykličtí mamuti;programming;123;10574;2014-12-06 17:03:29;TRUE;141;960;college
+7;2014;624;Zebra řez;logical;123;10575;2014-12-06 17:03:32;TRUE;150;971;other
+7;2014;615;Sarajevští řezníci;idea;123;10576;2014-12-06 17:03:33;FALSE;158;0;high_school
+7;2014;626;prvocisla;idea;123;10577;2014-12-06 17:03:44;FALSE;158;0;college
+7;2014;614;Vexator Exoticus;logical;123;10578;2014-12-06 17:03:45;TRUE;152;994;college
+7;2014;695;Kajšmentke;programming;123;10579;2014-12-06 17:03:53;FALSE;138;0;high_school
+7;2014;710;InterLost;logical;124;10580;2014-12-06 17:04:02;TRUE;152;993;high_school
+7;2014;584;Stěrači;programming;124;10581;2014-12-06 17:04:02;TRUE;142;1000;college
+7;2014;634;DuJour a spol.;programming;124;10582;2014-12-06 17:04:03;TRUE;141;959;other
+7;2014;609;Dont Panic;programming;124;10583;2014-12-06 17:04:07;TRUE;138;968;other
+7;2014;693;Haluškin tým;programming;124;10584;2014-12-06 17:04:08;TRUE;140;949;college
+7;2014;643;Absolutno;programming;124;10585;2014-12-06 17:04:15;FALSE;139;0;other
+7;2014;579;Akomodace hrachu;logical;124;10586;2014-12-06 17:04:15;TRUE;152;992;other
+7;2014;697;n či π?;programming;124;10587;2014-12-06 17:04:19;TRUE;141;958;other
+7;2014;701;J&T;logical;124;10589;2014-12-06 17:04:25;TRUE;149;943;college
+7;2014;716;Páni zla;idea;124;10590;2014-12-06 17:04:34;FALSE;157;0;other
+7;2014;625;paranoidontoza;logical;124;10591;2014-12-06 17:04:45;TRUE;150;970;college
+7;2014;628;Sloniky;idea;124;10592;2014-12-06 17:04:49;TRUE;161;953;other
+7;2014;660;Segmentation fault;programming;124;10593;2014-12-06 17:04:50;TRUE;138;967;other
+7;2014;653;Chróúst?!;programming;124;10594;2014-12-06 17:04:51;TRUE;141;957;college
+7;2014;668;Bageti;logical;125;10595;2014-12-06 17:05:06;TRUE;150;969;college
+7;2014;641;Palachinky;logical;125;10596;2014-12-06 17:05:08;TRUE;150;968;high_school
+7;2014;602;voy-a-ger;logical;125;10597;2014-12-06 17:05:08;TRUE;152;991;college
+7;2014;716;Páni zla;logical;125;10598;2014-12-06 17:05:15;TRUE;150;967;other
+7;2014;699;mop;idea;125;10599;2014-12-06 17:05:25;TRUE;161;952;other
+7;2014;608;dostal;logical;125;10600;2014-12-06 17:05:31;TRUE;152;990;other
+7;2014;591;Pomocná škola;programming;125;10601;2014-12-06 17:05:32;FALSE;142;0;other
+7;2014;600;Akce grupy;idea;125;10602;2014-12-06 17:05:44;TRUE;161;951;other
+7;2014;629;In Aenigmibus;idea;126;10603;2014-12-06 17:06:02;TRUE;161;950;high_school
+7;2014;655;Jahodaaa;idea;126;10604;2014-12-06 17:06:02;FALSE;160;0;college
+7;2014;625;paranoidontoza;programming;126;10605;2014-12-06 17:06:20;TRUE;139;992;college
+7;2014;675;Rapeles;programming;126;10606;2014-12-06 17:06:45;TRUE;138;966;college
+7;2014;673;Slečna a páni vod direkce;logical;126;10607;2014-12-06 17:06:45;TRUE;150;966;other
+7;2014;583;müssüssüppü;logical;126;10608;2014-12-06 17:06:46;TRUE;148;968;other
+7;2014;577;žufouni;logical;126;10609;2014-12-06 17:06:57;TRUE;150;965;other
+7;2014;579;Akomodace hrachu;programming;126;10610;2014-12-06 17:06:59;TRUE;142;999;other
+7;2014;619;Tykadla;programming;127;10611;2014-12-06 17:07:18;TRUE;141;956;other
+7;2014;602;voy-a-ger;logical;127;10612;2014-12-06 17:07:27;TRUE;150;964;college
+7;2014;558;Přizdisráči;logical;127;10613;2014-12-06 17:07:28;TRUE;150;963;other
+7;2014;618;Sráči;logical;127;10614;2014-12-06 17:07:36;TRUE;152;989;other
+7;2014;625;paranoidontoza;logical;127;10615;2014-12-06 17:07:39;TRUE;148;967;college
+7;2014;718;Mazani;logical;127;10616;2014-12-06 17:07:41;FALSE;152;0;other
+7;2014;643;Absolutno;idea;127;10617;2014-12-06 17:07:43;TRUE;161;949;other
+7;2014;615;Sarajevští řezníci;idea;127;10618;2014-12-06 17:07:45;FALSE;161;0;high_school
+7;2014;588;Tweety neni kura!;logical;127;10619;2014-12-06 17:07:50;TRUE;150;962;other
+7;2014;577;žufouni;programming;127;10620;2014-12-06 17:07:51;FALSE;139;0;other
+7;2014;717;prase.old;logical;128;10621;2014-12-06 17:08:09;TRUE;150;961;college
+7;2014;653;Chróúst?!;logical;128;10622;2014-12-06 17:08:17;TRUE;150;960;college
+7;2014;639;Pod PSA;logical;128;10623;2014-12-06 17:08:21;TRUE;148;966;other
+7;2014;572;Alea;logical;128;10624;2014-12-06 17:08:33;FALSE;152;0;college
+7;2014;718;Mazani;logical;128;10625;2014-12-06 17:08:34;FALSE;152;0;other
+7;2014;697;n či π?;logical;128;10626;2014-12-06 17:08:40;TRUE;149;942;other
+7;2014;618;Sráči;logical;128;10627;2014-12-06 17:08:42;TRUE;150;959;other
+7;2014;585;2B|~2B;logical;128;10628;2014-12-06 17:08:44;TRUE;150;958;other
+7;2014;662;Dlhani a dlhaci;logical;128;10629;2014-12-06 17:08:45;TRUE;150;957;other
+7;2014;562;BSOD;programming;128;10630;2014-12-06 17:08:56;TRUE;141;955;high_school
+7;2014;634;DuJour a spol.;logical;129;10631;2014-12-06 17:09:08;TRUE;150;956;other
+7;2014;582;Spící Volové;logical;129;10632;2014-12-06 17:09:25;TRUE;152;988;other
+7;2014;591;Pomocná škola;programming;129;10633;2014-12-06 17:09:28;FALSE;142;0;other
+7;2014;674;Cykličtí mamuti;idea;129;10634;2014-12-06 17:09:45;TRUE;161;948;college
+7;2014;615;Sarajevští řezníci;idea;130;10635;2014-12-06 17:10:01;FALSE;161;0;high_school
+7;2014;658;absolutně černé ovce;idea;130;10636;2014-12-06 17:10:14;TRUE;161;947;college
+7;2014;662;Dlhani a dlhaci;logical;130;10637;2014-12-06 17:10:46;TRUE;147;976;other
+7;2014;614;Vexator Exoticus;idea;130;10638;2014-12-06 17:10:55;TRUE;161;946;college
+7;2014;714;Carabinieri;programming;131;10639;2014-12-06 17:11:05;TRUE;140;948;college
+7;2014;642;Kundegenatka;logical;131;10640;2014-12-06 17:11:27;TRUE;147;975;other
+7;2014;604;V.I.Peace;programming;131;10641;2014-12-06 17:11:41;FALSE;138;0;high_school
+7;2014;658;absolutně černé ovce;logical;131;10642;2014-12-06 17:11:44;TRUE;150;955;college
+7;2014;598;Teoretická pantomima;idea;131;10643;2014-12-06 17:11:47;TRUE;161;945;other
+7;2014;694;Psycho;logical;131;10644;2014-12-06 17:11:54;FALSE;152;0;college
+7;2014;709;Alzheimer;idea;132;10645;2014-12-06 17:12:15;TRUE;156;915;high_school
+7;2014;706;NothingToDoHere;logical;132;10646;2014-12-06 17:12:15;TRUE;150;954;college
+7;2014;572;Alea;programming;132;10647;2014-12-06 17:12:27;FALSE;138;0;college
+7;2014;605;Jak se nám líbí!;programming;132;10648;2014-12-06 17:12:28;TRUE;140;947;other
+7;2014;604;V.I.Peace;programming;132;10649;2014-12-06 17:12:41;TRUE;138;965;high_school
+7;2014;635;Lososi na sněhu;logical;132;10650;2014-12-06 17:12:42;TRUE;152;987;other
+7;2014;689;Hirvi;programming;132;10651;2014-12-06 17:12:44;TRUE;138;964;high_school
+7;2014;655;Jahodaaa;logical;132;10652;2014-12-06 17:12:45;TRUE;151;999;college
+7;2014;561;supermuf;idea;132;10653;2014-12-06 17:12:51;TRUE;161;944;other
+7;2014;623;Error 37;idea;132;10654;2014-12-06 17:12:57;TRUE;161;943;other
+7;2014;562;BSOD;programming;132;10655;2014-12-06 17:12:57;FALSE;140;0;high_school
+7;2014;674;Cykličtí mamuti;logical;133;10656;2014-12-06 17:13:03;TRUE;150;953;college
+7;2014;672;Žabaryba;logical;133;10657;2014-12-06 17:13:04;TRUE;150;952;college
+7;2014;559;Night Wolves;idea;133;10658;2014-12-06 17:13:27;TRUE;161;942;other
+7;2014;607;Laserová Prasátka;logical;133;10660;2014-12-06 17:13:32;TRUE;147;974;high_school
+7;2014;627;Bazembos;programming;133;10661;2014-12-06 17:13:34;TRUE;140;946;other
+7;2014;602;voy-a-ger;programming;133;10662;2014-12-06 17:13:43;FALSE;142;0;college
+7;2014;707;Polomacane rastlinky;idea;133;10663;2014-12-06 17:13:44;FALSE;161;0;other
+7;2014;718;Mazani;logical;133;10664;2014-12-06 17:13:44;FALSE;152;0;other
+7;2014;687;"<?php echo $meno;?>";programming;133;10665;2014-12-06 17:13:47;FALSE;140;0;high_school
+7;2014;631;Honzovi andilci;idea;133;10666;2014-12-06 17:13:51;TRUE;161;941;college
+7;2014;652;Bladerunners;logical;133;10667;2014-12-06 17:13:55;TRUE;150;951;other
+7;2014;591;Pomocná škola;programming;134;10668;2014-12-06 17:14:08;FALSE;142;0;other
+7;2014;572;Alea;programming;134;10669;2014-12-06 17:14:34;TRUE;138;963;college
+7;2014;663;nechci-uvést;logical;134;10670;2014-12-06 17:14:50;TRUE;150;950;other
+7;2014;567;Kapela pamětníků;logical;135;10671;2014-12-06 17:15:09;TRUE;150;949;college
+7;2014;662;Dlhani a dlhaci;programming;135;10672;2014-12-06 17:15:25;TRUE;138;962;other
+7;2014;688;ideme;logical;135;10673;2014-12-06 17:15:40;TRUE;149;941;college
+7;2014;636;HALUZna ORGanizacia;programming;135;10674;2014-12-06 17:15:56;TRUE;143;1000;other
+7;2014;674;Cykličtí mamuti;programming;136;10675;2014-12-06 17:16:07;FALSE;139;0;college
+7;2014;699;mop;logical;136;10676;2014-12-06 17:16:24;TRUE;150;948;other
+7;2014;561;supermuf;programming;136;10677;2014-12-06 17:16:27;TRUE;141;954;other
+7;2014;698;KOHYHB;programming;136;10678;2014-12-06 17:16:33;TRUE;141;953;other
+7;2014;622;Horší už to nebude;idea;136;10679;2014-12-06 17:16:43;TRUE;161;940;other
+7;2014;653;Chróúst?!;programming;136;10680;2014-12-06 17:16:54;FALSE;139;0;college
+7;2014;644;Carpe Testudo;logical;136;10681;2014-12-06 17:16:58;TRUE;152;986;college
+7;2014;594;Aplikovaní Hrošíci;idea;137;10682;2014-12-06 17:17:03;FALSE;159;0;other
+7;2014;603;Nejnekvazidiagonalizovávatelnější;idea;137;10683;2014-12-06 17:17:03;TRUE;161;939;college
+7;2014;585;2B|~2B;programming;137;10684;2014-12-06 17:17:18;FALSE;143;0;other
+7;2014;617;Lam(bd)y;programming;137;10685;2014-12-06 17:17:20;TRUE;140;945;college
+7;2014;573;kancl;logical;137;10686;2014-12-06 17:17:28;TRUE;152;985;other
+7;2014;638;Ajťáci-VASS;logical;137;10687;2014-12-06 17:17:36;TRUE;147;973;high_school
+7;2014;594;Aplikovaní Hrošíci;programming;137;10688;2014-12-06 17:17:41;TRUE;141;952;other
+7;2014;707;Polomacane rastlinky;programming;137;10689;2014-12-06 17:17:43;TRUE;138;961;other
+7;2014;703;Shashlick;logical;137;10690;2014-12-06 17:17:45;FALSE;152;0;other
+7;2014;663;nechci-uvést;idea;137;10691;2014-12-06 17:17:53;TRUE;161;938;other
+7;2014;695;Kajšmentke;logical;137;10692;2014-12-06 17:17:53;FALSE;152;0;high_school
+7;2014;624;Zebra řez;logical;137;10693;2014-12-06 17:17:54;TRUE;152;984;other
+7;2014;661;Samozvaný Bagr;logical;137;10694;2014-12-06 17:17:54;TRUE;152;983;college
+7;2014;633;Kerberos;programming;137;10695;2014-12-06 17:17:55;TRUE;138;960;other
+7;2014;602;voy-a-ger;programming;138;10696;2014-12-06 17:18:04;TRUE;142;998;college
+7;2014;591;Pomocná škola;logical;138;10697;2014-12-06 17:18:16;TRUE;152;982;other
+7;2014;626;prvocisla;programming;138;10698;2014-12-06 17:18:35;FALSE;138;0;college
+7;2014;622;Horší už to nebude;logical;138;10699;2014-12-06 17:18:46;TRUE;150;947;other
+7;2014;630;Error404;logical;139;10700;2014-12-06 17:19:07;TRUE;152;981;high_school
+7;2014;653;Chróúst?!;programming;139;10701;2014-12-06 17:19:15;FALSE;139;0;college
+7;2014;659;ROFLCOPTER!;programming;139;10702;2014-12-06 17:19:18;FALSE;142;0;other
+7;2014;639;Pod PSA;idea;139;10703;2014-12-06 17:19:25;TRUE;161;937;other
+7;2014;596;Lišky ve vaně;programming;139;10704;2014-12-06 17:19:26;TRUE;141;951;college
+7;2014;672;Žabaryba;programming;139;10705;2014-12-06 17:19:35;TRUE;141;950;college
+7;2014;664;Škrkny;programming;139;10706;2014-12-06 17:19:40;TRUE;141;949;high_school
+7;2014;698;KOHYHB;logical;139;10707;2014-12-06 17:19:44;FALSE;152;0;other
+7;2014;625;paranoidontoza;programming;139;10708;2014-12-06 17:19:48;TRUE;141;948;college
+7;2014;639;Pod PSA;logical;139;10709;2014-12-06 17:19:48;TRUE;152;980;other
+7;2014;662;Dlhani a dlhaci;idea;140;10710;2014-12-06 17:20:02;TRUE;161;936;other
+7;2014;643;Absolutno;logical;140;10711;2014-12-06 17:20:14;FALSE;150;0;other
+7;2014;575;Jeníčci;logical;140;10712;2014-12-06 17:20:14;TRUE;147;972;other
+7;2014;635;Lososi na sněhu;programming;140;10713;2014-12-06 17:20:16;TRUE;138;959;other
+7;2014;628;Sloniky;programming;140;10714;2014-12-06 17:20:19;FALSE;140;0;other
+7;2014;637;a spol.;logical;140;10715;2014-12-06 17:20:45;TRUE;152;979;other
+7;2014;634;DuJour a spol.;programming;140;10716;2014-12-06 17:20:51;FALSE;140;0;other
+7;2014;588;Tweety neni kura!;idea;141;10717;2014-12-06 17:21:04;TRUE;161;935;other
+7;2014;626;prvocisla;idea;141;10718;2014-12-06 17:21:04;FALSE;160;0;college
+7;2014;604;V.I.Peace;logical;141;10719;2014-12-06 17:21:05;FALSE;152;0;high_school
+7;2014;609;Dont Panic;programming;141;10720;2014-12-06 17:21:06;TRUE;141;947;other
+7;2014;685;Fantastická ∜256;programming;141;10721;2014-12-06 17:21:20;FALSE;138;0;college
+7;2014;598;Teoretická pantomima;programming;141;10722;2014-12-06 17:21:32;TRUE;141;946;other
+7;2014;558;Přizdisráči;programming;141;10723;2014-12-06 17:21:59;TRUE;142;997;other
+7;2014;666;Oxymoroni;idea;142;10724;2014-12-06 17:22:01;TRUE;161;934;high_school
+7;2014;653;Chróúst?!;programming;142;10725;2014-12-06 17:22:10;TRUE;139;991;college
+7;2014;570;Dršťkový Havran Masového Kašpárka;logical;142;10726;2014-12-06 17:22:20;TRUE;149;940;other
+7;2014;698;KOHYHB;logical;142;10727;2014-12-06 17:22:22;FALSE;152;0;other
+7;2014;557;Bifurkační tým;logical;142;10728;2014-12-06 17:22:35;TRUE;147;971;other
+7;2014;645;HaMouni;logical;142;10729;2014-12-06 17:22:36;TRUE;150;946;high_school
+7;2014;567;Kapela pamětníků;idea;142;10730;2014-12-06 17:22:43;TRUE;161;933;college
+7;2014;686;Gabenův snack bar;logical;142;10731;2014-12-06 17:22:47;TRUE;152;978;college
+7;2014;660;Segmentation fault;programming;142;10732;2014-12-06 17:22:55;TRUE;139;990;other
+7;2014;608;dostal;programming;143;10733;2014-12-06 17:23:01;FALSE;142;0;other
+7;2014;643;Absolutno;programming;143;10734;2014-12-06 17:23:02;TRUE;142;996;other
+7;2014;625;paranoidontoza;logical;143;10735;2014-12-06 17:23:03;TRUE;152;977;college
+7;2014;575;Jeníčci;programming;143;10736;2014-12-06 17:23:03;FALSE;142;0;other
+7;2014;698;KOHYHB;logical;143;10737;2014-12-06 17:23:06;FALSE;152;0;other
+7;2014;617;Lam(bd)y;programming;143;10738;2014-12-06 17:23:06;TRUE;141;945;college
+7;2014;677;SIGSEGV;programming;143;10739;2014-12-06 17:23:11;FALSE;138;0;high_school
+7;2014;659;ROFLCOPTER!;programming;143;10740;2014-12-06 17:23:12;FALSE;142;0;other
+7;2014;688;ideme;logical;143;10741;2014-12-06 17:23:16;FALSE;152;0;college
+7;2014;679;Sherloci;programming;143;10742;2014-12-06 17:23:21;FALSE;140;0;high_school
+7;2014;693;Haluškin tým;programming;143;10743;2014-12-06 17:23:24;TRUE;141;944;college
+7;2014;664;Škrkny;programming;143;10744;2014-12-06 17:23:45;TRUE;138;958;high_school
+7;2014;717;prase.old;programming;143;10745;2014-12-06 17:23:48;FALSE;143;0;college
+7;2014;603;Nejnekvazidiagonalizovávatelnější;logical;143;10746;2014-12-06 17:23:56;TRUE;148;965;college
+7;2014;591;Pomocná škola;programming;144;10747;2014-12-06 17:24:03;TRUE;142;995;other
+7;2014;583;müssüssüppü;logical;144;10748;2014-12-06 17:24:07;TRUE;150;945;other
+7;2014;667;No Chance;logical;144;10749;2014-12-06 17:24:10;TRUE;152;976;college
+7;2014;566;Vepři ve při;programming;144;10750;2014-12-06 17:24:20;FALSE;139;0;other
+7;2014;576;Neřádi;logical;144;10751;2014-12-06 17:24:21;TRUE;150;944;other
+7;2014;714;Carabinieri;programming;144;10752;2014-12-06 17:24:43;TRUE;141;943;college
+7;2014;605;Jak se nám líbí!;logical;145;10753;2014-12-06 17:25:17;TRUE;150;943;other
+7;2014;605;Jak se nám líbí!;programming;145;10754;2014-12-06 17:25:35;TRUE;141;942;other
+7;2014;632;BOZP;logical;145;10755;2014-12-06 17:25:39;TRUE;147;970;other
+7;2014;710;InterLost;idea;145;10756;2014-12-06 17:25:51;TRUE;161;932;high_school
+7;2014;656;Ý;logical;145;10757;2014-12-06 17:25:56;FALSE;150;0;other
+7;2014;573;kancl;logical;146;10758;2014-12-06 17:26:16;TRUE;150;942;other
+7;2014;584;Stěrači;logical;146;10759;2014-12-06 17:26:21;TRUE;150;941;college
+7;2014;683;Daždivé popoludnie;idea;146;10760;2014-12-06 17:26:24;TRUE;161;931;other
+7;2014;603;Nejnekvazidiagonalizovávatelnější;programming;146;10761;2014-12-06 17:26:30;TRUE;141;941;college
+7;2014;717;prase.old;programming;146;10762;2014-12-06 17:26:30;FALSE;143;0;college
+7;2014;557;Bifurkační tým;idea;146;10763;2014-12-06 17:26:54;TRUE;161;930;other
+7;2014;659;ROFLCOPTER!;programming;147;10764;2014-12-06 17:27:01;TRUE;142;994;other
+7;2014;698;KOHYHB;idea;147;10765;2014-12-06 17:27:01;TRUE;159;997;other
+7;2014;674;Cykličtí mamuti;programming;147;10766;2014-12-06 17:27:08;FALSE;139;0;college
+7;2014;670;Geek Squad;programming;147;10767;2014-12-06 17:27:11;TRUE;141;940;other
+7;2014;638;Ajťáci-VASS;logical;147;10768;2014-12-06 17:27:24;FALSE;152;0;high_school
+7;2014;610;dušou blondínky;idea;147;10769;2014-12-06 17:27:29;TRUE;161;929;other
+7;2014;716;Páni zla;idea;147;10770;2014-12-06 17:27:35;TRUE;157;972;other
+7;2014;573;kancl;programming;147;10771;2014-12-06 17:27:37;FALSE;142;0;other
+7;2014;623;Error 37;logical;147;10772;2014-12-06 17:27:44;TRUE;152;975;other
+7;2014;668;Bageti;idea;147;10773;2014-12-06 17:27:57;TRUE;161;928;college
+7;2014;572;Alea;logical;148;10774;2014-12-06 17:28:02;FALSE;152;0;college
+7;2014;707;Polomacane rastlinky;idea;148;10775;2014-12-06 17:28:12;FALSE;161;0;other
+7;2014;642;Kundegenatka;programming;148;10776;2014-12-06 17:28:16;TRUE;141;939;other
+7;2014;662;Dlhani a dlhaci;programming;148;10777;2014-12-06 17:28:19;TRUE;141;938;other
+7;2014;694;Psycho;logical;148;10778;2014-12-06 17:28:25;TRUE;152;974;college
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;idea;148;10779;2014-12-06 17:28:30;TRUE;161;927;college
+7;2014;717;prase.old;programming;148;10780;2014-12-06 17:28:37;FALSE;143;0;college
+7;2014;589;Zrychlený TEP;idea;148;10781;2014-12-06 17:28:42;TRUE;161;926;other
+7;2014;715;Na ISTotu;logical;148;10782;2014-12-06 17:28:48;TRUE;150;940;other
+7;2014;577;žufouni;programming;148;10783;2014-12-06 17:28:54;TRUE;142;993;other
+7;2014;672;Žabaryba;logical;149;10784;2014-12-06 17:29:21;TRUE;147;969;college
+7;2014;597;Stoosum;idea;149;10785;2014-12-06 17:29:25;TRUE;161;925;other
+7;2014;656;Ý;logical;149;10786;2014-12-06 17:29:33;TRUE;150;939;other
+7;2014;659;ROFLCOPTER!;logical;149;10787;2014-12-06 17:29:45;TRUE;151;998;other
+7;2014;596;Lišky ve vaně;logical;149;10788;2014-12-06 17:29:47;TRUE;150;938;college
+7;2014;634;DuJour a spol.;logical;149;10789;2014-12-06 17:29:53;TRUE;147;968;other
+7;2014;573;kancl;idea;150;10790;2014-12-06 17:30:09;TRUE;161;924;other
+7;2014;619;Tykadla;logical;150;10791;2014-12-06 17:30:11;TRUE;151;997;other
+7;2014;717;prase.old;programming;150;10792;2014-12-06 17:30:31;FALSE;143;0;college
+7;2014;566;Vepři ve při;logical;150;10793;2014-12-06 17:30:41;TRUE;152;973;other
+7;2014;572;Alea;programming;150;10794;2014-12-06 17:30:41;TRUE;141;937;college
+7;2014;644;Carpe Testudo;programming;150;10795;2014-12-06 17:30:47;TRUE;142;992;college
+7;2014;608;dostal;programming;150;10796;2014-12-06 17:30:54;TRUE;138;957;other
+7;2014;709;Alzheimer;logical;151;10797;2014-12-06 17:31:08;TRUE;150;937;high_school
+7;2014;670;Geek Squad;logical;151;10798;2014-12-06 17:31:28;TRUE;147;967;other
+7;2014;589;Zrychlený TEP;logical;151;10799;2014-12-06 17:31:33;TRUE;150;936;other
+7;2014;602;voy-a-ger;programming;151;10800;2014-12-06 17:31:54;TRUE;139;989;college
+7;2014;572;Alea;logical;151;10801;2014-12-06 17:31:57;FALSE;152;0;college
+7;2014;595;zlobři;idea;152;10802;2014-12-06 17:32:24;FALSE;157;0;college
+7;2014;664;Škrkny;programming;152;10803;2014-12-06 17:32:30;FALSE;139;0;high_school
+7;2014;679;Sherloci;programming;152;10804;2014-12-06 17:32:33;FALSE;140;0;high_school
+7;2014;614;Vexator Exoticus;programming;152;10805;2014-12-06 17:32:53;TRUE;141;936;college
+7;2014;591;Pomocná škola;programming;152;10806;2014-12-06 17:32:54;TRUE;141;935;other
+7;2014;661;Samozvaný Bagr;logical;153;10807;2014-12-06 17:33:07;TRUE;150;935;college
+7;2014;673;Slečna a páni vod direkce;idea;153;10808;2014-12-06 17:33:16;FALSE;161;0;other
+7;2014;562;BSOD;logical;153;10809;2014-12-06 17:33:18;TRUE;150;934;high_school
+7;2014;577;žufouni;logical;153;10810;2014-12-06 17:33:27;TRUE;151;996;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;153;10811;2014-12-06 17:33:46;TRUE;140;944;other
+7;2014;631;Honzovi andilci;logical;153;10812;2014-12-06 17:33:53;TRUE;150;933;college
+7;2014;575;Jeníčci;logical;154;10813;2014-12-06 17:34:01;TRUE;150;932;other
+7;2014;604;V.I.Peace;logical;154;10814;2014-12-06 17:34:03;TRUE;150;931;high_school
+7;2014;622;Horší už to nebude;programming;154;10815;2014-12-06 17:34:04;TRUE;140;943;other
+7;2014;582;Spící Volové;logical;154;10816;2014-12-06 17:34:18;TRUE;147;966;other
+7;2014;627;Bazembos;logical;154;10817;2014-12-06 17:34:30;TRUE;152;972;other
+7;2014;641;Palachinky;logical;154;10818;2014-12-06 17:34:30;FALSE;152;0;high_school
+7;2014;594;Aplikovaní Hrošíci;idea;154;10819;2014-12-06 17:34:36;TRUE;157;971;other
+7;2014;627;Bazembos;logical;154;10821;2014-12-06 17:34:43;FALSE;150;0;other
+7;2014;579;Akomodace hrachu;logical;154;10822;2014-12-06 17:34:45;TRUE;151;995;other
+7;2014;673;Slečna a páni vod direkce;idea;154;10823;2014-12-06 17:34:48;TRUE;161;923;other
+7;2014;623;Error 37;logical;154;10824;2014-12-06 17:34:53;FALSE;151;0;other
+7;2014;715;Na ISTotu;programming;154;10825;2014-12-06 17:34:54;FALSE;141;0;other
+7;2014;557;Bifurkační tým;programming;154;10826;2014-12-06 17:34:56;TRUE;141;934;other
+7;2014;598;Teoretická pantomima;logical;155;10827;2014-12-06 17:35:11;TRUE;150;930;other
+7;2014;660;Segmentation fault;logical;155;10828;2014-12-06 17:35:16;TRUE;150;929;other
+7;2014;596;Lišky ve vaně;logical;155;10829;2014-12-06 17:35:18;FALSE;147;0;college
+7;2014;595;zlobři;idea;155;10830;2014-12-06 17:35:24;FALSE;157;0;college
+7;2014;663;nechci-uvést;programming;155;10831;2014-12-06 17:35:25;TRUE;142;991;other
+7;2014;715;Na ISTotu;programming;155;10832;2014-12-06 17:35:28;TRUE;141;933;other
+7;2014;591;Pomocná škola;logical;155;10833;2014-12-06 17:35:37;TRUE;150;928;other
+7;2014;584;Stěrači;logical;155;10834;2014-12-06 17:35:38;FALSE;152;0;college
+7;2014;692;braintrust;idea;155;10835;2014-12-06 17:35:40;TRUE;156;914;other
+7;2014;572;Alea;logical;156;10836;2014-12-06 17:36:05;FALSE;152;0;college
+7;2014;718;Mazani;programming;156;10837;2014-12-06 17:36:23;TRUE;141;932;other
+7;2014;649;Brouk v hlavě;programming;156;10838;2014-12-06 17:36:50;TRUE;138;956;other
+7;2014;699;mop;programming;156;10839;2014-12-06 17:36:59;TRUE;141;931;other
+7;2014;573;kancl;programming;157;10840;2014-12-06 17:37:13;FALSE;142;0;other
+7;2014;674;Cykličtí mamuti;programming;157;10841;2014-12-06 17:37:16;TRUE;139;988;college
+7;2014;585;2B|~2B;programming;157;10842;2014-12-06 17:37:33;FALSE;142;0;other
+7;2014;716;Páni zla;idea;157;10843;2014-12-06 17:37:39;TRUE;161;922;other
+7;2014;675;Rapeles;logical;157;10844;2014-12-06 17:37:46;TRUE;150;927;college
+7;2014;597;Stoosum;logical;157;10845;2014-12-06 17:37:50;TRUE;147;965;other
+7;2014;637;a spol.;logical;157;10846;2014-12-06 17:37:54;TRUE;148;964;other
+7;2014;646;BonsaiBuddies;logical;157;10847;2014-12-06 17:37:58;FALSE;150;0;college
+7;2014;669;NaPALM;logical;158;10848;2014-12-06 17:38:06;TRUE;152;971;other
+7;2014;645;HaMouni;idea;158;10849;2014-12-06 17:38:24;TRUE;161;921;high_school
+7;2014;581;Ešte sa dohodneme;logical;158;10850;2014-12-06 17:38:26;TRUE;151;994;college
+7;2014;563;Treblíci;programming;158;10851;2014-12-06 17:38:33;FALSE;141;0;other
+7;2014;572;Alea;logical;158;10852;2014-12-06 17:38:37;TRUE;150;926;college
+7;2014;572;Alea;logical;159;10853;2014-12-06 17:39:20;FALSE;152;0;college
+7;2014;560;Floccinaucinihilipilification;logical;159;10854;2014-12-06 17:39:28;TRUE;147;964;high_school
+7;2014;608;dostal;programming;159;10855;2014-12-06 17:39:32;TRUE;141;930;other
+7;2014;563;Treblíci;programming;159;10857;2014-12-06 17:39:44;TRUE;141;929;other
+7;2014;622;Horší už to nebude;logical;159;10858;2014-12-06 17:39:58;TRUE;152;970;other
+7;2014;655;Jahodaaa;programming;160;10859;2014-12-06 17:40:07;TRUE;143;999;college
+7;2014;711;Junioři z Junioru;idea;160;10860;2014-12-06 17:40:07;FALSE;156;0;college
+7;2014;670;Geek Squad;idea;160;10861;2014-12-06 17:40:28;FALSE;156;0;other
+7;2014;590;Maséři jako hovado;programming;160;10862;2014-12-06 17:40:29;TRUE;141;928;college
+7;2014;605;Jak se nám líbí!;idea;160;10863;2014-12-06 17:40:52;TRUE;159;996;other
+7;2014;672;Žabaryba;logical;161;10864;2014-12-06 17:41:03;FALSE;149;0;college
+7;2014;703;Shashlick;idea;161;10865;2014-12-06 17:41:05;TRUE;161;920;other
+7;2014;698;KOHYHB;idea;161;10866;2014-12-06 17:41:13;TRUE;161;919;other
+7;2014;585;2B|~2B;logical;161;10867;2014-12-06 17:41:15;TRUE;149;939;other
+7;2014;596;Lišky ve vaně;idea;161;10868;2014-12-06 17:41:28;TRUE;161;918;college
+7;2014;604;V.I.Peace;idea;161;10869;2014-12-06 17:41:56;TRUE;161;917;high_school
+7;2014;562;BSOD;logical;162;10870;2014-12-06 17:42:20;TRUE;152;969;high_school
+7;2014;603;Nejnekvazidiagonalizovávatelnější;idea;162;10871;2014-12-06 17:42:26;TRUE;159;995;college
+7;2014;633;Kerberos;logical;162;10872;2014-12-06 17:42:32;TRUE;150;925;other
+7;2014;639;Pod PSA;programming;162;10873;2014-12-06 17:42:33;TRUE;142;990;other
+7;2014;609;Dont Panic;programming;162;10874;2014-12-06 17:42:56;TRUE;140;942;other
+7;2014;693;Haluškin tým;logical;163;10875;2014-12-06 17:43:15;TRUE;150;924;college
+7;2014;615;Sarajevští řezníci;idea;163;10876;2014-12-06 17:43:26;TRUE;161;916;high_school
+7;2014;587;Betonoví;logical;163;10878;2014-12-06 17:43:46;TRUE;150;923;other
+7;2014;563;Treblíci;logical;164;10879;2014-12-06 17:44:01;TRUE;147;963;other
+7;2014;641;Palachinky;logical;164;10880;2014-12-06 17:44:04;TRUE;152;968;high_school
+7;2014;658;absolutně černé ovce;programming;164;10881;2014-12-06 17:44:04;TRUE;142;989;college
+7;2014;660;Segmentation fault;logical;164;10882;2014-12-06 17:44:20;TRUE;152;967;other
+7;2014;670;Geek Squad;idea;164;10883;2014-12-06 17:44:25;TRUE;156;913;other
+7;2014;632;BOZP;programming;164;10884;2014-12-06 17:44:29;TRUE;141;927;other
+7;2014;679;Sherloci;programming;164;10885;2014-12-06 17:44:29;FALSE;140;0;high_school
+7;2014;702;Já Pepa;programming;165;10887;2014-12-06 17:45:42;TRUE;141;926;high_school
+7;2014;688;ideme;logical;165;10888;2014-12-06 17:45:53;FALSE;150;0;college
+7;2014;625;paranoidontoza;programming;166;10889;2014-12-06 17:46:01;TRUE;142;988;college
+7;2014;619;Tykadla;programming;166;10890;2014-12-06 17:46:03;TRUE;143;998;other
+7;2014;610;dušou blondínky;logical;166;10891;2014-12-06 17:46:04;FALSE;152;0;other
+7;2014;597;Stoosum;logical;166;10892;2014-12-06 17:46:08;TRUE;150;922;other
+7;2014;710;InterLost;logical;166;10893;2014-12-06 17:46:08;FALSE;150;0;high_school
+7;2014;664;Škrkny;idea;166;10894;2014-12-06 17:46:08;TRUE;161;915;high_school
+7;2014;566;Vepři ve při;idea;166;10896;2014-12-06 17:46:20;FALSE;158;0;other
+7;2014;594;Aplikovaní Hrošíci;idea;166;10897;2014-12-06 17:46:21;TRUE;159;994;other
+7;2014;666;Oxymoroni;logical;166;10898;2014-12-06 17:46:31;FALSE;152;0;high_school
+7;2014;639;Pod PSA;logical;166;10899;2014-12-06 17:46:34;TRUE;150;921;other
+7;2014;590;Maséři jako hovado;logical;166;10900;2014-12-06 17:46:43;TRUE;152;966;college
+7;2014;689;Hirvi;programming;167;10901;2014-12-06 17:47:04;TRUE;141;925;high_school
+7;2014;644;Carpe Testudo;logical;167;10902;2014-12-06 17:47:11;TRUE;151;993;college
+7;2014;626;prvocisla;logical;167;10903;2014-12-06 17:47:14;FALSE;152;0;college
+7;2014;672;Žabaryba;logical;167;10904;2014-12-06 17:47:16;FALSE;149;0;college
+7;2014;710;InterLost;logical;167;10905;2014-12-06 17:47:18;FALSE;150;0;high_school
+7;2014;686;Gabenův snack bar;programming;167;10906;2014-12-06 17:47:37;TRUE;142;987;college
+7;2014;662;Dlhani a dlhaci;logical;167;10907;2014-12-06 17:47:42;TRUE;152;965;other
+7;2014;575;Jeníčci;programming;167;10908;2014-12-06 17:47:44;TRUE;142;986;other
+7;2014;627;Bazembos;programming;167;10909;2014-12-06 17:47:59;FALSE;143;0;other
+7;2014;692;braintrust;logical;168;10910;2014-12-06 17:48:05;TRUE;152;964;other
+7;2014;619;Tykadla;programming;168;10911;2014-12-06 17:48:14;TRUE;142;985;other
+7;2014;635;Lososi na sněhu;idea;168;10912;2014-12-06 17:48:19;TRUE;157;970;other
+7;2014;671;Gothics;idea;168;10913;2014-12-06 17:48:28;FALSE;158;0;high_school
+7;2014;624;Zebra řez;programming;168;10914;2014-12-06 17:48:29;TRUE;142;984;other
+7;2014;594;Aplikovaní Hrošíci;logical;168;10915;2014-12-06 17:48:30;TRUE;152;963;other
+7;2014;633;Kerberos;programming;168;10916;2014-12-06 17:48:31;TRUE;141;924;other
+7;2014;610;dušou blondínky;logical;168;10917;2014-12-06 17:48:32;FALSE;152;0;other
+7;2014;664;Škrkny;programming;168;10918;2014-12-06 17:48:46;FALSE;139;0;high_school
+7;2014;600;Akce grupy;logical;168;10919;2014-12-06 17:48:57;TRUE;152;962;other
+7;2014;717;prase.old;programming;169;10920;2014-12-06 17:49:10;FALSE;143;0;college
+7;2014;689;Hirvi;logical;169;10921;2014-12-06 17:49:20;TRUE;149;938;high_school
+7;2014;566;Vepři ve při;idea;169;10922;2014-12-06 17:49:21;TRUE;158;963;other
+7;2014;591;Pomocná škola;logical;169;10923;2014-12-06 17:49:25;TRUE;149;937;other
+7;2014;560;Floccinaucinihilipilification;idea;169;10924;2014-12-06 17:49:30;TRUE;159;993;high_school
+7;2014;675;Rapeles;logical;169;10925;2014-12-06 17:49:30;TRUE;147;962;college
+7;2014;652;Bladerunners;logical;170;10926;2014-12-06 17:50:13;FALSE;152;0;other
+7;2014;642;Kundegenatka;logical;170;10927;2014-12-06 17:50:48;TRUE;148;963;other
+7;2014;608;dostal;programming;171;10928;2014-12-06 17:51:24;FALSE;142;0;other
+7;2014;617;Lam(bd)y;logical;171;10929;2014-12-06 17:51:31;TRUE;150;920;college
+7;2014;664;Škrkny;programming;171;10930;2014-12-06 17:51:33;FALSE;139;0;high_school
+7;2014;573;kancl;logical;171;10931;2014-12-06 17:51:39;TRUE;149;936;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;172;10932;2014-12-06 17:52:03;TRUE;142;983;other
+7;2014;708;Baklažán;logical;172;10933;2014-12-06 17:52:11;TRUE;147;961;high_school
+7;2014;581;Ešte sa dohodneme;logical;172;10934;2014-12-06 17:52:14;TRUE;152;961;college
+7;2014;572;Alea;programming;172;10935;2014-12-06 17:52:15;FALSE;142;0;college
+7;2014;661;Samozvaný Bagr;logical;172;10936;2014-12-06 17:52:21;TRUE;147;960;college
+7;2014;660;Segmentation fault;programming;172;10937;2014-12-06 17:52:48;FALSE;142;0;other
+7;2014;608;dostal;programming;172;10938;2014-12-06 17:52:48;FALSE;142;0;other
+7;2014;604;V.I.Peace;logical;172;10939;2014-12-06 17:52:52;TRUE;152;960;high_school
+7;2014;607;Laserová Prasátka;logical;172;10940;2014-12-06 17:52:59;TRUE;150;919;high_school
+7;2014;677;SIGSEGV;idea;172;10941;2014-12-06 17:52:59;FALSE;160;0;high_school
+7;2014;591;Pomocná škola;programming;173;10942;2014-12-06 17:53:08;FALSE;143;0;other
+7;2014;626;prvocisla;idea;173;10943;2014-12-06 17:53:17;FALSE;160;0;college
+7;2014;650;Piliny všude okolo;logical;173;10944;2014-12-06 17:53:18;TRUE;150;918;other
+7;2014;608;dostal;programming;173;10945;2014-12-06 17:53:18;TRUE;142;982;other
+7;2014;658;absolutně černé ovce;logical;173;10946;2014-12-06 17:53:23;TRUE;152;959;college
+7;2014;677;SIGSEGV;logical;173;10947;2014-12-06 17:53:29;TRUE;152;958;high_school
+7;2014;634;DuJour a spol.;programming;173;10948;2014-12-06 17:53:44;TRUE;140;941;other
+7;2014;587;Betonoví;idea;173;10949;2014-12-06 17:53:47;TRUE;161;914;other
+7;2014;706;NothingToDoHere;programming;173;10950;2014-12-06 17:53:49;TRUE;140;940;college
+7;2014;626;prvocisla;idea;173;10951;2014-12-06 17:53:50;FALSE;158;0;college
+7;2014;666;Oxymoroni;logical;173;10952;2014-12-06 17:53:51;TRUE;152;957;high_school
+7;2014;667;No Chance;idea;174;10953;2014-12-06 17:54:13;TRUE;161;913;college
+7;2014;646;BonsaiBuddies;logical;174;10954;2014-12-06 17:54:23;FALSE;152;0;college
+7;2014;677;SIGSEGV;programming;174;10955;2014-12-06 17:54:40;FALSE;141;0;high_school
+7;2014;579;Akomodace hrachu;programming;174;10956;2014-12-06 17:54:49;FALSE;143;0;other
+7;2014;636;HALUZna ORGanizacia;logical;174;10957;2014-12-06 17:54:51;TRUE;147;959;other
+7;2014;696;Dumbledore's army;logical;174;10958;2014-12-06 17:54:54;FALSE;152;0;high_school
+7;2014;583;müssüssüppü;logical;175;10959;2014-12-06 17:55:01;TRUE;152;956;other
+7;2014;660;Segmentation fault;programming;175;10960;2014-12-06 17:55:08;TRUE;142;981;other
+7;2014;581;Ešte sa dohodneme;programming;175;10961;2014-12-06 17:55:11;TRUE;143;997;college
+7;2014;696;Dumbledore's army;logical;175;10962;2014-12-06 17:55:31;FALSE;151;0;high_school
+7;2014;673;Slečna a páni vod direkce;programming;175;10964;2014-12-06 17:55:57;FALSE;139;0;other
+7;2014;697;n či π?;programming;175;10965;2014-12-06 17:55:58;TRUE;140;939;other
+7;2014;674;Cykličtí mamuti;programming;175;10966;2014-12-06 17:55:58;TRUE;142;980;college
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;programming;175;10967;2014-12-06 17:55:59;TRUE;141;923;college
+7;2014;559;Night Wolves;programming;176;10968;2014-12-06 17:56:02;TRUE;141;922;other
+7;2014;664;Škrkny;programming;176;10969;2014-12-06 17:56:04;FALSE;139;0;high_school
+7;2014;685;Fantastická ∜256;idea;176;10970;2014-12-06 17:56:19;TRUE;161;912;college
+7;2014;628;Sloniky;programming;176;10971;2014-12-06 17:56:32;TRUE;141;921;other
+7;2014;559;Night Wolves;logical;177;10972;2014-12-06 17:57:01;TRUE;152;955;other
+7;2014;679;Sherloci;programming;177;10973;2014-12-06 17:57:06;TRUE;138;955;high_school
+7;2014;596;Lišky ve vaně;logical;177;10974;2014-12-06 17:57:14;FALSE;147;0;college
+7;2014;595;zlobři;logical;177;10975;2014-12-06 17:57:17;TRUE;150;917;college
+7;2014;590;Maséři jako hovado;idea;177;10976;2014-12-06 17:57:43;TRUE;158;962;college
+7;2014;663;nechci-uvést;logical;177;10977;2014-12-06 17:57:49;TRUE;152;954;other
+7;2014;677;SIGSEGV;idea;177;10978;2014-12-06 17:57:55;TRUE;161;911;high_school
+7;2014;615;Sarajevští řezníci;programming;177;10979;2014-12-06 17:57:59;TRUE;141;920;high_school
+7;2014;714;Carabinieri;logical;178;10980;2014-12-06 17:58:09;FALSE;149;0;college
+7;2014;646;BonsaiBuddies;logical;178;10981;2014-12-06 17:58:16;FALSE;152;0;college
+7;2014;630;Error404;programming;178;10982;2014-12-06 17:58:22;TRUE;141;919;high_school
+7;2014;596;Lišky ve vaně;programming;178;10983;2014-12-06 17:58:31;TRUE;142;979;college
+7;2014;591;Pomocná škola;programming;178;10984;2014-12-06 17:58:38;FALSE;143;0;other
+7;2014;696;Dumbledore's army;logical;178;10985;2014-12-06 17:58:38;FALSE;152;0;high_school
+7;2014;715;Na ISTotu;logical;178;10986;2014-12-06 17:58:40;TRUE;152;953;other
+7;2014;569;Vojtíci;logical;178;10987;2014-12-06 17:58:40;FALSE;147;0;other
+7;2014;653;Chróúst?!;logical;178;10988;2014-12-06 17:58:53;TRUE;152;952;college
+7;2014;604;V.I.Peace;programming;179;10989;2014-12-06 17:59:00;TRUE;141;918;high_school
+7;2014;683;Daždivé popoludnie;logical;179;10990;2014-12-06 17:59:11;TRUE;150;916;other
+7;2014;579;Akomodace hrachu;logical;179;10991;2014-12-06 17:59:53;TRUE;147;958;other
+7;2014;675;Rapeles;logical;180;10992;2014-12-06 18:00:03;FALSE;152;0;college
+7;2014;664;Škrkny;idea;180;10993;2014-12-06 18:00:03;FALSE;160;0;high_school
+7;2014;679;Sherloci;programming;180;10994;2014-12-06 18:00:15;TRUE;140;938;high_school
+7;2014;696;Dumbledore's army;logical;180;10995;2014-12-06 18:00:16;FALSE;152;0;high_school
+7;2014;633;Kerberos;idea;180;10996;2014-12-06 18:00:26;TRUE;157;969;other
+7;2014;618;Sráči;programming;180;10997;2014-12-06 18:00:27;TRUE;138;954;other
+7;2014;625;paranoidontoza;idea;180;10998;2014-12-06 18:00:28;FALSE;160;0;college
+7;2014;603;Nejnekvazidiagonalizovávatelnější;logical;180;10999;2014-12-06 18:00:29;TRUE;152;951;college
+7;2014;669;NaPALM;programming;180;11000;2014-12-06 18:00:32;TRUE;138;953;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;logical;180;11001;2014-12-06 18:00:35;TRUE;150;915;other
+7;2014;585;2B|~2B;programming;180;11002;2014-12-06 18:00:41;TRUE;142;978;other
+7;2014;573;kancl;idea;180;11003;2014-12-06 18:00:42;TRUE;159;992;other
+7;2014;696;Dumbledore's army;logical;180;11004;2014-12-06 18:00:50;FALSE;152;0;high_school
+7;2014;664;Škrkny;programming;180;11005;2014-12-06 18:00:55;FALSE;139;0;high_school
+7;2014;643;Absolutno;logical;180;11006;2014-12-06 18:00:56;FALSE;150;0;other
+7;2014;579;Akomodace hrachu;programming;181;11007;2014-12-06 18:01:01;FALSE;143;0;other
+7;2014;569;Vojtíci;logical;181;11008;2014-12-06 18:01:06;TRUE;147;957;other
+7;2014;591;Pomocná škola;programming;181;11009;2014-12-06 18:01:24;FALSE;143;0;other
+7;2014;646;BonsaiBuddies;logical;181;11010;2014-12-06 18:01:30;FALSE;152;0;college
+7;2014;597;Stoosum;logical;181;11011;2014-12-06 18:01:33;FALSE;152;0;other
+7;2014;631;Honzovi andilci;programming;181;11012;2014-12-06 18:01:54;FALSE;142;0;college
+7;2014;677;SIGSEGV;programming;182;11013;2014-12-06 18:02:13;TRUE;141;917;high_school
+7;2014;614;Vexator Exoticus;programming;182;11014;2014-12-06 18:02:23;TRUE;142;977;college
+7;2014;618;Sráči;logical;182;11015;2014-12-06 18:02:25;TRUE;148;962;other
+7;2014;615;Sarajevští řezníci;logical;182;11016;2014-12-06 18:02:32;TRUE;149;935;high_school
+7;2014;673;Slečna a páni vod direkce;idea;182;11017;2014-12-06 18:02:41;FALSE;157;0;other
+7;2014;698;KOHYHB;programming;182;11018;2014-12-06 18:02:48;TRUE;142;976;other
+7;2014;713;Artificial Instinct;idea;183;11019;2014-12-06 18:03:00;TRUE;161;910;other
+7;2014;597;Stoosum;logical;183;11020;2014-12-06 18:03:57;FALSE;152;0;other
+7;2014;711;Junioři z Junioru;programming;184;11021;2014-12-06 18:04:12;TRUE;138;952;college
+7;2014;635;Lososi na sněhu;logical;184;11022;2014-12-06 18:04:14;TRUE;155;1000;other
+7;2014;582;Spící Volové;idea;184;11023;2014-12-06 18:04:36;TRUE;157;968;other
+7;2014;673;Slečna a páni vod direkce;programming;184;11024;2014-12-06 18:04:47;TRUE;140;937;other
+7;2014;631;Honzovi andilci;programming;185;11025;2014-12-06 18:05:08;FALSE;142;0;college
+7;2014;627;Bazembos;logical;185;11026;2014-12-06 18:05:15;TRUE;155;999;other
+7;2014;649;Brouk v hlavě;programming;185;11027;2014-12-06 18:05:23;TRUE;141;916;other
+7;2014;558;Přizdisráči;idea;185;11028;2014-12-06 18:05:27;TRUE;163;1000;other
+7;2014;594;Aplikovaní Hrošíci;programming;185;11029;2014-12-06 18:05:58;FALSE;138;0;other
+7;2014;598;Teoretická pantomima;logical;186;11030;2014-12-06 18:06:29;FALSE;152;0;other
+7;2014;641;Palachinky;idea;186;11031;2014-12-06 18:06:31;TRUE;161;909;high_school
+7;2014;624;Zebra řez;logical;186;11032;2014-12-06 18:06:32;TRUE;155;998;other
+7;2014;633;Kerberos;logical;186;11033;2014-12-06 18:06:38;TRUE;152;950;other
+7;2014;685;Fantastická ∜256;logical;186;11034;2014-12-06 18:06:40;FALSE;151;0;college
+7;2014;594;Aplikovaní Hrošíci;programming;186;11035;2014-12-06 18:06:43;TRUE;138;951;other
+7;2014;602;voy-a-ger;logical;186;11036;2014-12-06 18:06:49;TRUE;155;997;college
+7;2014;563;Treblíci;logical;186;11037;2014-12-06 18:06:50;TRUE;150;914;other
+7;2014;679;Sherloci;logical;186;11038;2014-12-06 18:06:56;FALSE;152;0;high_school
+7;2014;570;Dršťkový Havran Masového Kašpárka;logical;186;11039;2014-12-06 18:06:58;TRUE;148;961;other
+7;2014;632;BOZP;logical;187;11040;2014-12-06 18:07:14;TRUE;150;913;other
+7;2014;661;Samozvaný Bagr;programming;187;11041;2014-12-06 18:07:22;TRUE;142;975;college
+7;2014;701;J&T;logical;187;11042;2014-12-06 18:07:45;TRUE;151;992;college
+7;2014;557;Bifurkační tým;logical;188;11043;2014-12-06 18:08:09;TRUE;150;912;other
+7;2014;661;Samozvaný Bagr;logical;188;11044;2014-12-06 18:08:13;TRUE;148;960;college
+7;2014;686;Gabenův snack bar;logical;188;11045;2014-12-06 18:08:28;TRUE;155;996;college
+7;2014;591;Pomocná škola;programming;188;11046;2014-12-06 18:08:28;TRUE;143;996;other
+7;2014;662;Dlhani a dlhaci;logical;188;11047;2014-12-06 18:08:47;TRUE;155;995;other
+7;2014;692;braintrust;idea;189;11048;2014-12-06 18:09:11;FALSE;161;0;other
+7;2014;664;Škrkny;logical;189;11049;2014-12-06 18:09:14;TRUE;152;949;high_school
+7;2014;558;Přizdisráči;programming;189;11050;2014-12-06 18:09:18;TRUE;144;1000;other
+7;2014;685;Fantastická ∜256;idea;189;11051;2014-12-06 18:09:21;TRUE;156;912;college
+7;2014;699;mop;logical;189;11052;2014-12-06 18:09:47;TRUE;152;948;other
+7;2014;560;Floccinaucinihilipilification;logical;191;11053;2014-12-06 18:11:02;TRUE;150;911;high_school
+7;2014;628;Sloniky;logical;191;11054;2014-12-06 18:11:06;FALSE;150;0;other
+7;2014;715;Na ISTotu;logical;191;11055;2014-12-06 18:11:14;TRUE;155;994;other
+7;2014;707;Polomacane rastlinky;logical;191;11056;2014-12-06 18:11:38;TRUE;150;910;other
+7;2014;673;Slečna a páni vod direkce;programming;191;11057;2014-12-06 18:11:42;TRUE;139;987;other
+7;2014;598;Teoretická pantomima;idea;191;11058;2014-12-06 18:11:54;TRUE;157;967;other
+7;2014;637;a spol.;programming;191;11059;2014-12-06 18:11:57;TRUE;141;915;other
+7;2014;686;Gabenův snack bar;idea;192;11060;2014-12-06 18:12:08;TRUE;156;911;college
+7;2014;619;Tykadla;idea;192;11061;2014-12-06 18:12:12;TRUE;164;1000;other
+7;2014;635;Lososi na sněhu;logical;192;11062;2014-12-06 18:12:35;FALSE;147;0;other
+7;2014;715;Na ISTotu;idea;192;11063;2014-12-06 18:12:36;TRUE;162;1000;other
+7;2014;625;paranoidontoza;logical;192;11064;2014-12-06 18:12:47;TRUE;151;991;college
+7;2014;675;Rapeles;idea;192;11065;2014-12-06 18:12:57;TRUE;158;961;college
+7;2014;646;BonsaiBuddies;logical;193;11066;2014-12-06 18:13:02;TRUE;150;909;college
+7;2014;589;Zrychlený TEP;logical;193;11067;2014-12-06 18:13:02;TRUE;152;947;other
+7;2014;615;Sarajevští řezníci;logical;193;11068;2014-12-06 18:13:13;TRUE;155;993;high_school
+7;2014;617;Lam(bd)y;logical;193;11069;2014-12-06 18:13:29;TRUE;152;946;college
+7;2014;626;prvocisla;programming;193;11070;2014-12-06 18:13:53;FALSE;141;0;college
+7;2014;660;Segmentation fault;idea;193;11071;2014-12-06 18:13:56;TRUE;164;999;other
+7;2014;603;Nejnekvazidiagonalizovávatelnější;logical;194;11072;2014-12-06 18:14:19;TRUE;155;992;college
+7;2014;634;DuJour a spol.;programming;194;11073;2014-12-06 18:14:32;FALSE;142;0;other
+7;2014;618;Sráči;logical;194;11074;2014-12-06 18:14:33;TRUE;155;991;other
+7;2014;577;žufouni;idea;194;11075;2014-12-06 18:14:35;TRUE;164;998;other
+7;2014;696;Dumbledore's army;logical;194;11076;2014-12-06 18:14:43;TRUE;152;945;high_school
+7;2014;650;Piliny všude okolo;logical;194;11077;2014-12-06 18:14:53;TRUE;155;990;other
+7;2014;633;Kerberos;logical;195;11078;2014-12-06 18:15:14;TRUE;155;989;other
+7;2014;710;InterLost;logical;195;11079;2014-12-06 18:15:24;TRUE;155;988;high_school
+7;2014;585;2B|~2B;programming;195;11080;2014-12-06 18:15:26;FALSE;144;0;other
+7;2014;664;Škrkny;programming;195;11081;2014-12-06 18:15:31;FALSE;139;0;high_school
+7;2014;607;Laserová Prasátka;programming;195;11082;2014-12-06 18:15:58;FALSE;140;0;high_school
+7;2014;602;voy-a-ger;idea;196;11083;2014-12-06 18:16:03;TRUE;163;999;college
+7;2014;598;Teoretická pantomima;logical;196;11084;2014-12-06 18:16:12;TRUE;152;944;other
+7;2014;566;Vepři ve při;idea;196;11085;2014-12-06 18:16:16;TRUE;162;999;other
+7;2014;583;müssüssüppü;logical;196;11086;2014-12-06 18:16:29;TRUE;147;956;other
+7;2014;597;Stoosum;logical;196;11087;2014-12-06 18:16:30;FALSE;152;0;other
+7;2014;697;n či π?;idea;196;11088;2014-12-06 18:16:31;TRUE;162;998;other
+7;2014;625;paranoidontoza;logical;196;11089;2014-12-06 18:16:41;TRUE;155;987;college
+7;2014;608;dostal;idea;196;11090;2014-12-06 18:16:43;TRUE;162;997;other
+7;2014;668;Bageti;programming;196;11091;2014-12-06 18:16:47;FALSE;142;0;college
+7;2014;717;prase.old;idea;196;11092;2014-12-06 18:16:57;TRUE;164;997;college
+7;2014;660;Segmentation fault;logical;197;11093;2014-12-06 18:17:04;TRUE;147;955;other
+7;2014;660;Segmentation fault;logical;197;11094;2014-12-06 18:17:14;TRUE;155;986;other
+7;2014;708;Baklažán;idea;197;11095;2014-12-06 18:17:28;TRUE;161;908;high_school
+7;2014;675;Rapeles;logical;197;11096;2014-12-06 18:17:28;TRUE;148;959;college
+7;2014;644;Carpe Testudo;programming;197;11097;2014-12-06 18:17:40;TRUE;145;1000;college
+7;2014;581;Ešte sa dohodneme;logical;197;11098;2014-12-06 18:17:44;FALSE;150;0;college
+7;2014;585;2B|~2B;programming;197;11099;2014-12-06 18:17:47;TRUE;144;999;other
+7;2014;692;braintrust;idea;197;11100;2014-12-06 18:17:50;TRUE;161;907;other
+7;2014;558;Přizdisráči;logical;197;11101;2014-12-06 18:17:52;TRUE;155;985;other
+7;2014;642;Kundegenatka;programming;197;11102;2014-12-06 18:17:52;TRUE;140;936;other
+7;2014;563;Treblíci;logical;198;11103;2014-12-06 18:18:14;FALSE;152;0;other
+7;2014;627;Bazembos;programming;198;11104;2014-12-06 18:18:15;TRUE;143;995;other
+7;2014;627;Bazembos;idea;198;11105;2014-12-06 18:18:59;TRUE;164;996;other
+7;2014;591;Pomocná škola;programming;199;11106;2014-12-06 18:19:11;TRUE;146;1000;other
+7;2014;623;Error 37;logical;199;11107;2014-12-06 18:19:19;TRUE;155;984;other
+7;2014;636;HALUZna ORGanizacia;idea;199;11108;2014-12-06 18:19:25;TRUE;164;995;other
+7;2014;636;HALUZna ORGanizacia;programming;199;11109;2014-12-06 18:19:26;TRUE;144;998;other
+7;2014;603;Nejnekvazidiagonalizovávatelnější;idea;199;11110;2014-12-06 18:19:33;TRUE;164;994;college
+7;2014;634;DuJour a spol.;programming;199;11111;2014-12-06 18:19:35;TRUE;142;974;other
+7;2014;563;Treblíci;logical;199;11112;2014-12-06 18:19:36;FALSE;152;0;other
+7;2014;672;Žabaryba;logical;199;11113;2014-12-06 18:19:53;TRUE;155;983;college
+7;2014;558;Přizdisráči;idea;200;11114;2014-12-06 18:20:06;TRUE;164;993;other
+7;2014;669;NaPALM;idea;200;11115;2014-12-06 18:20:09;TRUE;164;992;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;200;11116;2014-12-06 18:20:18;FALSE;144;0;other
+7;2014;633;Kerberos;idea;200;11117;2014-12-06 18:20:19;TRUE;164;991;other
+7;2014;619;Tykadla;logical;200;11118;2014-12-06 18:20:27;TRUE;153;1000;other
+7;2014;557;Bifurkační tým;programming;200;11119;2014-12-06 18:20:29;TRUE;142;973;other
+7;2014;688;ideme;logical;200;11120;2014-12-06 18:20:34;TRUE;150;908;college
+7;2014;615;Sarajevští řezníci;logical;200;11121;2014-12-06 18:20:38;FALSE;150;0;high_school
+7;2014;670;Geek Squad;logical;200;11122;2014-12-06 18:20:52;TRUE;152;943;other
+7;2014;644;Carpe Testudo;idea;200;11123;2014-12-06 18:20:55;TRUE;164;990;college
+7;2014;560;Floccinaucinihilipilification;idea;201;11124;2014-12-06 18:21:17;TRUE;164;989;high_school
+7;2014;622;Horší už to nebude;logical;201;11125;2014-12-06 18:21:38;TRUE;155;982;other
+7;2014;579;Akomodace hrachu;programming;201;11126;2014-12-06 18:21:49;TRUE;144;997;other
+7;2014;562;BSOD;idea;201;11127;2014-12-06 18:21:55;TRUE;164;988;high_school
+7;2014;625;paranoidontoza;programming;201;11128;2014-12-06 18:21:59;TRUE;144;996;college
+7;2014;615;Sarajevští řezníci;logical;202;11129;2014-12-06 18:22:15;TRUE;150;907;high_school
+7;2014;717;prase.old;programming;202;11130;2014-12-06 18:22:17;TRUE;142;972;college
+7;2014;674;Cykličtí mamuti;programming;202;11131;2014-12-06 18:22:21;TRUE;144;995;college
+7;2014;699;mop;logical;202;11132;2014-12-06 18:22:23;TRUE;147;954;other
+7;2014;643;Absolutno;logical;202;11133;2014-12-06 18:22:33;TRUE;150;906;other
+7;2014;579;Akomodace hrachu;idea;202;11134;2014-12-06 18:22:35;TRUE;162;996;other
+7;2014;658;absolutně černé ovce;programming;202;11135;2014-12-06 18:22:43;TRUE;140;935;college
+7;2014;572;Alea;programming;203;11136;2014-12-06 18:23:01;TRUE;142;971;college
+7;2014;559;Night Wolves;logical;203;11137;2014-12-06 18:23:11;TRUE;150;905;other
+7;2014;579;Akomodace hrachu;programming;203;11138;2014-12-06 18:23:57;TRUE;143;994;other
+7;2014;656;Ý;idea;204;11139;2014-12-06 18:24:14;FALSE;162;0;other
+7;2014;655;Jahodaaa;programming;204;11140;2014-12-06 18:24:21;TRUE;139;986;college
+7;2014;689;Hirvi;logical;204;11141;2014-12-06 18:24:26;TRUE;150;904;high_school
+7;2014;591;Pomocná škola;idea;204;11142;2014-12-06 18:24:40;TRUE;162;995;other
+7;2014;661;Samozvaný Bagr;idea;204;11143;2014-12-06 18:24:40;TRUE;162;994;college
+7;2014;707;Polomacane rastlinky;idea;204;11144;2014-12-06 18:24:48;TRUE;161;906;other
+7;2014;597;Stoosum;logical;205;11145;2014-12-06 18:25:04;TRUE;155;981;other
+7;2014;602;voy-a-ger;idea;205;11146;2014-12-06 18:25:23;TRUE;164;987;college
+7;2014;668;Bageti;programming;205;11147;2014-12-06 18:25:30;TRUE;142;970;college
+7;2014;644;Carpe Testudo;idea;205;11148;2014-12-06 18:25:50;TRUE;162;993;college
+7;2014;563;Treblíci;logical;205;11149;2014-12-06 18:25:50;FALSE;152;0;other
+7;2014;701;J&T;programming;205;11150;2014-12-06 18:25:54;TRUE;141;914;college
+7;2014;602;voy-a-ger;idea;206;11151;2014-12-06 18:26:00;TRUE;162;992;college
+7;2014;573;kancl;programming;206;11152;2014-12-06 18:26:06;TRUE;145;999;other
+7;2014;690;Pedagogický dozor;logical;206;11153;2014-12-06 18:26:07;TRUE;155;980;other
+7;2014;581;Ešte sa dohodneme;logical;206;11154;2014-12-06 18:26:21;TRUE;150;903;college
+7;2014;703;Shashlick;idea;206;11155;2014-12-06 18:26:24;TRUE;162;991;other
+7;2014;694;Psycho;logical;206;11156;2014-12-06 18:26:31;TRUE;155;979;college
+7;2014;701;J&T;logical;206;11157;2014-12-06 18:26:36;FALSE;147;0;college
+7;2014;675;Rapeles;idea;206;11158;2014-12-06 18:26:48;TRUE;156;910;college
+7;2014;558;Přizdisráči;idea;206;11159;2014-12-06 18:26:58;TRUE;162;990;other
+7;2014;566;Vepři ve při;programming;207;11160;2014-12-06 18:27:00;TRUE;146;999;other
+7;2014;598;Teoretická pantomima;idea;207;11161;2014-12-06 18:27:04;TRUE;164;986;other
+7;2014;664;Škrkny;idea;207;11162;2014-12-06 18:27:07;TRUE;164;985;high_school
+7;2014;587;Betonoví;logical;207;11163;2014-12-06 18:27:20;TRUE;155;978;other
+7;2014;607;Laserová Prasátka;idea;207;11164;2014-12-06 18:27:27;TRUE;163;998;high_school
+7;2014;661;Samozvaný Bagr;logical;207;11165;2014-12-06 18:27:33;TRUE;155;977;college
+7;2014;667;No Chance;logical;207;11166;2014-12-06 18:27:58;TRUE;150;902;college
+7;2014;653;Chróúst?!;idea;207;11167;2014-12-06 18:27:58;TRUE;162;989;college
+7;2014;673;Slečna a páni vod direkce;idea;208;11168;2014-12-06 18:28:27;FALSE;164;0;other
+7;2014;708;Baklažán;logical;208;11169;2014-12-06 18:28:48;TRUE;150;901;high_school
+7;2014;663;nechci-uvést;idea;208;11170;2014-12-06 18:28:54;TRUE;164;984;other
+7;2014;614;Vexator Exoticus;logical;208;11171;2014-12-06 18:28:57;TRUE;155;976;college
+7;2014;607;Laserová Prasátka;idea;208;11172;2014-12-06 18:28:57;TRUE;164;983;high_school
+7;2014;573;kancl;idea;209;11173;2014-12-06 18:29:00;TRUE;164;982;other
+7;2014;690;Pedagogický dozor;idea;209;11174;2014-12-06 18:29:31;FALSE;161;0;other
+7;2014;701;J&T;logical;209;11175;2014-12-06 18:29:37;TRUE;147;953;college
+7;2014;608;dostal;idea;209;11176;2014-12-06 18:29:47;TRUE;164;981;other
+7;2014;577;žufouni;idea;209;11177;2014-12-06 18:29:47;TRUE;162;988;other
+7;2014;653;Chróúst?!;idea;210;11178;2014-12-06 18:30:02;TRUE;164;980;college
+7;2014;575;Jeníčci;programming;210;11179;2014-12-06 18:30:06;TRUE;144;994;other
+7;2014;670;Geek Squad;idea;210;11180;2014-12-06 18:30:26;TRUE;162;987;other
+7;2014;707;Polomacane rastlinky;programming;210;11181;2014-12-06 18:30:31;TRUE;141;913;other
+7;2014;636;HALUZna ORGanizacia;idea;210;11182;2014-12-06 18:30:35;TRUE;163;997;other
+7;2014;706;NothingToDoHere;idea;210;11183;2014-12-06 18:30:45;FALSE;164;0;college
+7;2014;643;Absolutno;programming;210;11184;2014-12-06 18:30:49;TRUE;144;993;other
+7;2014;577;žufouni;logical;211;11185;2014-12-06 18:31:01;TRUE;155;975;other
+7;2014;579;Akomodace hrachu;idea;211;11186;2014-12-06 18:31:01;TRUE;163;996;other
+7;2014;716;Páni zla;logical;211;11187;2014-12-06 18:31:22;FALSE;152;0;other
+7;2014;628;Sloniky;programming;211;11188;2014-12-06 18:31:23;FALSE;139;0;other
+7;2014;697;n či π?;idea;211;11189;2014-12-06 18:31:28;TRUE;164;979;other
+7;2014;591;Pomocná škola;programming;211;11190;2014-12-06 18:31:39;TRUE;144;992;other
+7;2014;690;Pedagogický dozor;idea;211;11191;2014-12-06 18:31:42;TRUE;161;905;other
+7;2014;581;Ešte sa dohodneme;idea;211;11192;2014-12-06 18:31:54;TRUE;164;978;college
+7;2014;598;Teoretická pantomima;logical;212;11193;2014-12-06 18:32:01;TRUE;155;974;other
+7;2014;714;Carabinieri;logical;212;11194;2014-12-06 18:32:06;TRUE;150;900;college
+7;2014;622;Horší už to nebude;idea;212;11195;2014-12-06 18:32:26;TRUE;164;977;other
+7;2014;693;Haluškin tým;programming;212;11196;2014-12-06 18:32:46;FALSE;142;0;college
+7;2014;558;Přizdisráči;programming;213;11197;2014-12-06 18:33:01;TRUE;145;998;other
+7;2014;602;voy-a-ger;logical;213;11198;2014-12-06 18:33:06;TRUE;154;1000;college
+7;2014;566;Vepři ve při;programming;213;11199;2014-12-06 18:33:13;TRUE;144;991;other
+7;2014;653;Chróúst?!;logical;213;11200;2014-12-06 18:33:31;TRUE;155;973;college
+7;2014;693;Haluškin tým;logical;213;11201;2014-12-06 18:33:32;TRUE;155;972;college
+7;2014;670;Geek Squad;idea;213;11202;2014-12-06 18:33:42;TRUE;164;976;other
+7;2014;674;Cykličtí mamuti;idea;213;11203;2014-12-06 18:33:50;TRUE;162;986;college
+7;2014;706;NothingToDoHere;idea;213;11204;2014-12-06 18:33:50;TRUE;164;975;college
+7;2014;655;Jahodaaa;programming;213;11205;2014-12-06 18:33:51;FALSE;145;0;college
+7;2014;662;Dlhani a dlhaci;programming;213;11206;2014-12-06 18:33:56;FALSE;142;0;other
+7;2014;699;mop;idea;214;11207;2014-12-06 18:34:04;TRUE;164;974;other
+7;2014;683;Daždivé popoludnie;logical;214;11208;2014-12-06 18:34:05;TRUE;149;934;other
+7;2014;653;Chróúst?!;programming;214;11209;2014-12-06 18:34:11;FALSE;140;0;college
+7;2014;572;Alea;logical;214;11210;2014-12-06 18:34:14;TRUE;147;952;college
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;214;11211;2014-12-06 18:34:22;TRUE;144;990;other
+7;2014;699;mop;logical;214;11212;2014-12-06 18:34:32;TRUE;155;971;other
+7;2014;661;Samozvaný Bagr;idea;214;11213;2014-12-06 18:34:35;FALSE;163;0;college
+7;2014;668;Bageti;idea;214;11214;2014-12-06 18:34:44;TRUE;164;973;college
+7;2014;569;Vojtíci;programming;214;11215;2014-12-06 18:34:49;TRUE;142;969;other
+7;2014;566;Vepři ve při;programming;215;11216;2014-12-06 18:35:03;TRUE;145;997;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;idea;215;11217;2014-12-06 18:35:19;TRUE;164;972;college
+7;2014;715;Na ISTotu;idea;215;11218;2014-12-06 18:35:20;TRUE;164;971;other
+7;2014;697;n či π?;logical;215;11219;2014-12-06 18:35:21;TRUE;155;970;other
+7;2014;662;Dlhani a dlhaci;programming;215;11220;2014-12-06 18:35:26;FALSE;142;0;other
+7;2014;628;Sloniky;idea;215;11221;2014-12-06 18:35:28;TRUE;164;970;other
+7;2014;642;Kundegenatka;idea;215;11222;2014-12-06 18:35:43;TRUE;164;969;other
+7;2014;561;supermuf;programming;215;11223;2014-12-06 18:35:50;TRUE;144;989;other
+7;2014;567;Kapela pamětníků;idea;215;11224;2014-12-06 18:35:56;TRUE;162;985;college
+7;2014;636;HALUZna ORGanizacia;programming;215;11225;2014-12-06 18:35:56;TRUE;145;996;other
+7;2014;693;Haluškin tým;programming;216;11226;2014-12-06 18:36:00;TRUE;142;968;college
+7;2014;662;Dlhani a dlhaci;idea;216;11227;2014-12-06 18:36:06;TRUE;162;984;other
+7;2014;662;Dlhani a dlhaci;programming;216;11228;2014-12-06 18:36:12;FALSE;142;0;other
+7;2014;582;Spící Volové;programming;216;11229;2014-12-06 18:36:13;FALSE;140;0;other
+7;2014;661;Samozvaný Bagr;idea;216;11230;2014-12-06 18:36:15;TRUE;163;995;college
+7;2014;581;Ešte sa dohodneme;programming;216;11231;2014-12-06 18:36:22;FALSE;144;0;college
+7;2014;559;Night Wolves;logical;216;11232;2014-12-06 18:36:26;TRUE;155;969;other
+7;2014;698;KOHYHB;idea;216;11233;2014-12-06 18:36:45;TRUE;164;968;other
+7;2014;716;Páni zla;logical;216;11234;2014-12-06 18:36:59;TRUE;152;942;other
+7;2014;662;Dlhani a dlhaci;programming;217;11235;2014-12-06 18:37:06;FALSE;142;0;other
+7;2014;669;NaPALM;idea;217;11236;2014-12-06 18:37:16;TRUE;162;983;other
+7;2014;600;Akce grupy;idea;217;11237;2014-12-06 18:37:19;TRUE;162;982;other
+7;2014;562;BSOD;logical;217;11238;2014-12-06 18:37:21;TRUE;155;968;high_school
+7;2014;692;braintrust;programming;217;11239;2014-12-06 18:37:25;TRUE;140;934;other
+7;2014;591;Pomocná škola;idea;217;11240;2014-12-06 18:37:35;TRUE;164;967;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;programming;217;11241;2014-12-06 18:37:40;FALSE;139;0;college
+7;2014;625;paranoidontoza;idea;217;11242;2014-12-06 18:37:40;TRUE;162;981;college
+7;2014;658;absolutně černé ovce;idea;217;11243;2014-12-06 18:37:47;TRUE;164;966;college
+7;2014;610;dušou blondínky;logical;217;11244;2014-12-06 18:37:50;TRUE;155;967;other
+7;2014;596;Lišky ve vaně;idea;217;11245;2014-12-06 18:37:54;TRUE;164;965;college
+7;2014;582;Spící Volové;idea;217;11246;2014-12-06 18:37:54;TRUE;164;964;other
+7;2014;666;Oxymoroni;programming;217;11247;2014-12-06 18:37:58;FALSE;139;0;high_school
+7;2014;621;GJAK UB;logical;218;11248;2014-12-06 18:38:11;FALSE;154;0;high_school
+7;2014;674;Cykličtí mamuti;programming;218;11249;2014-12-06 18:38:12;TRUE;146;998;college
+7;2014;587;Betonoví;logical;218;11250;2014-12-06 18:38:12;TRUE;147;951;other
+7;2014;618;Sráči;idea;218;11251;2014-12-06 18:38:16;TRUE;164;963;other
+7;2014;653;Chróúst?!;programming;218;11252;2014-12-06 18:38:40;TRUE;140;933;college
+7;2014;634;DuJour a spol.;logical;218;11253;2014-12-06 18:38:40;TRUE;152;941;other
+7;2014;660;Segmentation fault;idea;218;11254;2014-12-06 18:38:40;TRUE;162;980;other
+7;2014;610;dušou blondínky;idea;219;11255;2014-12-06 18:39:03;TRUE;164;962;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;idea;219;11256;2014-12-06 18:39:27;TRUE;164;961;other
+7;2014;579;Akomodace hrachu;idea;219;11257;2014-12-06 18:39:39;TRUE;164;960;other
+7;2014;642;Kundegenatka;idea;219;11258;2014-12-06 18:39:40;TRUE;162;979;other
+7;2014;660;Segmentation fault;programming;219;11259;2014-12-06 18:39:53;FALSE;144;0;other
+7;2014;636;HALUZna ORGanizacia;idea;220;11260;2014-12-06 18:40:03;TRUE;162;978;other
+7;2014;655;Jahodaaa;idea;220;11261;2014-12-06 18:40:14;TRUE;164;959;college
+7;2014;603;Nejnekvazidiagonalizovávatelnější;idea;220;11262;2014-12-06 18:40:14;FALSE;158;0;college
+7;2014;663;nechci-uvést;idea;220;11263;2014-12-06 18:40:25;TRUE;162;977;other
+7;2014;641;Palachinky;idea;220;11264;2014-12-06 18:40:36;TRUE;164;958;high_school
+7;2014;597;Stoosum;idea;220;11265;2014-12-06 18:40:41;TRUE;164;957;other
+7;2014;705;Tentokrát bez Dády a Dády;logical;221;11266;2014-12-06 18:41:08;TRUE;155;966;college
+7;2014;638;Ajťáci-VASS;logical;221;11267;2014-12-06 18:41:29;TRUE;155;965;high_school
+7;2014;577;žufouni;logical;221;11268;2014-12-06 18:41:44;TRUE;147;950;other
+7;2014;573;kancl;programming;221;11269;2014-12-06 18:41:53;TRUE;144;988;other
+7;2014;634;DuJour a spol.;programming;221;11270;2014-12-06 18:41:57;FALSE;139;0;other
+7;2014;635;Lososi na sněhu;idea;221;11271;2014-12-06 18:41:59;TRUE;162;976;other
+7;2014;584;Stěrači;idea;222;11272;2014-12-06 18:42:00;TRUE;164;956;college
+7;2014;581;Ešte sa dohodneme;programming;222;11273;2014-12-06 18:42:06;TRUE;144;987;college
+7;2014;717;prase.old;logical;222;11274;2014-12-06 18:42:08;TRUE;152;940;college
+7;2014;713;Artificial Instinct;idea;222;11275;2014-12-06 18:42:08;TRUE;162;975;other
+7;2014;622;Horší už to nebude;logical;222;11276;2014-12-06 18:42:21;TRUE;147;949;other
+7;2014;621;GJAK UB;idea;222;11277;2014-12-06 18:42:26;TRUE;164;955;high_school
+7;2014;594;Aplikovaní Hrošíci;idea;222;11278;2014-12-06 18:42:29;TRUE;164;954;other
+7;2014;710;InterLost;idea;222;11279;2014-12-06 18:42:34;TRUE;164;953;high_school
+7;2014;649;Brouk v hlavě;programming;222;11280;2014-12-06 18:42:47;TRUE;140;932;other
+7;2014;557;Bifurkační tým;idea;222;11281;2014-12-06 18:42:47;TRUE;164;952;other
+7;2014;585;2B|~2B;idea;222;11282;2014-12-06 18:42:56;TRUE;164;951;other
+7;2014;557;Bifurkační tým;logical;222;11283;2014-12-06 18:42:56;TRUE;155;964;other
+7;2014;705;Tentokrát bez Dády a Dády;programming;222;11284;2014-12-06 18:42:56;TRUE;141;912;college
+7;2014;577;žufouni;programming;223;11285;2014-12-06 18:43:03;TRUE;144;986;other
+7;2014;604;V.I.Peace;logical;223;11286;2014-12-06 18:43:16;FALSE;151;0;high_school
+7;2014;582;Spící Volové;logical;223;11287;2014-12-06 18:43:22;TRUE;148;958;other
+7;2014;650;Piliny všude okolo;idea;223;11288;2014-12-06 18:43:28;TRUE;164;950;other
+7;2014;583;müssüssüppü;idea;223;11289;2014-12-06 18:43:29;TRUE;158;960;other
+7;2014;596;Lišky ve vaně;programming;223;11290;2014-12-06 18:43:41;FALSE;138;0;college
+7;2014;636;HALUZna ORGanizacia;programming;223;11291;2014-12-06 18:43:42;TRUE;146;997;other
+7;2014;569;Vojtíci;idea;223;11292;2014-12-06 18:43:57;TRUE;162;974;other
+7;2014;566;Vepři ve při;programming;223;11293;2014-12-06 18:43:57;FALSE;142;0;other
+7;2014;619;Tykadla;programming;223;11294;2014-12-06 18:43:59;TRUE;145;995;other
+7;2014;579;Akomodace hrachu;programming;224;11295;2014-12-06 18:44:40;TRUE;146;996;other
+7;2014;566;Vepři ve při;programming;224;11296;2014-12-06 18:44:41;FALSE;142;0;other
+7;2014;685;Fantastická ∜256;logical;224;11297;2014-12-06 18:44:44;TRUE;150;899;college
+7;2014;634;DuJour a spol.;programming;224;11298;2014-12-06 18:44:51;FALSE;139;0;other
+7;2014;561;supermuf;idea;224;11299;2014-12-06 18:44:56;TRUE;164;949;other
+7;2014;631;Honzovi andilci;idea;224;11300;2014-12-06 18:44:56;TRUE;164;948;college
+7;2014;603;Nejnekvazidiagonalizovávatelnější;programming;224;11301;2014-12-06 18:44:56;TRUE;142;967;college
+7;2014;627;Bazembos;programming;225;11302;2014-12-06 18:45:00;TRUE;144;985;other
+7;2014;566;Vepři ve při;idea;225;11303;2014-12-06 18:45:26;TRUE;163;994;other
+7;2014;589;Zrychlený TEP;idea;225;11304;2014-12-06 18:45:33;TRUE;164;947;other
+7;2014;579;Akomodace hrachu;logical;225;11305;2014-12-06 18:45:51;TRUE;155;963;other
+7;2014;566;Vepři ve při;programming;225;11306;2014-12-06 18:45:55;TRUE;142;966;other
+7;2014;661;Samozvaný Bagr;idea;226;11307;2014-12-06 18:46:03;TRUE;164;946;college
+7;2014;699;mop;idea;226;11308;2014-12-06 18:46:04;TRUE;162;973;other
+7;2014;652;Bladerunners;logical;226;11309;2014-12-06 18:46:24;TRUE;155;962;other
+7;2014;663;nechci-uvést;programming;226;11310;2014-12-06 18:46:38;TRUE;144;984;other
+7;2014;581;Ešte sa dohodneme;idea;226;11311;2014-12-06 18:46:40;TRUE;162;972;college
+7;2014;597;Stoosum;logical;226;11312;2014-12-06 18:46:47;TRUE;151;990;other
+7;2014;645;HaMouni;idea;227;11313;2014-12-06 18:47:09;FALSE;163;0;high_school
+7;2014;690;Pedagogický dozor;logical;227;11314;2014-12-06 18:47:11;TRUE;150;898;other
+7;2014;597;Stoosum;logical;227;11315;2014-12-06 18:47:42;FALSE;152;0;other
+7;2014;639;Pod PSA;idea;227;11316;2014-12-06 18:47:48;TRUE;164;945;other
+7;2014;583;müssüssüppü;idea;228;11317;2014-12-06 18:48:07;FALSE;162;0;other
+7;2014;649;Brouk v hlavě;idea;228;11318;2014-12-06 18:48:09;TRUE;164;944;other
+7;2014;619;Tykadla;idea;228;11319;2014-12-06 18:48:18;TRUE;162;971;other
+7;2014;604;V.I.Peace;programming;228;11320;2014-12-06 18:48:23;FALSE;144;0;high_school
+7;2014;677;SIGSEGV;logical;228;11321;2014-12-06 18:48:26;TRUE;155;961;high_school
+7;2014;558;Přizdisráči;programming;228;11322;2014-12-06 18:48:33;FALSE;146;0;other
+7;2014;557;Bifurkační tým;programming;229;11323;2014-12-06 18:49:02;TRUE;138;950;other
+7;2014;618;Sráči;programming;229;11324;2014-12-06 18:49:19;TRUE;141;911;other
+7;2014;625;paranoidontoza;programming;229;11325;2014-12-06 18:49:22;TRUE;145;994;college
+7;2014;594;Aplikovaní Hrošíci;idea;229;11326;2014-12-06 18:49:26;TRUE;162;970;other
+7;2014;582;Spící Volové;idea;229;11327;2014-12-06 18:49:32;TRUE;163;993;other
+7;2014;600;Akce grupy;logical;229;11328;2014-12-06 18:49:40;TRUE;155;960;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;logical;229;11329;2014-12-06 18:49:45;TRUE;155;959;college
+7;2014;660;Segmentation fault;programming;230;11330;2014-12-06 18:50:08;TRUE;144;983;other
+7;2014;715;Na ISTotu;idea;230;11331;2014-12-06 18:50:11;TRUE;163;992;other
+7;2014;656;Ý;idea;230;11332;2014-12-06 18:50:22;FALSE;162;0;other
+7;2014;706;NothingToDoHere;idea;230;11333;2014-12-06 18:50:23;TRUE;162;969;college
+7;2014;636;HALUZna ORGanizacia;logical;230;11334;2014-12-06 18:50:29;TRUE;148;957;other
+7;2014;708;Baklažán;programming;230;11335;2014-12-06 18:50:32;FALSE;138;0;high_school
+7;2014;686;Gabenův snack bar;idea;230;11336;2014-12-06 18:50:32;FALSE;164;0;college
+7;2014;643;Absolutno;idea;230;11337;2014-12-06 18:50:33;TRUE;164;943;other
+7;2014;696;Dumbledore's army;idea;230;11338;2014-12-06 18:50:34;TRUE;164;942;high_school
+7;2014;634;DuJour a spol.;programming;230;11339;2014-12-06 18:50:38;FALSE;139;0;other
+7;2014;607;Laserová Prasátka;logical;230;11340;2014-12-06 18:50:42;TRUE;151;989;high_school
+7;2014;708;Baklažán;programming;231;11341;2014-12-06 18:51:05;TRUE;138;949;high_school
+7;2014;634;DuJour a spol.;idea;231;11342;2014-12-06 18:51:19;TRUE;162;968;other
+7;2014;635;Lososi na sněhu;programming;231;11343;2014-12-06 18:51:38;TRUE;142;965;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;logical;231;11344;2014-12-06 18:51:47;TRUE;152;939;college
+7;2014;587;Betonoví;idea;231;11345;2014-12-06 18:51:50;TRUE;164;941;other
+7;2014;673;Slečna a páni vod direkce;idea;231;11346;2014-12-06 18:51:53;FALSE;164;0;other
+7;2014;661;Samozvaný Bagr;idea;231;11347;2014-12-06 18:51:57;TRUE;158;959;college
+7;2014;705;Tentokrát bez Dády a Dády;idea;232;11348;2014-12-06 18:52:23;TRUE;161;904;college
+7;2014;609;Dont Panic;idea;232;11349;2014-12-06 18:52:24;TRUE;164;940;other
+7;2014;644;Carpe Testudo;programming;232;11350;2014-12-06 18:52:24;FALSE;144;0;college
+7;2014;696;Dumbledore's army;logical;232;11351;2014-12-06 18:52:26;FALSE;154;0;high_school
+7;2014;634;DuJour a spol.;logical;232;11352;2014-12-06 18:52:40;TRUE;151;988;other
+7;2014;639;Pod PSA;programming;232;11353;2014-12-06 18:52:42;FALSE;146;0;other
+7;2014;655;Jahodaaa;idea;233;11354;2014-12-06 18:53:02;TRUE;162;967;college
+7;2014;589;Zrychlený TEP;logical;233;11355;2014-12-06 18:53:07;TRUE;155;958;other
+7;2014;641;Palachinky;idea;233;11356;2014-12-06 18:53:24;FALSE;162;0;high_school
+7;2014;618;Sráči;idea;233;11357;2014-12-06 18:53:26;TRUE;162;966;other
+7;2014;631;Honzovi andilci;programming;234;11358;2014-12-06 18:54:03;FALSE;144;0;college
+7;2014;717;prase.old;logical;234;11359;2014-12-06 18:54:09;FALSE;151;0;college
+7;2014;621;GJAK UB;logical;234;11360;2014-12-06 18:54:34;TRUE;154;999;high_school
+7;2014;572;Alea;idea;234;11361;2014-12-06 18:54:40;TRUE;156;909;college
+7;2014;675;Rapeles;idea;234;11362;2014-12-06 18:54:42;TRUE;164;939;college
+7;2014;670;Geek Squad;logical;234;11363;2014-12-06 18:54:48;TRUE;148;956;other
+7;2014;585;2B|~2B;programming;234;11364;2014-12-06 18:54:50;TRUE;145;993;other
+7;2014;689;Hirvi;programming;235;11365;2014-12-06 18:55:08;TRUE;144;982;high_school
+7;2014;697;n či π?;logical;235;11366;2014-12-06 18:55:09;FALSE;151;0;other
+7;2014;627;Bazembos;logical;235;11367;2014-12-06 18:55:09;TRUE;150;897;other
+7;2014;623;Error 37;logical;235;11368;2014-12-06 18:55:11;TRUE;151;987;other
+7;2014;587;Betonoví;idea;235;11369;2014-12-06 18:55:17;TRUE;162;965;other
+7;2014;706;NothingToDoHere;idea;235;11370;2014-12-06 18:55:29;FALSE;163;0;college
+7;2014;669;NaPALM;idea;235;11371;2014-12-06 18:55:59;TRUE;163;991;other
+7;2014;627;Bazembos;programming;236;11372;2014-12-06 18:56:28;TRUE;145;992;other
+7;2014;658;absolutně černé ovce;programming;236;11373;2014-12-06 18:56:33;TRUE;144;981;college
+7;2014;708;Baklažán;idea;236;11374;2014-12-06 18:56:37;TRUE;164;938;high_school
+7;2014;689;Hirvi;logical;236;11375;2014-12-06 18:56:46;TRUE;147;948;high_school
+7;2014;604;V.I.Peace;programming;236;11376;2014-12-06 18:56:52;TRUE;144;980;high_school
+7;2014;637;a spol.;logical;236;11377;2014-12-06 18:56:59;TRUE;150;896;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;idea;237;11378;2014-12-06 18:57:00;TRUE;162;964;other
+7;2014;638;Ajťáci-VASS;idea;237;11379;2014-12-06 18:57:17;FALSE;164;0;high_school
+7;2014;610;dušou blondínky;idea;237;11380;2014-12-06 18:57:22;FALSE;160;0;other
+7;2014;631;Honzovi andilci;programming;237;11381;2014-12-06 18:57:22;TRUE;144;979;college
+7;2014;583;müssüssüppü;programming;237;11382;2014-12-06 18:57:36;FALSE;144;0;other
+7;2014;617;Lam(bd)y;idea;237;11383;2014-12-06 18:57:52;TRUE;164;937;college
+7;2014;638;Ajťáci-VASS;idea;237;11384;2014-12-06 18:57:55;TRUE;164;936;high_school
+7;2014;670;Geek Squad;programming;237;11385;2014-12-06 18:57:58;FALSE;140;0;other
+7;2014;699;mop;programming;238;11386;2014-12-06 18:58:35;FALSE;139;0;other
+7;2014;673;Slečna a páni vod direkce;programming;238;11387;2014-12-06 18:58:38;TRUE;141;910;other
+7;2014;649;Brouk v hlavě;idea;238;11388;2014-12-06 18:58:39;FALSE;163;0;other
+7;2014;624;Zebra řez;programming;238;11389;2014-12-06 18:58:50;FALSE;144;0;other
+7;2014;569;Vojtíci;logical;238;11390;2014-12-06 18:58:52;TRUE;152;938;other
+7;2014;713;Artificial Instinct;logical;239;11391;2014-12-06 18:59:06;TRUE;150;895;other
+7;2014;590;Maséři jako hovado;idea;239;11392;2014-12-06 18:59:07;TRUE;164;935;college
+7;2014;633;Kerberos;programming;239;11393;2014-12-06 18:59:17;TRUE;142;964;other
+7;2014;559;Night Wolves;idea;239;11394;2014-12-06 18:59:20;TRUE;164;934;other
+7;2014;693;Haluškin tým;idea;239;11395;2014-12-06 18:59:23;TRUE;164;933;college
+7;2014;575;Jeníčci;programming;239;11396;2014-12-06 18:59:28;TRUE;145;991;other
+7;2014;623;Error 37;idea;239;11397;2014-12-06 18:59:33;TRUE;163;990;other
+7;2014;609;Dont Panic;programming;239;11398;2014-12-06 18:59:41;FALSE;142;0;other
+7;2014;596;Lišky ve vaně;idea;240;11399;2014-12-06 19:00:05;FALSE;163;0;college
+7;2014;718;Mazani;logical;240;11400;2014-12-06 19:00:28;TRUE;150;894;other
+7;2014;625;paranoidontoza;idea;240;11401;2014-12-06 19:00:36;TRUE;164;932;college
+7;2014;600;Akce grupy;logical;240;11402;2014-12-06 19:00:37;FALSE;151;0;other
+7;2014;645;HaMouni;idea;240;11403;2014-12-06 19:00:41;FALSE;164;0;high_school
+7;2014;674;Cykličtí mamuti;idea;240;11404;2014-12-06 19:00:53;TRUE;164;931;college
+7;2014;560;Floccinaucinihilipilification;idea;240;11405;2014-12-06 19:00:54;TRUE;156;908;high_school
+7;2014;625;paranoidontoza;programming;241;11406;2014-12-06 19:01:06;FALSE;143;0;college
+7;2014;570;Dršťkový Havran Masového Kašpárka;logical;241;11407;2014-12-06 19:01:14;FALSE;154;0;other
+7;2014;566;Vepři ve při;logical;241;11408;2014-12-06 19:01:16;TRUE;155;957;other
+7;2014;623;Error 37;idea;241;11409;2014-12-06 19:01:24;TRUE;164;930;other
+7;2014;635;Lososi na sněhu;idea;241;11410;2014-12-06 19:01:30;TRUE;164;929;other
+7;2014;664;Škrkny;idea;241;11411;2014-12-06 19:01:31;TRUE;162;963;high_school
+7;2014;677;SIGSEGV;idea;241;11412;2014-12-06 19:01:32;FALSE;162;0;high_school
+7;2014;557;Bifurkační tým;idea;241;11413;2014-12-06 19:01:35;TRUE;162;962;other
+7;2014;645;HaMouni;idea;241;11414;2014-12-06 19:01:45;TRUE;164;928;high_school
+7;2014;658;absolutně černé ovce;logical;241;11415;2014-12-06 19:01:53;TRUE;155;956;college
+7;2014;615;Sarajevští řezníci;logical;242;11416;2014-12-06 19:02:11;FALSE;152;0;high_school
+7;2014;705;Tentokrát bez Dády a Dády;logical;242;11417;2014-12-06 19:02:26;TRUE;150;893;college
+7;2014;596;Lišky ve vaně;idea;242;11418;2014-12-06 19:02:34;FALSE;163;0;college
+7;2014;566;Vepři ve při;idea;242;11419;2014-12-06 19:02:36;TRUE;164;927;other
+7;2014;587;Betonoví;idea;242;11420;2014-12-06 19:02:36;FALSE;163;0;other
+7;2014;664;Škrkny;programming;242;11421;2014-12-06 19:02:37;FALSE;139;0;high_school
+7;2014;607;Laserová Prasátka;programming;242;11422;2014-12-06 19:02:50;FALSE;140;0;high_school
+7;2014;609;Dont Panic;programming;242;11423;2014-12-06 19:02:51;FALSE;142;0;other
+7;2014;644;Carpe Testudo;programming;242;11424;2014-12-06 19:02:51;TRUE;144;978;college
+7;2014;604;V.I.Peace;logical;243;11425;2014-12-06 19:03:02;TRUE;155;955;high_school
+7;2014;602;voy-a-ger;logical;243;11426;2014-12-06 19:03:06;TRUE;151;986;college
+7;2014;587;Betonoví;idea;243;11427;2014-12-06 19:03:14;FALSE;163;0;other
+7;2014;668;Bageti;idea;243;11428;2014-12-06 19:03:14;TRUE;156;907;college
+7;2014;688;ideme;programming;243;11429;2014-12-06 19:03:42;FALSE;139;0;college
+7;2014;639;Pod PSA;programming;243;11430;2014-12-06 19:03:54;TRUE;146;995;other
+7;2014;583;müssüssüppü;idea;244;11431;2014-12-06 19:04:00;TRUE;162;961;other
+7;2014;666;Oxymoroni;idea;244;11432;2014-12-06 19:04:26;TRUE;164;926;high_school
+7;2014;696;Dumbledore's army;logical;244;11433;2014-12-06 19:04:33;FALSE;154;0;high_school
+7;2014;717;prase.old;idea;244;11434;2014-12-06 19:04:49;TRUE;162;960;college
+7;2014;659;ROFLCOPTER!;logical;244;11435;2014-12-06 19:04:55;TRUE;153;999;other
+7;2014;639;Pod PSA;idea;245;11436;2014-12-06 19:05:07;TRUE;162;959;other
+7;2014;635;Lososi na sněhu;logical;245;11437;2014-12-06 19:05:26;FALSE;147;0;other
+7;2014;650;Piliny všude okolo;idea;245;11438;2014-12-06 19:05:38;TRUE;162;958;other
+7;2014;585;2B|~2B;idea;245;11439;2014-12-06 19:05:52;TRUE;162;957;other
+7;2014;614;Vexator Exoticus;idea;246;11440;2014-12-06 19:06:03;TRUE;164;925;college
+7;2014;615;Sarajevští řezníci;idea;246;11441;2014-12-06 19:06:09;TRUE;164;924;high_school
+7;2014;704;RJ45;logical;246;11442;2014-12-06 19:06:21;TRUE;155;954;high_school
+7;2014;697;n či π?;logical;246;11443;2014-12-06 19:06:27;TRUE;150;892;other
+7;2014;567;Kapela pamětníků;logical;246;11444;2014-12-06 19:06:27;TRUE;155;953;college
+7;2014;649;Brouk v hlavě;idea;246;11445;2014-12-06 19:06:29;TRUE;163;989;other
+7;2014;607;Laserová Prasátka;idea;246;11446;2014-12-06 19:06:32;FALSE;161;0;high_school
+7;2014;652;Bladerunners;idea;246;11447;2014-12-06 19:06:33;TRUE;161;903;other
+7;2014;582;Spící Volové;programming;247;11448;2014-12-06 19:07:13;FALSE;140;0;other
+7;2014;684;Triumvirát;logical;247;11449;2014-12-06 19:07:20;TRUE;150;891;high_school
+7;2014;689;Hirvi;programming;247;11450;2014-12-06 19:07:23;FALSE;142;0;high_school
+7;2014;660;Segmentation fault;idea;247;11451;2014-12-06 19:07:25;TRUE;163;988;other
+7;2014;594;Aplikovaní Hrošíci;logical;247;11452;2014-12-06 19:07:27;TRUE;155;952;other
+7;2014;694;Psycho;idea;247;11453;2014-12-06 19:07:45;TRUE;164;923;college
+7;2014;673;Slečna a páni vod direkce;programming;247;11454;2014-12-06 19:07:53;TRUE;142;963;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;248;11455;2014-12-06 19:08:03;TRUE;145;990;other
+7;2014;558;Přizdisráči;logical;248;11456;2014-12-06 19:08:10;FALSE;151;0;other
+7;2014;619;Tykadla;programming;248;11457;2014-12-06 19:08:15;TRUE;144;977;other
+7;2014;603;Nejnekvazidiagonalizovávatelnější;idea;248;11458;2014-12-06 19:08:24;TRUE;162;956;college
+7;2014;624;Zebra řez;programming;248;11459;2014-12-06 19:08:39;TRUE;144;976;other
+7;2014;581;Ešte sa dohodneme;programming;248;11460;2014-12-06 19:08:46;TRUE;146;994;college
+7;2014;581;Ešte sa dohodneme;logical;248;11461;2014-12-06 19:08:47;TRUE;155;951;college
+7;2014;625;paranoidontoza;programming;248;11462;2014-12-06 19:08:49;FALSE;143;0;college
+7;2014;646;BonsaiBuddies;logical;249;11463;2014-12-06 19:09:00;TRUE;152;937;college
+7;2014;602;voy-a-ger;programming;249;11464;2014-12-06 19:09:04;TRUE;144;975;college
+7;2014;674;Cykličtí mamuti;programming;249;11465;2014-12-06 19:09:07;FALSE;143;0;college
+7;2014;583;müssüssüppü;logical;249;11466;2014-12-06 19:09:13;TRUE;155;950;other
+7;2014;673;Slečna a páni vod direkce;idea;249;11467;2014-12-06 19:09:18;FALSE;164;0;other
+7;2014;637;a spol.;idea;249;11468;2014-12-06 19:09:23;TRUE;163;987;other
+7;2014;714;Carabinieri;programming;249;11469;2014-12-06 19:09:34;TRUE;144;974;college
+7;2014;625;paranoidontoza;programming;249;11470;2014-12-06 19:09:43;TRUE;146;993;college
+7;2014;638;Ajťáci-VASS;programming;249;11471;2014-12-06 19:09:45;FALSE;146;0;high_school
+7;2014;562;BSOD;programming;249;11472;2014-12-06 19:09:47;TRUE;144;973;high_school
+7;2014;607;Laserová Prasátka;logical;249;11473;2014-12-06 19:09:54;TRUE;155;949;high_school
+7;2014;668;Bageti;idea;249;11474;2014-12-06 19:09:57;TRUE;162;955;college
+7;2014;635;Lososi na sněhu;logical;250;11475;2014-12-06 19:10:02;TRUE;147;947;other
+7;2014;596;Lišky ve vaně;idea;250;11476;2014-12-06 19:10:13;TRUE;163;986;college
+7;2014;575;Jeníčci;logical;250;11477;2014-12-06 19:10:22;TRUE;148;955;other
+7;2014;583;müssüssüppü;programming;250;11478;2014-12-06 19:10:23;TRUE;144;972;other
+7;2014;590;Maséři jako hovado;idea;250;11479;2014-12-06 19:10:30;TRUE;162;954;college
+7;2014;629;In Aenigmibus;idea;250;11480;2014-12-06 19:10:34;TRUE;164;922;high_school
+7;2014;638;Ajťáci-VASS;programming;250;11481;2014-12-06 19:10:38;TRUE;142;962;high_school
+7;2014;673;Slečna a páni vod direkce;idea;250;11482;2014-12-06 19:10:49;TRUE;164;921;other
+7;2014;706;NothingToDoHere;programming;251;11483;2014-12-06 19:11:10;TRUE;141;909;college
+7;2014;579;Akomodace hrachu;programming;251;11484;2014-12-06 19:11:10;TRUE;145;989;other
+7;2014;583;müssüssüppü;idea;251;11485;2014-12-06 19:11:41;TRUE;164;920;other
+7;2014;643;Absolutno;programming;251;11486;2014-12-06 19:11:52;TRUE;146;992;other
+7;2014;595;zlobři;programming;251;11487;2014-12-06 19:11:59;FALSE;140;0;college
+7;2014;584;Stěrači;idea;252;11488;2014-12-06 19:12:15;TRUE;162;953;college
+7;2014;686;Gabenův snack bar;programming;252;11489;2014-12-06 19:12:17;TRUE;146;991;college
+7;2014;696;Dumbledore's army;logical;252;11490;2014-12-06 19:12:21;TRUE;150;890;high_school
+7;2014;716;Páni zla;programming;252;11491;2014-12-06 19:12:25;FALSE;139;0;other
+7;2014;607;Laserová Prasátka;programming;252;11492;2014-12-06 19:12:32;FALSE;140;0;high_school
+7;2014;585;2B|~2B;programming;252;11493;2014-12-06 19:12:38;TRUE;146;990;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;logical;252;11494;2014-12-06 19:12:56;TRUE;154;998;other
+7;2014;634;DuJour a spol.;programming;253;11495;2014-12-06 19:13:09;FALSE;139;0;other
+7;2014;621;GJAK UB;programming;253;11496;2014-12-06 19:13:12;FALSE;142;0;high_school
+7;2014;643;Absolutno;programming;253;11497;2014-12-06 19:13:27;TRUE;145;988;other
+7;2014;663;nechci-uvést;logical;253;11499;2014-12-06 19:13:51;TRUE;148;954;other
+7;2014;710;InterLost;programming;254;11500;2014-12-06 19:14:04;TRUE;144;971;high_school
+7;2014;587;Betonoví;idea;254;11501;2014-12-06 19:14:23;FALSE;163;0;other
+7;2014;558;Přizdisráči;logical;254;11502;2014-12-06 19:14:33;TRUE;151;985;other
+7;2014;634;DuJour a spol.;logical;254;11503;2014-12-06 19:14:45;TRUE;155;948;other
+7;2014;672;Žabaryba;idea;255;11504;2014-12-06 19:15:05;TRUE;161;902;college
+7;2014;666;Oxymoroni;idea;255;11505;2014-12-06 19:15:08;TRUE;162;952;high_school
+7;2014;634;DuJour a spol.;programming;255;11506;2014-12-06 19:15:15;FALSE;139;0;other
+7;2014;707;Polomacane rastlinky;idea;255;11507;2014-12-06 19:15:24;TRUE;162;951;other
+7;2014;618;Sráči;idea;255;11508;2014-12-06 19:15:29;TRUE;159;991;other
+7;2014;674;Cykličtí mamuti;logical;255;11509;2014-12-06 19:15:30;TRUE;154;997;college
+7;2014;582;Spící Volové;logical;255;11510;2014-12-06 19:15:49;TRUE;155;947;other
+7;2014;697;n či π?;idea;255;11511;2014-12-06 19:15:53;TRUE;163;985;other
+7;2014;639;Pod PSA;logical;255;11512;2014-12-06 19:15:55;TRUE;155;946;other
+7;2014;659;ROFLCOPTER!;idea;255;11513;2014-12-06 19:15:57;TRUE;162;950;other
+7;2014;575;Jeníčci;logical;255;11514;2014-12-06 19:15:58;FALSE;151;0;other
+7;2014;587;Betonoví;logical;256;11515;2014-12-06 19:16:05;TRUE;151;984;other
+7;2014;662;Dlhani a dlhaci;programming;256;11516;2014-12-06 19:16:10;FALSE;142;0;other
+7;2014;607;Laserová Prasátka;idea;256;11517;2014-12-06 19:16:10;TRUE;161;901;high_school
+7;2014;690;Pedagogický dozor;programming;256;11518;2014-12-06 19:16:13;TRUE;141;908;other
+7;2014;686;Gabenův snack bar;idea;256;11519;2014-12-06 19:16:16;FALSE;161;0;college
+7;2014;623;Error 37;idea;256;11520;2014-12-06 19:16:18;TRUE;162;949;other
+7;2014;634;DuJour a spol.;idea;256;11521;2014-12-06 19:16:43;TRUE;164;919;other
+7;2014;632;BOZP;programming;256;11522;2014-12-06 19:16:45;TRUE;140;931;other
+7;2014;686;Gabenův snack bar;idea;256;11523;2014-12-06 19:16:51;FALSE;161;0;college
+7;2014;558;Přizdisráči;programming;256;11524;2014-12-06 19:16:59;TRUE;146;989;other
+7;2014;655;Jahodaaa;programming;257;11525;2014-12-06 19:17:00;TRUE;144;970;college
+7;2014;663;nechci-uvést;logical;257;11526;2014-12-06 19:17:03;TRUE;155;945;other
+7;2014;692;braintrust;programming;257;11527;2014-12-06 19:17:11;TRUE;144;969;other
+7;2014;627;Bazembos;idea;257;11528;2014-12-06 19:17:15;TRUE;162;948;other
+7;2014;664;Škrkny;logical;257;11529;2014-12-06 19:17:24;TRUE;149;933;high_school
+7;2014;716;Páni zla;programming;257;11530;2014-12-06 19:17:34;FALSE;139;0;other
+7;2014;585;2B|~2B;programming;257;11531;2014-12-06 19:17:45;FALSE;143;0;other
+7;2014;693;Haluškin tým;idea;258;11532;2014-12-06 19:18:03;TRUE;162;947;college
+7;2014;689;Hirvi;programming;258;11533;2014-12-06 19:18:18;FALSE;146;0;high_school
+7;2014;686;Gabenův snack bar;idea;258;11534;2014-12-06 19:18:33;TRUE;164;918;college
+7;2014;643;Absolutno;logical;258;11535;2014-12-06 19:18:36;TRUE;155;944;other
+7;2014;585;2B|~2B;programming;258;11536;2014-12-06 19:18:46;FALSE;143;0;other
+7;2014;597;Stoosum;programming;258;11537;2014-12-06 19:18:46;FALSE;140;0;other
+7;2014;674;Cykličtí mamuti;programming;258;11538;2014-12-06 19:18:47;FALSE;143;0;college
+7;2014;666;Oxymoroni;programming;258;11539;2014-12-06 19:18:51;FALSE;139;0;high_school
+7;2014;638;Ajťáci-VASS;programming;259;11540;2014-12-06 19:19:19;FALSE;146;0;high_school
+7;2014;704;RJ45;programming;259;11541;2014-12-06 19:19:20;FALSE;141;0;high_school
+7;2014;636;HALUZna ORGanizacia;logical;259;11542;2014-12-06 19:19:23;FALSE;154;0;other
+7;2014;672;Žabaryba;programming;259;11543;2014-12-06 19:19:39;TRUE;140;930;college
+7;2014;670;Geek Squad;programming;259;11544;2014-12-06 19:19:44;FALSE;138;0;other
+7;2014;619;Tykadla;logical;259;11545;2014-12-06 19:19:47;TRUE;155;943;other
+7;2014;617;Lam(bd)y;idea;259;11546;2014-12-06 19:19:48;TRUE;162;946;college
+7;2014;689;Hirvi;idea;259;11547;2014-12-06 19:19:54;TRUE;156;906;high_school
+7;2014;699;mop;idea;259;11548;2014-12-06 19:19:58;TRUE;157;966;other
+7;2014;608;dostal;programming;260;11549;2014-12-06 19:20:19;FALSE;139;0;other
+7;2014;585;2B|~2B;logical;260;11550;2014-12-06 19:20:27;TRUE;155;942;other
+7;2014;707;Polomacane rastlinky;idea;260;11551;2014-12-06 19:20:28;FALSE;164;0;other
+7;2014;598;Teoretická pantomima;idea;260;11552;2014-12-06 19:20:32;TRUE;162;945;other
+7;2014;649;Brouk v hlavě;idea;260;11553;2014-12-06 19:20:42;TRUE;162;944;other
+7;2014;670;Geek Squad;logical;260;11554;2014-12-06 19:20:45;TRUE;150;889;other
+7;2014;594;Aplikovaní Hrošíci;programming;260;11555;2014-12-06 19:20:45;TRUE;144;968;other
+7;2014;701;J&T;idea;260;11556;2014-12-06 19:20:49;TRUE;162;943;college
+7;2014;557;Bifurkační tým;logical;260;11557;2014-12-06 19:20:52;TRUE;152;936;other
+7;2014;675;Rapeles;idea;261;11558;2014-12-06 19:21:06;FALSE;163;0;college
+7;2014;608;dostal;programming;261;11559;2014-12-06 19:21:27;TRUE;139;985;other
+7;2014;638;Ajťáci-VASS;programming;261;11560;2014-12-06 19:21:28;FALSE;146;0;high_school
+7;2014;588;Tweety neni kura!;logical;261;11561;2014-12-06 19:21:29;TRUE;151;983;other
+7;2014;710;InterLost;programming;261;11562;2014-12-06 19:21:30;FALSE;143;0;high_school
+7;2014;666;Oxymoroni;idea;261;11563;2014-12-06 19:21:38;TRUE;163;984;high_school
+7;2014;591;Pomocná škola;programming;261;11564;2014-12-06 19:21:49;TRUE;145;987;other
+7;2014;711;Junioři z Junioru;programming;261;11565;2014-12-06 19:21:54;FALSE;142;0;college
+7;2014;631;Honzovi andilci;logical;261;11566;2014-12-06 19:21:54;FALSE;154;0;college
+7;2014;677;SIGSEGV;idea;261;11567;2014-12-06 19:21:56;FALSE;162;0;high_school
+7;2014;675;Rapeles;idea;261;11568;2014-12-06 19:21:58;FALSE;163;0;college
+7;2014;706;NothingToDoHere;logical;262;11569;2014-12-06 19:22:01;TRUE;155;941;college
+7;2014;710;InterLost;programming;262;11570;2014-12-06 19:22:08;FALSE;143;0;high_school
+7;2014;625;paranoidontoza;idea;262;11571;2014-12-06 19:22:22;FALSE;163;0;college
+7;2014;702;Já Pepa;logical;262;11572;2014-12-06 19:22:28;TRUE;150;888;high_school
+7;2014;711;Junioři z Junioru;programming;262;11573;2014-12-06 19:22:48;FALSE;142;0;college
+7;2014;627;Bazembos;programming;262;11574;2014-12-06 19:22:54;TRUE;146;988;other
+7;2014;625;paranoidontoza;idea;262;11575;2014-12-06 19:22:56;FALSE;163;0;college
+7;2014;698;KOHYHB;idea;263;11576;2014-12-06 19:23:01;TRUE;162;942;other
+7;2014;583;müssüssüppü;idea;263;11577;2014-12-06 19:23:12;FALSE;163;0;other
+7;2014;575;Jeníčci;logical;263;11578;2014-12-06 19:23:22;TRUE;155;940;other
+7;2014;666;Oxymoroni;logical;263;11579;2014-12-06 19:23:33;TRUE;155;939;high_school
+7;2014;615;Sarajevští řezníci;logical;263;11580;2014-12-06 19:23:50;TRUE;152;935;high_school
+7;2014;662;Dlhani a dlhaci;programming;263;11581;2014-12-06 19:23:59;FALSE;142;0;other
+7;2014;618;Sráči;programming;264;11582;2014-12-06 19:24:00;TRUE;140;929;other
+7;2014;686;Gabenův snack bar;idea;264;11583;2014-12-06 19:24:06;FALSE;163;0;college
+7;2014;607;Laserová Prasátka;idea;264;11584;2014-12-06 19:24:31;TRUE;162;941;high_school
+7;2014;713;Artificial Instinct;idea;264;11585;2014-12-06 19:24:32;TRUE;164;917;other
+7;2014;621;GJAK UB;idea;264;11586;2014-12-06 19:24:42;TRUE;162;940;high_school
+7;2014;661;Samozvaný Bagr;idea;264;11587;2014-12-06 19:24:42;TRUE;157;965;college
+7;2014;638;Ajťáci-VASS;logical;264;11588;2014-12-06 19:24:44;TRUE;148;953;high_school
+7;2014;595;zlobři;idea;264;11589;2014-12-06 19:24:57;TRUE;164;916;college
+7;2014;627;Bazembos;programming;265;11590;2014-12-06 19:25:03;TRUE;142;961;other
+7;2014;717;prase.old;logical;265;11591;2014-12-06 19:25:18;FALSE;151;0;college
+7;2014;645;HaMouni;idea;265;11592;2014-12-06 19:25:23;FALSE;162;0;high_school
+7;2014;624;Zebra řez;idea;265;11593;2014-12-06 19:25:38;TRUE;162;939;other
+7;2014;637;a spol.;logical;265;11594;2014-12-06 19:25:54;TRUE;155;938;other
+7;2014;708;Baklažán;programming;265;11595;2014-12-06 19:25:59;TRUE;144;967;high_school
+7;2014;672;Žabaryba;logical;266;11596;2014-12-06 19:26:01;TRUE;149;932;college
+7;2014;590;Maséři jako hovado;logical;266;11597;2014-12-06 19:26:02;TRUE;155;937;college
+7;2014;661;Samozvaný Bagr;logical;266;11598;2014-12-06 19:26:20;TRUE;154;996;college
+7;2014;598;Teoretická pantomima;logical;266;11599;2014-12-06 19:26:28;TRUE;147;946;other
+7;2014;625;paranoidontoza;idea;266;11600;2014-12-06 19:26:42;TRUE;163;983;college
+7;2014;600;Akce grupy;idea;266;11601;2014-12-06 19:26:47;TRUE;163;982;other
+7;2014;618;Sráči;programming;267;11602;2014-12-06 19:27:03;TRUE;142;960;other
+7;2014;573;kancl;logical;267;11603;2014-12-06 19:27:12;TRUE;155;936;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;logical;267;11604;2014-12-06 19:27:20;FALSE;154;0;college
+7;2014;582;Spící Volové;idea;267;11605;2014-12-06 19:27:28;TRUE;162;938;other
+7;2014;658;absolutně černé ovce;logical;267;11606;2014-12-06 19:27:32;FALSE;154;0;college
+7;2014;561;supermuf;idea;268;11607;2014-12-06 19:28:09;TRUE;162;937;other
+7;2014;602;voy-a-ger;programming;268;11608;2014-12-06 19:28:24;TRUE;146;987;college
+7;2014;641;Palachinky;programming;268;11609;2014-12-06 19:28:31;TRUE;138;948;high_school
+7;2014;566;Vepři ve při;logical;269;11610;2014-12-06 19:29:28;TRUE;154;995;other
+7;2014;581;Ešte sa dohodneme;logical;269;11611;2014-12-06 19:29:29;FALSE;154;0;college
+7;2014;653;Chróúst?!;programming;269;11612;2014-12-06 19:29:41;TRUE;144;966;college
+7;2014;685;Fantastická ∜256;logical;269;11613;2014-12-06 19:29:43;TRUE;155;935;college
+7;2014;686;Gabenův snack bar;idea;270;11614;2014-12-06 19:30:11;FALSE;163;0;college
+7;2014;668;Bageti;logical;270;11615;2014-12-06 19:30:11;TRUE;148;952;college
+7;2014;581;Ešte sa dohodneme;programming;270;11616;2014-12-06 19:30:14;TRUE;145;986;college
+7;2014;638;Ajťáci-VASS;idea;270;11617;2014-12-06 19:30:20;TRUE;161;900;high_school
+7;2014;659;ROFLCOPTER!;idea;270;11618;2014-12-06 19:30:36;TRUE;164;915;other
+7;2014;660;Segmentation fault;programming;270;11619;2014-12-06 19:30:53;TRUE;146;986;other
+7;2014;668;Bageti;programming;270;11620;2014-12-06 19:30:57;TRUE;145;985;college
+7;2014;709;Alzheimer;logical;271;11621;2014-12-06 19:31:02;TRUE;152;934;high_school
+7;2014;658;absolutně černé ovce;programming;271;11622;2014-12-06 19:31:03;TRUE;146;985;college
+7;2014;644;Carpe Testudo;logical;271;11623;2014-12-06 19:31:16;TRUE;155;934;college
+7;2014;621;GJAK UB;logical;271;11624;2014-12-06 19:31:17;FALSE;150;0;high_school
+7;2014;653;Chróúst?!;idea;271;11625;2014-12-06 19:31:24;FALSE;160;0;college
+7;2014;694;Psycho;logical;271;11626;2014-12-06 19:31:54;TRUE;149;931;college
+7;2014;710;InterLost;programming;272;11627;2014-12-06 19:32:01;FALSE;143;0;high_school
+7;2014;655;Jahodaaa;logical;272;11628;2014-12-06 19:32:04;TRUE;153;998;college
+7;2014;643;Absolutno;idea;272;11629;2014-12-06 19:32:24;TRUE;162;936;other
+7;2014;689;Hirvi;programming;272;11630;2014-12-06 19:32:29;TRUE;146;984;high_school
+7;2014;573;kancl;programming;272;11631;2014-12-06 19:32:34;TRUE;146;983;other
+7;2014;582;Spící Volové;idea;272;11632;2014-12-06 19:32:50;TRUE;159;990;other
+7;2014;566;Vepři ve při;programming;273;11633;2014-12-06 19:33:00;FALSE;143;0;other
+7;2014;684;Triumvirát;programming;273;11634;2014-12-06 19:33:06;TRUE;141;907;high_school
+7;2014;658;absolutně černé ovce;idea;273;11635;2014-12-06 19:33:09;TRUE;162;935;college
+7;2014;662;Dlhani a dlhaci;programming;273;11636;2014-12-06 19:33:11;TRUE;142;959;other
+7;2014;702;Já Pepa;logical;273;11637;2014-12-06 19:33:18;TRUE;152;933;high_school
+7;2014;655;Jahodaaa;programming;273;11638;2014-12-06 19:33:31;TRUE;145;984;college
+7;2014;610;dušou blondínky;logical;273;11639;2014-12-06 19:33:31;FALSE;147;0;other
+7;2014;653;Chróúst?!;idea;273;11640;2014-12-06 19:33:31;FALSE;160;0;college
+7;2014;636;HALUZna ORGanizacia;logical;273;11641;2014-12-06 19:33:54;TRUE;154;994;other
+7;2014;569;Vojtíci;logical;273;11642;2014-12-06 19:33:55;TRUE;148;951;other
+7;2014;637;a spol.;idea;274;11643;2014-12-06 19:34:15;TRUE;156;905;other
+7;2014;706;NothingToDoHere;idea;274;11644;2014-12-06 19:34:35;TRUE;161;899;college
+7;2014;583;müssüssüppü;idea;274;11645;2014-12-06 19:34:52;TRUE;157;964;other
+7;2014;595;zlobři;programming;275;11646;2014-12-06 19:35:02;TRUE;141;906;college
+7;2014;624;Zebra řez;idea;275;11647;2014-12-06 19:35:03;TRUE;164;914;other
+7;2014;655;Jahodaaa;logical;275;11648;2014-12-06 19:35:08;TRUE;155;933;college
+7;2014;713;Artificial Instinct;logical;275;11649;2014-12-06 19:35:36;TRUE;155;932;other
+7;2014;674;Cykličtí mamuti;programming;276;11650;2014-12-06 19:36:00;FALSE;143;0;college
+7;2014;627;Bazembos;idea;276;11651;2014-12-06 19:36:06;TRUE;157;963;other
+7;2014;692;braintrust;programming;276;11652;2014-12-06 19:36:23;TRUE;141;905;other
+7;2014;625;paranoidontoza;programming;276;11653;2014-12-06 19:36:31;FALSE;143;0;college
+7;2014;602;voy-a-ger;programming;276;11654;2014-12-06 19:36:48;TRUE;143;993;college
+7;2014;692;braintrust;logical;277;11655;2014-12-06 19:37:04;TRUE;150;887;other
+7;2014;700;GPB F-M;idea;277;11656;2014-12-06 19:37:09;FALSE;158;0;high_school
+7;2014;610;dušou blondínky;logical;277;11657;2014-12-06 19:37:22;TRUE;147;945;other
+7;2014;563;Treblíci;programming;277;11658;2014-12-06 19:37:23;FALSE;142;0;other
+7;2014;631;Honzovi andilci;logical;277;11659;2014-12-06 19:37:26;TRUE;154;993;college
+7;2014;600;Akce grupy;idea;277;11660;2014-12-06 19:37:31;TRUE;164;913;other
+7;2014;660;Segmentation fault;logical;277;11661;2014-12-06 19:37:39;TRUE;151;982;other
+7;2014;588;Tweety neni kura!;programming;277;11662;2014-12-06 19:37:39;FALSE;139;0;other
+7;2014;700;GPB F-M;idea;277;11663;2014-12-06 19:37:44;FALSE;158;0;high_school
+7;2014;638;Ajťáci-VASS;logical;277;11664;2014-12-06 19:37:47;FALSE;152;0;high_school
+7;2014;711;Junioři z Junioru;idea;277;11665;2014-12-06 19:37:56;FALSE;158;0;college
+7;2014;697;n či π?;idea;277;11666;2014-12-06 19:37:56;TRUE;161;898;other
+7;2014;717;prase.old;programming;278;11667;2014-12-06 19:38:03;TRUE;144;965;college
+7;2014;646;BonsaiBuddies;logical;278;11668;2014-12-06 19:38:05;TRUE;155;931;college
+7;2014;641;Palachinky;idea;278;11669;2014-12-06 19:38:27;TRUE;156;904;high_school
+7;2014;562;BSOD;idea;278;11670;2014-12-06 19:38:34;TRUE;162;934;high_school
+7;2014;670;Geek Squad;idea;278;11671;2014-12-06 19:38:43;TRUE;159;989;other
+7;2014;608;dostal;idea;278;11672;2014-12-06 19:38:49;FALSE;158;0;other
+7;2014;583;müssüssüppü;idea;278;11673;2014-12-06 19:38:59;TRUE;163;981;other
+7;2014;672;Žabaryba;idea;279;11674;2014-12-06 19:39:05;TRUE;164;912;college
+7;2014;563;Treblíci;programming;279;11675;2014-12-06 19:39:27;FALSE;142;0;other
+7;2014;618;Sráči;programming;279;11676;2014-12-06 19:39:29;TRUE;145;983;other
+7;2014;636;HALUZna ORGanizacia;idea;279;11677;2014-12-06 19:39:47;TRUE;159;988;other
+7;2014;684;Triumvirát;idea;279;11678;2014-12-06 19:39:50;TRUE;161;897;high_school
+7;2014;693;Haluškin tým;idea;279;11679;2014-12-06 19:39:54;TRUE;159;987;college
+7;2014;569;Vojtíci;idea;280;11680;2014-12-06 19:40:09;TRUE;164;911;other
+7;2014;608;dostal;idea;280;11681;2014-12-06 19:40:20;TRUE;158;958;other
+7;2014;637;a spol.;idea;281;11682;2014-12-06 19:41:03;TRUE;161;896;other
+7;2014;563;Treblíci;programming;281;11683;2014-12-06 19:41:40;FALSE;142;0;other
+7;2014;597;Stoosum;programming;281;11684;2014-12-06 19:41:57;FALSE;140;0;other
+7;2014;633;Kerberos;programming;282;11685;2014-12-06 19:42:06;TRUE;144;964;other
+7;2014;589;Zrychlený TEP;idea;282;11686;2014-12-06 19:42:18;FALSE;163;0;other
+7;2014;566;Vepři ve při;programming;282;11687;2014-12-06 19:42:28;FALSE;143;0;other
+7;2014;662;Dlhani a dlhaci;logical;282;11688;2014-12-06 19:42:32;FALSE;154;0;other
+7;2014;686;Gabenův snack bar;idea;282;11689;2014-12-06 19:42:39;FALSE;161;0;college
+7;2014;621;GJAK UB;logical;282;11690;2014-12-06 19:42:39;TRUE;152;932;high_school
+7;2014;670;Geek Squad;programming;282;11691;2014-12-06 19:42:45;TRUE;138;947;other
+7;2014;709;Alzheimer;logical;282;11692;2014-12-06 19:42:50;FALSE;153;0;high_school
+7;2014;615;Sarajevští řezníci;idea;283;11693;2014-12-06 19:43:07;TRUE;162;933;high_school
+7;2014;674;Cykličtí mamuti;logical;283;11694;2014-12-06 19:43:26;TRUE;155;930;college
+7;2014;701;J&T;idea;283;11695;2014-12-06 19:43:31;TRUE;164;910;college
+7;2014;675;Rapeles;programming;283;11696;2014-12-06 19:43:32;TRUE;141;904;college
+7;2014;711;Junioři z Junioru;programming;283;11697;2014-12-06 19:43:48;FALSE;142;0;college
+7;2014;655;Jahodaaa;programming;283;11698;2014-12-06 19:43:49;TRUE;146;982;college
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;idea;283;11699;2014-12-06 19:43:53;FALSE;162;0;college
+7;2014;563;Treblíci;programming;283;11700;2014-12-06 19:43:56;FALSE;142;0;other
+7;2014;709;Alzheimer;idea;283;11701;2014-12-06 19:43:58;FALSE;158;0;high_school
+7;2014;697;n či π?;logical;284;11702;2014-12-06 19:44:07;TRUE;148;950;other
+7;2014;666;Oxymoroni;programming;284;11703;2014-12-06 19:44:14;FALSE;139;0;high_school
+7;2014;644;Carpe Testudo;idea;284;11704;2014-12-06 19:44:20;TRUE;159;986;college
+7;2014;708;Baklažán;idea;284;11705;2014-12-06 19:44:21;TRUE;162;932;high_school
+7;2014;625;paranoidontoza;programming;284;11706;2014-12-06 19:44:26;TRUE;143;992;college
+7;2014;563;Treblíci;programming;284;11707;2014-12-06 19:44:29;TRUE;142;958;other
+7;2014;686;Gabenův snack bar;idea;284;11708;2014-12-06 19:44:32;FALSE;161;0;college
+7;2014;591;Pomocná škola;idea;284;11709;2014-12-06 19:44:40;TRUE;158;957;other
+7;2014;645;HaMouni;idea;284;11710;2014-12-06 19:44:59;FALSE;162;0;high_school
+7;2014;709;Alzheimer;idea;285;11711;2014-12-06 19:45:29;FALSE;164;0;high_school
+7;2014;597;Stoosum;idea;285;11712;2014-12-06 19:45:29;TRUE;162;931;other
+7;2014;644;Carpe Testudo;logical;285;11713;2014-12-06 19:45:34;TRUE;153;997;college
+7;2014;575;Jeníčci;programming;285;11714;2014-12-06 19:45:37;TRUE;146;981;other
+7;2014;696;Dumbledore's army;idea;285;11715;2014-12-06 19:45:41;FALSE;161;0;high_school
+7;2014;673;Slečna a páni vod direkce;logical;285;11716;2014-12-06 19:45:41;TRUE;148;949;other
+7;2014;652;Bladerunners;idea;285;11717;2014-12-06 19:45:55;FALSE;163;0;other
+7;2014;572;Alea;idea;286;11718;2014-12-06 19:46:13;TRUE;162;930;college
+7;2014;569;Vojtíci;idea;286;11719;2014-12-06 19:46:24;FALSE;163;0;other
+7;2014;652;Bladerunners;idea;286;11720;2014-12-06 19:46:25;FALSE;163;0;other
+7;2014;577;žufouni;logical;286;11721;2014-12-06 19:46:27;TRUE;148;948;other
+7;2014;664;Škrkny;logical;286;11722;2014-12-06 19:46:28;TRUE;155;929;high_school
+7;2014;572;Alea;idea;286;11723;2014-12-06 19:46:41;TRUE;164;909;college
+7;2014;711;Junioři z Junioru;programming;286;11724;2014-12-06 19:46:52;TRUE;142;957;college
+7;2014;598;Teoretická pantomima;idea;286;11725;2014-12-06 19:46:56;FALSE;163;0;other
+7;2014;655;Jahodaaa;logical;286;11726;2014-12-06 19:46:58;TRUE;152;931;college
+7;2014;709;Alzheimer;idea;286;11727;2014-12-06 19:46:58;TRUE;164;908;high_school
+7;2014;587;Betonoví;logical;286;11728;2014-12-06 19:46:59;TRUE;152;930;other
+7;2014;655;Jahodaaa;logical;286;11729;2014-12-06 19:46:59;TRUE;154;992;college
+7;2014;596;Lišky ve vaně;logical;287;11730;2014-12-06 19:47:08;TRUE;151;981;college
+7;2014;669;NaPALM;programming;287;11731;2014-12-06 19:47:10;TRUE;145;982;other
+7;2014;607;Laserová Prasátka;logical;287;11732;2014-12-06 19:47:16;FALSE;154;0;high_school
+7;2014;597;Stoosum;idea;287;11733;2014-12-06 19:47:24;TRUE;163;980;other
+7;2014;639;Pod PSA;logical;287;11734;2014-12-06 19:47:25;FALSE;154;0;other
+7;2014;672;Žabaryba;idea;287;11735;2014-12-06 19:47:27;TRUE;162;929;college
+7;2014;655;Jahodaaa;idea;287;11736;2014-12-06 19:47:42;FALSE;160;0;college
+7;2014;660;Segmentation fault;idea;287;11737;2014-12-06 19:47:54;TRUE;159;985;other
+7;2014;709;Alzheimer;logical;288;11738;2014-12-06 19:48:10;TRUE;153;996;high_school
+7;2014;696;Dumbledore's army;idea;288;11739;2014-12-06 19:48:22;FALSE;158;0;high_school
+7;2014;619;Tykadla;logical;288;11740;2014-12-06 19:48:26;TRUE;148;947;other
+7;2014;577;žufouni;logical;288;11741;2014-12-06 19:48:30;TRUE;149;930;other
+7;2014;570;Dršťkový Havran Masového Kašpárka;programming;288;11742;2014-12-06 19:48:43;TRUE;146;980;other
+7;2014;665;ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ;idea;288;11743;2014-12-06 19:48:53;TRUE;162;928;college
+7;2014;668;Bageti;logical;288;11744;2014-12-06 19:48:56;TRUE;152;929;college
+7;2014;584;Stěrači;idea;289;11745;2014-12-06 19:49:01;TRUE;163;979;college
+7;2014;696;Dumbledore's army;logical;289;11746;2014-12-06 19:49:04;FALSE;154;0;high_school
+7;2014;649;Brouk v hlavě;programming;289;11747;2014-12-06 19:49:05;FALSE;142;0;other
+7;2014;604;V.I.Peace;idea;289;11748;2014-12-06 19:49:24;FALSE;164;0;high_school
+7;2014;559;Night Wolves;idea;289;11749;2014-12-06 19:49:33;TRUE;162;927;other
+7;2014;589;Zrychlený TEP;programming;290;11750;2014-12-06 19:50:05;TRUE;142;956;other
+7;2014;594;Aplikovaní Hrošíci;idea;290;11751;2014-12-06 19:50:23;TRUE;163;978;other
+7;2014;649;Brouk v hlavě;logical;290;11752;2014-12-06 19:50:52;TRUE;147;944;other
+7;2014;713;Artificial Instinct;programming;291;11753;2014-12-06 19:51:19;TRUE;140;928;other
+7;2014;660;Segmentation fault;programming;291;11754;2014-12-06 19:51:24;TRUE;145;981;other
+7;2014;628;Sloniky;logical;291;11755;2014-12-06 19:51:37;FALSE;148;0;other
+7;2014;637;a spol.;idea;291;11756;2014-12-06 19:51:37;TRUE;164;907;other
+7;2014;666;Oxymoroni;idea;291;11757;2014-12-06 19:51:43;TRUE;158;956;high_school
+7;2014;591;Pomocná škola;programming;291;11758;2014-12-06 19:51:45;FALSE;139;0;other
+7;2014;642;Kundegenatka;logical;291;11759;2014-12-06 19:51:56;TRUE;155;928;other
+7;2014;587;Betonoví;idea;291;11760;2014-12-06 19:51:58;FALSE;163;0;other
+7;2014;636;HALUZna ORGanizacia;programming;292;11761;2014-12-06 19:52:10;FALSE;142;0;other
+7;2014;677;SIGSEGV;idea;292;11762;2014-12-06 19:52:18;FALSE;163;0;high_school
+7;2014;662;Dlhani a dlhaci;logical;292;11763;2014-12-06 19:52:28;FALSE;154;0;other
+7;2014;699;mop;idea;292;11764;2014-12-06 19:52:38;TRUE;163;977;other
+7;2014;696;Dumbledore's army;logical;292;11765;2014-12-06 19:52:44;TRUE;155;927;high_school
+7;2014;610;dušou blondínky;idea;292;11766;2014-12-06 19:52:46;FALSE;162;0;other
+7;2014;628;Sloniky;idea;292;11767;2014-12-06 19:52:49;FALSE;162;0;other
+7;2014;608;dostal;idea;292;11768;2014-12-06 19:52:49;FALSE;157;0;other
+7;2014;714;Carabinieri;idea;292;11769;2014-12-06 19:52:50;FALSE;162;0;college
+7;2014;673;Slečna a páni vod direkce;idea;292;11770;2014-12-06 19:52:50;FALSE;159;0;other
+7;2014;636;HALUZna ORGanizacia;programming;292;11771;2014-12-06 19:52:53;FALSE;142;0;other
+7;2014;669;NaPALM;programming;293;11772;2014-12-06 19:53:01;TRUE;142;955;other
+7;2014;690;Pedagogický dozor;idea;293;11773;2014-12-06 19:53:10;TRUE;162;926;other
+7;2014;699;mop;idea;293;11774;2014-12-06 19:53:17;FALSE;160;0;other
+7;2014;643;Absolutno;programming;293;11775;2014-12-06 19:53:23;FALSE;139;0;other
+7;2014;590;Maséři jako hovado;idea;293;11776;2014-12-06 19:53:31;TRUE;163;976;college
+7;2014;649;Brouk v hlavě;logical;293;11777;2014-12-06 19:53:35;TRUE;155;926;other
+7;2014;711;Junioři z Junioru;programming;293;11778;2014-12-06 19:53:41;TRUE;141;903;college
+7;2014;628;Sloniky;idea;293;11779;2014-12-06 19:53:51;FALSE;162;0;other
+7;2014;572;Alea;idea;293;11780;2014-12-06 19:53:59;TRUE;161;895;college
+7;2014;591;Pomocná škola;programming;294;11781;2014-12-06 19:54:16;FALSE;139;0;other
+7;2014;621;GJAK UB;logical;294;11782;2014-12-06 19:54:31;TRUE;155;925;high_school
+7;2014;714;Carabinieri;idea;294;11783;2014-12-06 19:54:32;TRUE;162;925;college
+7;2014;662;Dlhani a dlhaci;logical;294;11784;2014-12-06 19:54:32;TRUE;148;946;other
+7;2014;711;Junioři z Junioru;logical;294;11785;2014-12-06 19:54:40;TRUE;150;886;college
+7;2014;716;Páni zla;idea;294;11786;2014-12-06 19:54:42;FALSE;163;0;other
+7;2014;614;Vexator Exoticus;programming;294;11787;2014-12-06 19:54:42;FALSE;144;0;college
+7;2014;579;Akomodace hrachu;logical;294;11788;2014-12-06 19:54:43;FALSE;153;0;other
+7;2014;609;Dont Panic;programming;295;11789;2014-12-06 19:55:01;TRUE;145;980;other
+7;2014;622;Horší už to nebude;idea;295;11790;2014-12-06 19:55:02;FALSE;162;0;other
+7;2014;655;Jahodaaa;idea;295;11791;2014-12-06 19:55:02;FALSE;158;0;college
+7;2014;705;Tentokrát bez Dády a Dády;idea;295;11792;2014-12-06 19:55:10;TRUE;164;906;college
+7;2014;677;SIGSEGV;idea;295;11793;2014-12-06 19:55:26;FALSE;162;0;high_school
+7;2014;716;Páni zla;programming;295;11794;2014-12-06 19:55:30;TRUE;142;954;other
+7;2014;633;Kerberos;idea;295;11795;2014-12-06 19:55:37;TRUE;162;924;other
+7;2014;701;J&T;idea;295;11796;2014-12-06 19:55:37;TRUE;156;903;college
+7;2014;692;braintrust;idea;295;11797;2014-12-06 19:55:46;TRUE;162;923;other
+7;2014;714;Carabinieri;logical;295;11798;2014-12-06 19:55:48;TRUE;149;929;college
+7;2014;608;dostal;programming;295;11799;2014-12-06 19:55:48;TRUE;145;979;other
+7;2014;622;Horší už to nebude;idea;295;11800;2014-12-06 19:55:50;FALSE;162;0;other
+7;2014;614;Vexator Exoticus;programming;295;11801;2014-12-06 19:55:52;TRUE;144;963;college
+7;2014;649;Brouk v hlavě;programming;295;11802;2014-12-06 19:55:53;TRUE;142;953;other
+7;2014;662;Dlhani a dlhaci;logical;295;11803;2014-12-06 19:55:56;FALSE;154;0;other
+7;2014;566;Vepři ve při;idea;296;11804;2014-12-06 19:56:07;TRUE;160;999;other
+7;2014;677;SIGSEGV;idea;296;11805;2014-12-06 19:56:08;FALSE;162;0;high_school
+7;2014;628;Sloniky;idea;296;11806;2014-12-06 19:56:18;FALSE;162;0;other
+7;2014;607;Laserová Prasátka;logical;296;11807;2014-12-06 19:56:21;FALSE;154;0;high_school
+7;2014;609;Dont Panic;programming;296;11808;2014-12-06 19:56:26;TRUE;144;962;other
+7;2014;629;In Aenigmibus;idea;296;11809;2014-12-06 19:56:28;TRUE;156;902;high_school
+7;2014;594;Aplikovaní Hrošíci;logical;296;11810;2014-12-06 19:56:29;FALSE;153;0;other
+7;2014;631;Honzovi andilci;programming;296;11811;2014-12-06 19:56:33;TRUE;145;978;college
+7;2014;575;Jeníčci;idea;296;11812;2014-12-06 19:56:38;FALSE;162;0;other
+7;2014;598;Teoretická pantomima;logical;296;11813;2014-12-06 19:56:39;TRUE;148;945;other
+7;2014;655;Jahodaaa;idea;296;11814;2014-12-06 19:56:45;TRUE;158;955;college
+7;2014;596;Lišky ve vaně;programming;296;11815;2014-12-06 19:56:49;TRUE;145;977;college
+7;2014;587;Betonoví;idea;296;11816;2014-12-06 19:56:52;FALSE;163;0;other
+7;2014;670;Geek Squad;programming;296;11817;2014-12-06 19:56:52;FALSE;140;0;other
+7;2014;588;Tweety neni kura!;idea;296;11818;2014-12-06 19:56:57;FALSE;160;0;other
+7;2014;697;n či π?;programming;297;11819;2014-12-06 19:57:02;TRUE;145;976;other
+7;2014;581;Ešte sa dohodneme;programming;297;11820;2014-12-06 19:57:02;FALSE;142;0;college
+7;2014;641;Palachinky;logical;297;11821;2014-12-06 19:57:11;FALSE;149;0;high_school
+7;2014;664;Škrkny;logical;297;11822;2014-12-06 19:57:22;FALSE;148;0;high_school
+7;2014;569;Vojtíci;idea;297;11823;2014-12-06 19:57:24;TRUE;163;975;other
+7;2014;557;Bifurkační tým;logical;297;11824;2014-12-06 19:57:28;TRUE;148;944;other
+7;2014;637;a spol.;logical;297;11825;2014-12-06 19:57:29;TRUE;151;980;other
+7;2014;638;Ajťáci-VASS;programming;297;11826;2014-12-06 19:57:48;FALSE;146;0;high_school
+7;2014;562;BSOD;logical;297;11827;2014-12-06 19:57:51;FALSE;154;0;high_school
+7;2014;717;prase.old;logical;297;11828;2014-12-06 19:57:57;TRUE;155;924;college
+7;2014;572;Alea;programming;297;11829;2014-12-06 19:57:58;TRUE;144;961;college
+7;2014;591;Pomocná škola;programming;297;11830;2014-12-06 19:57:58;FALSE;139;0;other
+7;2014;670;Geek Squad;programming;298;11831;2014-12-06 19:58:11;FALSE;140;0;other
+7;2014;587;Betonoví;idea;298;11832;2014-12-06 19:58:12;FALSE;163;0;other
+7;2014;604;V.I.Peace;idea;298;11833;2014-12-06 19:58:13;FALSE;162;0;high_school
+7;2014;641;Palachinky;logical;298;11834;2014-12-06 19:58:15;TRUE;149;928;high_school
+7;2014;588;Tweety neni kura!;idea;298;11835;2014-12-06 19:58:25;FALSE;158;0;other
+7;2014;575;Jeníčci;idea;298;11836;2014-12-06 19:58:25;TRUE;162;922;other
+7;2014;558;Přizdisráči;logical;298;11837;2014-12-06 19:58:30;TRUE;154;991;other
+7;2014;557;Bifurkační tým;idea;298;11838;2014-12-06 19:58:36;FALSE;163;0;other
+7;2014;698;KOHYHB;programming;298;11839;2014-12-06 19:58:41;FALSE;145;0;other
+7;2014;636;HALUZna ORGanizacia;programming;298;11840;2014-12-06 19:58:42;FALSE;142;0;other
+7;2014;697;n či π?;idea;298;11841;2014-12-06 19:58:42;TRUE;159;984;other
+7;2014;639;Pod PSA;programming;298;11842;2014-12-06 19:58:43;FALSE;143;0;other
+7;2014;604;V.I.Peace;idea;298;11843;2014-12-06 19:58:48;TRUE;162;921;high_school
+7;2014;622;Horší už to nebude;idea;298;11844;2014-12-06 19:58:54;FALSE;162;0;other
+7;2014;635;Lososi na sněhu;programming;298;11845;2014-12-06 19:58:57;FALSE;146;0;other
+7;2014;645;HaMouni;logical;299;11846;2014-12-06 19:59:01;FALSE;153;0;high_school
+7;2014;672;Žabaryba;logical;299;11847;2014-12-06 19:59:01;TRUE;152;928;college
+7;2014;631;Honzovi andilci;idea;299;11848;2014-12-06 19:59:03;TRUE;158;954;college
+7;2014;570;Dršťkový Havran Masového Kašpárka;logical;299;11849;2014-12-06 19:59:08;FALSE;152;0;other
+7;2014;636;HALUZna ORGanizacia;programming;299;11850;2014-12-06 19:59:20;TRUE;142;952;other
+7;2014;662;Dlhani a dlhaci;idea;299;11851;2014-12-06 19:59:21;FALSE;164;0;other
+7;2014;582;Spící Volové;programming;299;11852;2014-12-06 19:59:25;TRUE;138;946;other
+7;2014;689;Hirvi;idea;299;11853;2014-12-06 19:59:28;FALSE;161;0;high_school
+7;2014;561;supermuf;logical;299;11854;2014-12-06 19:59:30;TRUE;150;885;other
+7;2014;635;Lososi na sněhu;programming;299;11855;2014-12-06 19:59:33;TRUE;146;979;other
+7;2014;596;Lišky ve vaně;logical;299;11856;2014-12-06 19:59:39;TRUE;155;923;college
+7;2014;575;Jeníčci;logical;299;11857;2014-12-06 19:59:43;FALSE;151;0;other
+7;2014;686;Gabenův snack bar;idea;299;11858;2014-12-06 19:59:46;FALSE;163;0;college
+7;2014;589;Zrychlený TEP;idea;299;11859;2014-12-06 19:59:46;FALSE;160;0;other
+7;2014;714;Carabinieri;logical;299;11860;2014-12-06 19:59:50;TRUE;155;922;college
+7;2014;594;Aplikovaní Hrošíci;logical;299;11861;2014-12-06 19:59:55;FALSE;153;0;other
+7;2014;655;Jahodaaa;programming;299;11862;2014-12-06 19:59:57;TRUE;142;951;college
+7;2014;595;zlobři;programming;300;11863;2014-12-06 20:00:04;FALSE;140;0;college
+7;2014;631;Honzovi andilci;programming;300;11864;2014-12-06 20:00:08;FALSE;142;0;college
+7;2014;709;Alzheimer;logical;300;11866;2014-12-06 20:00:20;FALSE;151;0;high_school
+7;2014;655;Jahodaaa;programming;300;11867;2014-12-06 20:00:28;FALSE;142;0;college
+7;2014;604;V.I.Peace;idea;300;11868;2014-12-06 20:00:30;TRUE;164;905;high_school
+7;2014;581;Ešte sa dohodneme;logical;300;11869;2014-12-06 20:00:31;FALSE;154;0;college
+7;2014;673;Slečna a páni vod direkce;logical;300;11870;2014-12-06 20:00:35;FALSE;152;0;other
+7;2014;693;Haluškin tým;logical;300;11872;2014-12-06 20:00:44;FALSE;147;0;college

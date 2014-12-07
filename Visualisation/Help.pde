@@ -73,7 +73,7 @@ class Help {
     text += "na Masarykově univerzitě. Vyučujícímu předmětu,\n";
     text += "Mateji Lexovi, tímto děkujeme za tuto příležitost.\n\n";
     text += "Taktéž chceme poděkovat všem organizátorům soutěže\n";
-    text += "InterSoB i soutěžícím, bez kterých nemohla být tato\n";
+    text += "InterLoS i soutěžícím, bez kterých nemohla být tato\n";
     text += "vizualizace taková jaká je.";
     
     text(text, 600, 150);
