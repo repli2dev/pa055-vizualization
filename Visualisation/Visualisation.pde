@@ -15,6 +15,7 @@ void prepareData() {
   years.addAvailableYear("2012","../Data/ProcessedDataYear2012.csv");
   years.addAvailableYear("2013","../Data/ProcessedDataYear2013.csv");
   years.addAvailableYear("2014","../Data/ProcessedDataYear2014.csv");
+  years.addAvailableYear("2015","../Data/ProcessedDataYear2015.csv");
   
   selectedYear = years.getLastYear();
 }
